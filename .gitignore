@@ -1,5 +1,6 @@
 # Project specific files
 debug-*.json
+config.py
 
 # PyCharm files
 .idea/
