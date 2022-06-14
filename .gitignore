@@ -2,6 +2,7 @@
 debug-*.json
 config.py
 run.log
+temp-*.csv
 
 # PyCharm files
 .idea/
