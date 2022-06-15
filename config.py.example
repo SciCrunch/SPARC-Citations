@@ -2,6 +2,7 @@
 run_env = test
 num_datasets = 16
 #run_env = full
+use_cache = false
 [scicrunch]
 api_key =
 [elastic]

@@ -58,7 +58,14 @@ def getURL(url, headers="NONE"):
         print("[ERROR] Retrieving URL - Something Else", err)
         success = 0
 
-    return url_result
+    url_session.close()
+
+    if success == 1:
+        result = url_result
+    else:
+        result = {}
+
+    return result
 
 #####################################################################
 # Function to retrieve formatted citation from Crossref
@@ -93,6 +100,8 @@ def getCrossrefCitation(doi2format):
         print ("[ERROR] Retrieving Citation - Something Else",err)
         success = 0
 
+    url_session.close()
+
     if success == 1:
         result = crossref_citation.text
     else:
@@ -112,105 +121,118 @@ print("[INFO] Get datasets")
 logger.info("Get datasets")
 #####################################################################
 # Get total count for pennsieve dataset
-base_url = config.get('pennsieve', "base_url")
+use_cache = config.get('env', "use_cache")
+if use_cache == 'true':
+    print("[INFO] Using cache")
+    logger.info("Using Cache")
 
-pennsieve = getURL(base_url + '?orderBy=date&orderDirection=asc')
-pen_totalCount = pennsieve.json()['totalCount']
+    json_file = open('./initial-datasets.json')
+    citation_data = json.load(json_file)
 
-if run_env == "test":
-    pen_totalCount = int(config.get('env', "num_datasets"))
-    limit = 5
+    num_datasets = len(citation_data["datasets"])
+
+    print("[INFO] Number of SPARC datasets: " + str(num_datasets))
+    logger.info("Number of SPARC datasets: " + str(num_datasets))
+
 else:
-    limit = 25
+    base_url = config.get('pennsieve', "base_url")
 
-print("[INFO] Total number of datasets to process: " + str(pen_totalCount))
-logger.info("Total number of datasets to process: " + str(pen_totalCount))
+    pennsieve = getURL(base_url + '?orderBy=date&orderDirection=asc')
+    pen_totalCount = pennsieve.json()['totalCount']
 
-# Read pensieve dataset
-pen_data = []
+    if run_env == "test":
+        pen_totalCount = int(config.get('env', "num_datasets"))
+        limit = 5
+    else:
+        limit = 25
 
-for offset in range(0, pen_totalCount, limit):
-    pennsieve_url = base_url + '?limit=' + str(limit) + '&offset=' + str(offset) + '&orderBy=date&orderDirection=asc'
+    print("[INFO] Total number of datasets to process: " + str(pen_totalCount))
+    logger.info("Total number of datasets to process: " + str(pen_totalCount))
 
-    each_pennsieve = getURL(pennsieve_url)
+    # Read pensieve dataset
+    pen_data = []
 
-    each_pen_data = each_pennsieve.json()
-    pen_data.append(each_pen_data)
+    for offset in range(0, pen_totalCount, limit):
+        pennsieve_url = base_url + '?limit=' + str(limit) + '&offset=' + str(offset) + '&orderBy=date&orderDirection=asc'
 
-# Get Dataset DOIs
-citation_data["datasets"] = []
-for api_return in pen_data:
-    datasets = api_return["datasets"]
+        each_pennsieve = getURL(pennsieve_url)
 
-    for dataset in datasets:
-        if dataset["organizationId"] == 367:
-            if "doi" in dataset:
-                doi = str(dataset["doi"])
+        each_pen_data = each_pennsieve.json()
+        pen_data.append(each_pen_data)
 
-                formatted_citation = getCrossrefCitation(doi)
+    # Get Dataset DOIs
+    citation_data["datasets"] = []
+    for api_return in pen_data:
+        datasets = api_return["datasets"]
 
-                # If not first version then add prior version DOIs
-                doi_versions = []
-                if dataset["version"] > 0:
-                    num_versions = dataset["version"]
-                    current_dataset = dataset["id"]
+        for dataset in datasets:
+            if dataset["organizationId"] == 367:
+                if "doi" in dataset:
+                    doi = str(dataset["doi"])
 
-                    if dataset["version"] > 1:
-                        print("[INFO] Multiple versions (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
-                        logger.info("Multiple versions (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
-                    else:
-                        print("[INFO] Single version (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
-                        logger.info("Single version (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
+                    formatted_citation = getCrossrefCitation(doi)
 
-                    idx = 1
-                    while idx <= num_versions:
-                        pennsieve_url = base_url + '/' + str(current_dataset) + '/versions/' + str(idx)
+                    # If not first version then add prior version DOIs
+                    doi_versions = []
+                    if dataset["version"] > 0:
+                        num_versions = dataset["version"]
+                        current_dataset = dataset["id"]
 
-                        pennsieve_version = getURL(pennsieve_url)
-                        dataset_version = pennsieve_version.json()
+                        if dataset["version"] > 1:
+                            print("[INFO] Multiple versions (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
+                            logger.info("Multiple versions (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
+                        else:
+                            print("[INFO] Single version (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
+                            logger.info("Single version (" + str(num_versions) + ") found for dataset: " + str(current_dataset))
 
-                        if "doi" in dataset_version:
-                            doi = str(dataset_version["doi"])
-                            print("####### (" + str(idx) + ") " + doi)
-                            logger.info("####### (" + str(idx) + ") " + doi)
+                        idx = 1
+                        while idx <= num_versions:
+                            pennsieve_url = base_url + '/' + str(current_dataset) + '/versions/' + str(idx)
 
-                            version_element = {"doi": doi, "version": dataset_version["version"]}
+                            pennsieve_version = getURL(pennsieve_url)
+                            dataset_version = pennsieve_version.json()
 
-                            doi_versions.append(version_element)
+                            if "doi" in dataset_version:
+                                doi = str(dataset_version["doi"])
+                                print("####### (" + str(idx) + ") " + doi)
+                                logger.info("####### (" + str(idx) + ") " + doi)
 
-                        idx = idx + 1
+                                version_element = {"doi": doi, "version": dataset_version["version"]}
 
-                doi_element = {"doi": doi, "type": "Dataset", "name": dataset["name"], "id": dataset["id"],
-                               "version": dataset["version"], "citation": formatted_citation, "versions": doi_versions}
-                citation_data["datasets"].append(doi_element)
+                                doi_versions.append(version_element)
 
-print("[INFO] Get datasets finished")
-logger.info("Get datasets finished")
+                            idx = idx + 1
 
-#####################################################################
-# Setup elements needed
-num_datasets = len(citation_data["datasets"])
+                    doi_element = {"doi": doi, "type": "Dataset", "name": dataset["name"], "id": dataset["id"],
+                                   "version": dataset["version"], "citation": formatted_citation, "versions": doi_versions}
+                    citation_data["datasets"].append(doi_element)
 
-print("[INFO] Number of SPARC datasets: " + str(num_datasets))
-print("[INFO] Configuring data structures")
-logger.info("Number of SPARC datasets: " + str(num_datasets))
-logger.info("Configuring data structures")
+    print("[INFO] Get datasets finished")
+    logger.info("Get datasets finished")
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
+    #####################################################################
+    # Setup elements needed
+    num_datasets = len(citation_data["datasets"])
 
-    citation_record["citations"] = []
-    citation_data["datasets"][idx] = citation_record
+    print("[INFO] Number of SPARC datasets: " + str(num_datasets))
+    print("[INFO] Configuring data structures")
+    logger.info("Number of SPARC datasets: " + str(num_datasets))
+    logger.info("Configuring data structures")
 
-    idx = idx + 1
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
 
-print("[INFO] Configuring data structures finished")
-logger.info("Configuring data structures finished")
+        citation_record["citations"] = []
+        citation_data["datasets"][idx] = citation_record
 
-with open('./debug-datasets.json', 'w') as outfile:
-    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+        idx = idx + 1
 
+    print("[INFO] Configuring data structures finished")
+    logger.info("Configuring data structures finished")
+
+    with open('./initial-datasets.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
 
 print("[INFO] Add SPARC citations")
 logger.info("Add SPARC citations")
