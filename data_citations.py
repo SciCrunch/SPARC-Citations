@@ -68,7 +68,7 @@ def getCrossrefCitation(doi2format):
 
     url_session = requests.Session()
 
-    retries = Retry(total=6,
+    retries = Retry(total=8,
                     backoff_factor=1,
                     status_forcelist=[403, 404, 413, 429, 500, 502, 503, 504])
 
