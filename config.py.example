@@ -1,0 +1,27 @@
+[env]
+run_env = test
+num_datasets = 16
+#run_env = full
+[scicrunch]
+api_key =
+[elastic]
+#base_url =
+base_url =
+index =
+username =
+#password =
+password =
+[pennsieve]
+base_url =
+[oci]
+base_url =
+[datacite]
+base_url =
+[crosscite]
+base_url =
+email =
+[crossref]
+base_url =
+email =
+[k-core]
+csv_url =

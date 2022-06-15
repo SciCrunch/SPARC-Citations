@@ -3,6 +3,7 @@ debug-*.json
 config.py
 run.log
 temp-*.csv
+.*.icloud
 
 # PyCharm files
 .idea/
