@@ -2,7 +2,7 @@ import json
 import requests
 
 # Load citations data
-citations_file = open('./dataset_data_citations.json')
+citations_file = open('./dataset_data_citations.json', encoding='utf-8')
 #citations_file = open('./debug-datasets.json')
 
 citations = json.load(citations_file)
@@ -15,7 +15,7 @@ if "datasets" in citations:
     print("[INFO] Number of datasets to process: " + str(num_datasets))
 
     # Open file for writing citation markdown
-    markdown_file = open("./citation_markdown.txt", "w")
+    markdown_file = open("./citation_markdown.txt", "w", encoding='utf-8')
     markdown_file.write("# SPARC Dataset Citations \n \n")
 
     idx = 0

@@ -4,6 +4,7 @@ config.py
 run.log
 temp-*.csv
 .*.icloud
+*-cache.json
 
 # PyCharm files
 .idea/

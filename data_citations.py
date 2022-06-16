@@ -126,7 +126,7 @@ if use_cache == 'true':
     print("[INFO] Using cache")
     logger.info("Using Cache")
 
-    json_file = open('./initial-datasets.json')
+    json_file = open('./datasets-cache.json')
     citation_data = json.load(json_file)
 
     num_datasets = len(citation_data["datasets"])
@@ -241,130 +241,135 @@ logger.info("Add SPARC citations")
 # Add Internal Metadata (Algolia)
 num_datasets = len(citation_data["datasets"])
 
-# Get config parameters
-es_user = config.get('elastic', "username")
-es_pwd = config.get('elastic', "password")
-base_url = config.get('elastic', "base_url")
-es_index = config.get('elastic', "index")
+run_service = config.get('env', "sparc")
+if run_service == 'off':
+    print("[INFO] Skipping SPARC citations")
+    logger.info("Skipping SPARC citations")
+else:
+    # Get config parameters
+    es_user = config.get('elastic', "username")
+    es_pwd = config.get('elastic', "password")
+    base_url = config.get('elastic', "base_url")
+    es_index = config.get('elastic', "index")
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
-    print('D[' + str(idx) + ']', end='', flush=True)
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
+        print('D[' + str(idx) + ']', end='', flush=True)
 
-    #####################################################################
-    # CODE HERE TO RETRIEVE AND MANIPULATE DATA
-    # Make sure to set update citations field via .append
-    # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
-    #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
-    # citation_record["citations"].append(new_citation)
+        #####################################################################
+        # CODE HERE TO RETRIEVE AND MANIPULATE DATA
+        # Make sure to set update citations field via .append
+        # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
+        #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
+        # citation_record["citations"].append(new_citation)
 
-    # Get data from ES Algolia
+        # Get data from ES Algolia
 
-    try:
-        es = Elasticsearch(
-            base_url,
-            verify_certs=False,
-            ssl_show_warn=False,
-            basic_auth=(es_user, es_pwd),
-            max_retries=10,
-            request_timeout=30
-        )
-    except:
-        print("[ERROR] Elasticsearch connection failed")
-        logger.error("Elasticsearch connection failed")
+        try:
+            es = Elasticsearch(
+                base_url,
+                verify_certs=False,
+                ssl_show_warn=False,
+                basic_auth=(es_user, es_pwd),
+                max_retries=10,
+                request_timeout=30
+            )
+        except:
+            print("[ERROR] Elasticsearch connection failed")
+            logger.error("Elasticsearch connection failed")
 
-    dataset_id = citation_record["id"]
+        dataset_id = citation_record["id"]
 
-    try:
-        resp = es.get(index=es_index, id=dataset_id)
-    except:
-        print("[ERROR] Dataset not found: " + str(dataset_id))
-        logger.error("Dataset not found: " + str(dataset_id))
+        try:
+            resp = es.get(index=es_index, id=dataset_id)
+        except:
+            print("[ERROR] Dataset not found: " + str(dataset_id))
+            logger.error("Dataset not found: " + str(dataset_id))
 
-    algolia_dataset = resp["_source"]
+        algolia_dataset = resp["_source"]
 
-    print('P', end='', flush=True)
+        print('P', end='', flush=True)
 
-    # Extract Protocol DOIs
-    if "protocols" in algolia_dataset:
-        protocols = algolia_dataset["protocols"]["primary"]
-        for protocol in protocols:
-            print('.', end='', flush=True)
-            if "curie" in protocol:
-                new_curie = re.sub('DOI:', 'doi:', protocol["curie"], flags=re.IGNORECASE)
-                new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
-                new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
-                new_rel = "IsDocumentedBy"
-                new_type = "Protocol"
-                new_comment = ""
-                new_source = "SPARC"
+        # Extract Protocol DOIs
+        if "protocols" in algolia_dataset:
+            protocols = algolia_dataset["protocols"]["primary"]
+            for protocol in protocols:
+                print('.', end='', flush=True)
+                if "curie" in protocol:
+                    new_curie = re.sub('DOI:', 'doi:', protocol["curie"], flags=re.IGNORECASE)
+                    new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
+                    new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
+                    new_rel = "IsDocumentedBy"
+                    new_type = "Protocol"
+                    new_comment = ""
+                    new_source = "SPARC"
 
-                # If new citation not in citations then add
-                citation_set = citation_record["citations"]
+                    # If new citation not in citations then add
+                    citation_set = citation_record["citations"]
 
-                append = 1
-                for orig_citation in citation_set:
-                    if "curie" in orig_citation:
-                        if orig_citation["curie"] == new_curie:
-                            print('=', end='', flush=True)
-                            append = 0
+                    append = 1
+                    for orig_citation in citation_set:
+                        if "curie" in orig_citation:
+                            if orig_citation["curie"] == new_curie:
+                                print('=', end='', flush=True)
+                                append = 0
 
-                if append == 1:
-                    # Create New Citation Record
-                    formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                    new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                    "comment": new_comment, "citation": formatted_citation, "source": new_source}
+                    if append == 1:
+                        # Create New Citation Record
+                        formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                        new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                        "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
-                    citation_record["citations"].append(new_citation)
+                        citation_record["citations"].append(new_citation)
 
-    print('O', end='', flush=True)
+        print('O', end='', flush=True)
 
-    # Extract publication DOIs
-    if "publications" in algolia_dataset:
-        publications = algolia_dataset["publications"]["originating"]
-        for publication in publications:
-            print('.', end='', flush=True)
-            if "curie" in publication:
-                new_curie = re.sub('DOI:', 'doi:', publication["curie"], flags=re.IGNORECASE)
-                new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
-                new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
-                new_rel = "Describes"
-                new_type = "Originating Publication"
-                new_comment = ""
-                new_source = "SPARC"
+        # Extract publication DOIs
+        if "publications" in algolia_dataset:
+            publications = algolia_dataset["publications"]["originating"]
+            for publication in publications:
+                print('.', end='', flush=True)
+                if "curie" in publication:
+                    new_curie = re.sub('DOI:', 'doi:', publication["curie"], flags=re.IGNORECASE)
+                    new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
+                    new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
+                    new_rel = "Describes"
+                    new_type = "Originating Publication"
+                    new_comment = ""
+                    new_source = "SPARC"
 
-                # If new citation not in citations then add
-                citation_set = citation_record["citations"]
+                    # If new citation not in citations then add
+                    citation_set = citation_record["citations"]
 
-                append = 1
-                for orig_citation in citation_set:
-                    if "curie" in orig_citation:
-                        if orig_citation["curie"] == new_curie:
-                            print('=', end='', flush=True)
-                            append = 0
+                    append = 1
+                    for orig_citation in citation_set:
+                        if "curie" in orig_citation:
+                            if orig_citation["curie"] == new_curie:
+                                print('=', end='', flush=True)
+                                append = 0
 
-                if append == 1:
-                    # Create New Citation Record
-                    formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                    new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                    "comment": new_comment, "citation": formatted_citation, "source": new_source}
+                    if append == 1:
+                        # Create New Citation Record
+                        formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                        new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                        "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
-                    citation_record["citations"].append(new_citation)
+                        citation_record["citations"].append(new_citation)
 
-    #####################################################################
+        #####################################################################
 
-    # Replace citation record
-    citation_data["datasets"][idx] = citation_record
+        # Replace citation record
+        citation_data["datasets"][idx] = citation_record
 
-    idx = idx + 1
-print('|', flush=True)
+        idx = idx + 1
+    print('|', flush=True)
 
-print("[INFO] Add SPARC citations finished")
-logger.info("Add SPARC citations finished")
+    print("[INFO] Add SPARC citations finished")
+    logger.info("Add SPARC citations finished")
 
-#with open('./debug-sparc_data.json', 'w') as outfile:
-#    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+    with open('./datasets-cache.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
 
 print("[INFO] Add OCI citations")
 logger.info("Add OCI citations")
@@ -374,76 +379,81 @@ logger.info("Add OCI citations")
 
 num_datasets = len(citation_data["datasets"])
 
-# Get config parameters
-base_url = config.get('oci', "base_url")
+run_service = config.get('env', "oci")
+if run_service == 'off':
+    print("[INFO] Skipping OCI citations")
+    logger.info("Skipping OCI citations")
+else:
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
-    print('D[' + str(idx) + ']', end='', flush=True)
+    # Get config parameters
+    base_url = config.get('oci', "base_url")
 
-    if "versions" in citation_record:
-        dataset_versions = citation_record["versions"]
-        for version_record in dataset_versions:
-            print('V', end='', flush=True)
-            if "doi" in version_record:
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
+        print('D[' + str(idx) + ']', end='', flush=True)
 
-                #####################################################################
-                # CODE HERE TO RETRIEVE AND MANIPULATE DATA
-                # Make sure to set update citations field via .append
-                # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
-                #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
-                # citation_record["citations"].append(new_citation)
+        if "versions" in citation_record:
+            dataset_versions = citation_record["versions"]
+            for version_record in dataset_versions:
+                print('V', end='', flush=True)
+                if "doi" in version_record:
 
-                dataset_doi = version_record["doi"]
+                    #####################################################################
+                    # CODE HERE TO RETRIEVE AND MANIPULATE DATA
+                    # Make sure to set update citations field via .append
+                    # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
+                    #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
+                    # citation_record["citations"].append(new_citation)
 
-                oci_url = base_url + "/" + dataset_doi
+                    dataset_doi = version_record["doi"]
 
-                oci_citations = getURL(oci_url)
-                new_citations = oci_citations.json()
+                    oci_url = base_url + "/" + dataset_doi
 
-                num_citations = len(new_citations)
+                    oci_citations = getURL(oci_url)
+                    new_citations = oci_citations.json()
 
-                if num_citations > 0:
-                    for citation in new_citations:
-                        print('.', end='', flush=True)
-                        if "citing" in citation:
-                            new_curie = re.sub('coci => ', 'doi:', citation["citing"], flags=re.IGNORECASE)
-                            new_curie = re.sub('DOI:', 'doi:', new_curie, flags=re.IGNORECASE)
-                            new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
-                            new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
-                            new_rel = "Cites"
-                            new_type = "Work"
-                            new_comment = ""
-                            new_source = "OCI"
+                    num_citations = len(new_citations)
 
-                            # If new citation not in citations then add
-                            citation_set = citation_record["citations"]
+                    if num_citations > 0:
+                        for citation in new_citations:
+                            print('.', end='', flush=True)
+                            if "citing" in citation:
+                                new_curie = re.sub('coci => ', 'doi:', citation["citing"], flags=re.IGNORECASE)
+                                new_curie = re.sub('DOI:', 'doi:', new_curie, flags=re.IGNORECASE)
+                                new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
+                                new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
+                                new_rel = "Cites"
+                                new_type = "Work"
+                                new_comment = ""
+                                new_source = "OCI"
 
-                            append = 1
-                            for orig_citation in citation_set:
-                                if "curie" in orig_citation:
-                                    if orig_citation["curie"] == new_curie:
-                                        print('=', end='', flush=True)
-                                        append = 0
+                                # If new citation not in citations then add
+                                citation_set = citation_record["citations"]
 
-                            if append == 1:
-                                # Create New Citation Record
-                                formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                                new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                                "comment": new_comment, "citation": formatted_citation, "source": new_source}
+                                append = 1
+                                for orig_citation in citation_set:
+                                    if "curie" in orig_citation:
+                                        if orig_citation["curie"] == new_curie:
+                                            print('=', end='', flush=True)
+                                            append = 0
 
-                                citation_record["citations"].append(new_citation)
+                                if append == 1:
+                                    # Create New Citation Record
+                                    formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                                    new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                                    "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
-    idx = idx + 1
-print('|', flush=True)
+                                    citation_record["citations"].append(new_citation)
 
-print("[INFO] Add OCI citations finished")
-logger.info("Add OCI citations finished")
+        idx = idx + 1
+    print('|', flush=True)
 
-#with open('./debug-oci_data.json', 'w') as outfile:
-#    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+    print("[INFO] Add OCI citations finished")
+    logger.info("Add OCI citations finished")
 
+    with open('./datasets-cache.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
 
 print("[INFO] Add DataCite citations")
 logger.info("Add DataCite citations")
@@ -453,93 +463,103 @@ logger.info("Add DataCite citations")
 
 num_datasets = len(citation_data["datasets"])
 
-# Get config parameters
-base_url = config.get('datacite', "base_url")
+run_service = config.get('env', "datacite")
+if run_service == 'off':
+    print("[INFO] Skipping Datacite citations")
+    logger.info("Skipping Datacite citations")
+else:
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
-    print('D[' + str(idx) + ']', end='', flush=True)
+    # Get config parameters
+    base_url = config.get('datacite', "base_url")
 
-    if "versions" in citation_record:
-        dataset_versions = citation_record["versions"]
-        for version_record in dataset_versions:
-            print('V', end='', flush=True)
-            if "doi" in version_record:
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
+        print('D[' + str(idx) + ']', end='', flush=True)
 
-                #####################################################################
-                # CODE HERE TO RETRIEVE AND MANIPULATE DATA
-                # Make sure to set update citations field via .append
-                # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
-                #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
-                # citation_record["citations"].append(new_citation)
+        if "versions" in citation_record:
+            dataset_versions = citation_record["versions"]
+            for version_record in dataset_versions:
+                print('V', end='', flush=True)
+                if "doi" in version_record:
 
-                dataset_doi = version_record["doi"]
+                    #####################################################################
+                    # CODE HERE TO RETRIEVE AND MANIPULATE DATA
+                    # Make sure to set update citations field via .append
+                    # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
+                    #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
+                    # citation_record["citations"].append(new_citation)
 
-                datacite_url = base_url + "/" + dataset_doi
+                    dataset_doi = version_record["doi"]
 
-                datacite_citations = getURL(datacite_url)
-                datacite_record = datacite_citations.json()
+                    datacite_url = base_url + "/" + dataset_doi
 
-                num_citations = 0
-                if "data" in datacite_record:
-                    tmp_record = datacite_record["data"]
-                    if "relationships" in tmp_record:
-                        tmp_record = tmp_record["relationships"]
-                        if "citations" in tmp_record:
-                            tmp_record = tmp_record["citations"]
-                            if "data" in tmp_record:
-                                tmp_record = tmp_record["data"]
+                    datacite_citations = getURL(datacite_url)
 
-                                new_citations = tmp_record
-                                num_citations = len(new_citations)
+                    if str(datacite_citations) == '{}':
+                        datacite_record = dict()
+                    else:
+                        datacite_record = datacite_citations.json()
 
-                if num_citations > 0:
-                    for citation in new_citations:
-                        print('.', end='', flush=True)
-                        if "id" in citation:
-                            if "type" in citation:
-                                if citation["type"] == "dois":
-                                    new_curie = 'doi:' + citation["id"]
-                                else:
-                                    new_curie = citation["id"]
-                                    print("[WARNING] Unknown citation type found")
-                                    logger.warning("Unknown citation type found")
+                    num_citations = 0
+                    if "data" in datacite_record:
+                        tmp_record = datacite_record["data"]
+                        if "relationships" in tmp_record:
+                            tmp_record = tmp_record["relationships"]
+                            if "citations" in tmp_record:
+                                tmp_record = tmp_record["citations"]
+                                if "data" in tmp_record:
+                                    tmp_record = tmp_record["data"]
 
-                            new_rel = "Cites"
-                            new_type = "Work"
-                            new_comment = ""
-                            new_source = "Datacite"
+                                    new_citations = tmp_record
+                                    num_citations = len(new_citations)
 
-                            # If new citation not in citations then add
-                            citation_set = citation_record["citations"]
+                    if num_citations > 0:
+                        for citation in new_citations:
+                            print('.', end='', flush=True)
+                            if "id" in citation:
+                                if "type" in citation:
+                                    if citation["type"] == "dois":
+                                        new_curie = 'doi:' + citation["id"]
+                                    else:
+                                        new_curie = citation["id"]
+                                        print("[WARNING] Unknown citation type found")
+                                        logger.warning("Unknown citation type found")
 
-                            append = 1
-                            for orig_citation in citation_set:
-                                if "curie" in orig_citation:
-                                    if orig_citation["curie"] == new_curie:
-                                        print('=', end='', flush=True)
-                                        append = 0
+                                new_rel = "Cites"
+                                new_type = "Work"
+                                new_comment = ""
+                                new_source = "Datacite"
 
-                            if append == 1:
-                                # Create New Citation Record
-                                formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                                new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                                "comment": new_comment, "citation": formatted_citation, "source": new_source}
+                                # If new citation not in citations then add
+                                citation_set = citation_record["citations"]
 
-                                citation_record["citations"].append(new_citation)
-    else:
-        print("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
-        logger.error("No version information found for dataset: " + str(citation_record["id"]))
+                                append = 1
+                                for orig_citation in citation_set:
+                                    if "curie" in orig_citation:
+                                        if orig_citation["curie"] == new_curie:
+                                            print('=', end='', flush=True)
+                                            append = 0
 
-    idx = idx + 1
-print('|', flush=True)
+                                if append == 1:
+                                    # Create New Citation Record
+                                    formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                                    new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                                    "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
-print("[INFO] Add DataCite citations finished")
-logger.info("Add DataCite citations finished")
+                                    citation_record["citations"].append(new_citation)
+        else:
+            print("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
+            logger.error("No version information found for dataset: " + str(citation_record["id"]))
 
-#with open('./debug-datacite_data.json', 'w') as outfile:
-#    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+        idx = idx + 1
+    print('|', flush=True)
+
+    print("[INFO] Add DataCite citations finished")
+    logger.info("Add DataCite citations finished")
+
+    with open('./datasets-cache.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
 
 print("[INFO] Add Crossref citations")
 logger.info("Add Crossref citations")
@@ -549,64 +569,171 @@ logger.info("Add Crossref citations")
 
 num_datasets = len(citation_data["datasets"])
 
-# Get config parameters
-base_url = config.get('crossref', "base_url")
-url_email = config.get('crossref', "email")
+run_service = config.get('env', "crossref")
+if run_service == 'off':
+    print("[INFO] Skipping Crossref citations")
+    logger.info("Skipping Crossref citations")
+else:
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
-    print('D[' + str(idx) + ']', end='', flush=True)
+    # Get config parameters
+    base_url = config.get('crossref', "base_url")
+    url_email = config.get('crossref', "email")
 
-    if "versions" in citation_record:
-        dataset_versions = citation_record["versions"]
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
+        print('D[' + str(idx) + ']', end='', flush=True)
 
-        for version_record in dataset_versions:
-            print('V', end='', flush=True)
-            if "doi" in version_record:
+        if "versions" in citation_record:
+            dataset_versions = citation_record["versions"]
 
-                #####################################################################
-                # CODE HERE TO RETRIEVE AND MANIPULATE DATA
-                # Make sure to set update citations field via .append
-                # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
-                #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
-                # citation_record["citations"].append(new_citation)
+            for version_record in dataset_versions:
+                print('V', end='', flush=True)
+                if "doi" in version_record:
 
-                dataset_doi = version_record["doi"]
+                    #####################################################################
+                    # CODE HERE TO RETRIEVE AND MANIPULATE DATA
+                    # Make sure to set update citations field via .append
+                    # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
+                    #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
+                    # citation_record["citations"].append(new_citation)
 
-                crossref_url = base_url + "?mailto=" + url_email + "&rows=1000&relation-type=references&obj-id=" + dataset_doi
+                    dataset_doi = version_record["doi"]
 
-                crossref_citations = getURL(crossref_url)
-                new_record = crossref_citations.json()
+                    crossref_url = base_url + "?mailto=" + url_email + "&rows=1000&relation-type=references&obj-id=" + dataset_doi
 
-                num_citations = 0
-                if "message" in new_record:
-                    tmp_record = new_record["message"]
-                    if "events" in tmp_record:
-                        tmp_record = tmp_record["events"]
+                    crossref_citations = getURL(crossref_url)
+                    new_record = crossref_citations.json()
 
-                        new_citations = tmp_record
-                        num_citations = len(new_citations)
-                else:
-                    print("[ERROR] Bad data from API")
-                    logger.error("Bad data from API")
+                    num_citations = 0
+                    if "message" in new_record:
+                        tmp_record = new_record["message"]
+                        if "events" in tmp_record:
+                            tmp_record = tmp_record["events"]
 
-                if num_citations > 0:
-                    for citation in new_citations:
-                        print('.', end='', flush=True)
-                        if "subj_id" in citation:
-                            new_curie = citation["subj_id"]
-                            new_curie = re.sub("https://doi.org/","doi:",new_curie)
+                            new_citations = tmp_record
+                            num_citations = len(new_citations)
+                    else:
+                        print("[ERROR] Bad data from API")
+                        logger.error("Bad data from API")
 
-                            new_rel = "Cites"
-                            new_type = "Work"
+                    if num_citations > 0:
+                        for citation in new_citations:
+                            print('.', end='', flush=True)
+                            if "subj_id" in citation:
+                                new_curie = citation["subj_id"]
+                                new_curie = re.sub("https://doi.org/","doi:",new_curie)
+
+                                new_rel = "Cites"
+                                new_type = "Work"
+                                new_comment = ""
+                                new_source = "Crossref"
+
+                                # If new citation not in citations then add
+                                citation_set = citation_record["citations"]
+
+                                append = 1
+                                for orig_citation in citation_set:
+                                    if "curie" in orig_citation:
+                                        if orig_citation["curie"] == new_curie:
+                                            print('=', end='', flush=True)
+                                            append = 0
+
+                                if append == 1:
+                                    # Create New Citation Record
+                                    formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                                    new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                                    "comment": new_comment, "citation": formatted_citation, "source": new_source}
+
+                                    citation_record["citations"].append(new_citation)
+        else:
+            print("[ERROR]: No version information found for dataset: " + str(citation_record["id"]))
+            logger.error("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
+
+        idx = idx + 1
+    print('|', flush=True)
+
+    print("[INFO] Add Crossref citations finished")
+    logger.info("Add Crossref citations finished")
+
+    with open('./datasets-cache.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
+
+print("[INFO] Add K-Core citations")
+logger.info("Add K-Core citations")
+#####################################################################
+# Add Metadata (K-Core)
+# Citation Analysis Google Doc
+
+num_datasets = len(citation_data["datasets"])
+
+run_service = config.get('env', "kcore")
+if run_service == 'off':
+    print("[INFO] Skipping K-Core citations")
+    logger.info("Skipping K-Core citations")
+else:
+
+    # Get config parameters
+    csv_url = config.get('k-core', "csv_url")
+
+    csv_citations = pd.DataFrame()
+
+    csv_file = getURL(csv_url)
+    open('./temp-citations.csv', 'wb').write(csv_file.content)
+
+    csv_citations = pd.read_csv('./temp-citations.csv')
+
+    print("[INFO] Number of rows in citation CSV: " + str(csv_citations.shape[0]) )
+    logger.info("Number of rows in citation CSV: " + str(csv_citations.shape[0]))
+
+    idx = 0
+    while idx < num_datasets:
+        citation_record = citation_data["datasets"][idx]
+        print('D[' + str(idx) + ']', end='', flush=True)
+
+        if "versions" in citation_record:
+            dataset_versions = citation_record["versions"]
+            for version_record in dataset_versions:
+                print('V', end='', flush=True)
+                if "doi" in version_record:
+
+                    #####################################################################
+                    # CODE HERE TO RETRIEVE AND MANIPULATE DATA
+                    # Make sure to set update citations field via .append
+                    # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
+                    #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
+                    # citation_record["citations"].append(new_citation)
+
+                    dataset_doi = version_record["doi"]
+
+                    csv_rows = csv_citations[csv_citations['Dataset_DOI'] == dataset_doi]
+
+                    num_citations = csv_rows.shape[0]
+
+                    # Add Primary Citations
+                    if num_citations > 0:
+                        for ind in csv_rows.index:
+
+                            primary_doi = str(csv_rows['Primary_DOI'][ind])
+                            primary_doi = primary_doi.strip()
+
+                            new_curie = "doi:" + primary_doi
+
+                            new_rel = "Describes"
+                            new_type = "Originating Publication"
                             new_comment = ""
-                            new_source = "Crossref"
+                            new_source = "K-Core"
 
                             # If new citation not in citations then add
                             citation_set = citation_record["citations"]
 
                             append = 1
+
+                            if len(primary_doi) < 1 or primary_doi == "nan":
+                                append = 0
+                            else:
+                                print('.', end='', flush=True)
+
                             for orig_citation in citation_set:
                                 if "curie" in orig_citation:
                                     if orig_citation["curie"] == new_curie:
@@ -620,160 +747,64 @@ while idx < num_datasets:
                                                 "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
                                 citation_record["citations"].append(new_citation)
-    else:
-        print("[ERROR]: No version information found for dataset: " + str(citation_record["id"]))
-        logger.error("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
 
-    idx = idx + 1
-print('|', flush=True)
+                    # Add Other Citations
+                    if num_citations > 0:
+                        for ind in csv_rows.index:
 
-print("[INFO] Add DataCite citations finished")
-logger.info("Add DataCite citations finished")
+                            citation_doi = str(csv_rows['Citation_DOI'][ind])
+                            citation_doi = citation_doi.strip()
 
-#with open('./debug-crossref_data.json', 'w') as outfile:
-#    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+                            new_curie = "doi:" + citation_doi
 
+                            new_rel = "Cites"
+                            new_type = "Work"
+                            new_comment = ""
+                            new_source = "K-Core"
 
-print("[INFO] Add K-Core citations")
-logger.info("Add K-Core citations")
-#####################################################################
-# Add Metadata (K-Core)
-# Citation Analysis Google Doc
+                            # If new citation not in citations then add
+                            citation_set = citation_record["citations"]
 
-num_datasets = len(citation_data["datasets"])
+                            append = 1
 
-# Get config parameters
-csv_url = config.get('k-core', "csv_url")
+                            if len(citation_doi) < 1 or citation_doi == "nan":
+                                append = 0
+                            else:
+                                print('.', end='', flush=True)
 
-csv_citations = pd.DataFrame()
+                            for orig_citation in citation_set:
+                                if "curie" in orig_citation:
+                                    if orig_citation["curie"] == new_curie:
+                                        print('=', end='', flush=True)
+                                        append = 0
 
-csv_file = getURL(csv_url)
-open('./temp-citations.csv', 'wb').write(csv_file.content)
+                            if append == 1:
+                                # Create New Citation Record
+                                formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
+                                new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
+                                                "comment": new_comment, "citation": formatted_citation, "source": new_source}
 
-csv_citations = pd.read_csv('./temp-citations.csv')
+                                citation_record["citations"].append(new_citation)
+        else:
+            print("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
+            logger.error("No version information found for dataset: " + str(citation_record["id"]))
 
-print("[INFO] Number of rows in citation CSV: " + str(csv_citations.shape[0]) )
-logger.info("Number of rows in citation CSV: " + str(csv_citations.shape[0]))
+        idx = idx + 1
+    print('|', flush=True)
 
-idx = 0
-while idx < num_datasets:
-    citation_record = citation_data["datasets"][idx]
-    print('D[' + str(idx) + ']', end='', flush=True)
+    print("[INFO] Add K-Core citations finished")
+    logger.info("Add K-Core citations finished")
 
-    if "versions" in citation_record:
-        dataset_versions = citation_record["versions"]
-        for version_record in dataset_versions:
-            print('V', end='', flush=True)
-            if "doi" in version_record:
-
-                #####################################################################
-                # CODE HERE TO RETRIEVE AND MANIPULATE DATA
-                # Make sure to set update citations field via .append
-                # citation data: { "curie": ##DOI##, "relationship": ##DataCite Relationship##,
-                #                  "type": ##Originating Article, Protocol, etc##, "comment": ####}
-                # citation_record["citations"].append(new_citation)
-
-                dataset_doi = version_record["doi"]
-
-                csv_rows = csv_citations[csv_citations['Dataset_DOI'] == dataset_doi]
-
-                num_citations = csv_rows.shape[0]
-
-                # Add Primary Citations
-                if num_citations > 0:
-                    for ind in csv_rows.index:
-
-                        primary_doi = str(csv_rows['Primary_DOI'][ind])
-                        primary_doi = primary_doi.strip()
-
-                        new_curie = "doi:" + primary_doi
-
-                        new_rel = "Describes"
-                        new_type = "Originating Publication"
-                        new_comment = ""
-                        new_source = "K-Core"
-
-                        # If new citation not in citations then add
-                        citation_set = citation_record["citations"]
-
-                        append = 1
-
-                        if len(primary_doi) < 1 or primary_doi == "nan":
-                            append = 0
-                        else:
-                            print('.', end='', flush=True)
-
-                        for orig_citation in citation_set:
-                            if "curie" in orig_citation:
-                                if orig_citation["curie"] == new_curie:
-                                    print('=', end='', flush=True)
-                                    append = 0
-
-                        if append == 1:
-                            # Create New Citation Record
-                            formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                            new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                            "comment": new_comment, "citation": formatted_citation, "source": new_source}
-
-                            citation_record["citations"].append(new_citation)
-
-                # Add Other Citations
-                if num_citations > 0:
-                    for ind in csv_rows.index:
-
-                        citation_doi = str(csv_rows['Citation_DOI'][ind])
-                        citation_doi = citation_doi.strip()
-
-                        new_curie = "doi:" + citation_doi
-
-                        new_rel = "Cites"
-                        new_type = "Work"
-                        new_comment = ""
-                        new_source = "K-Core"
-
-                        # If new citation not in citations then add
-                        citation_set = citation_record["citations"]
-
-                        append = 1
-
-                        if len(citation_doi) < 1 or citation_doi == "nan":
-                            append = 0
-                        else:
-                            print('.', end='', flush=True)
-
-                        for orig_citation in citation_set:
-                            if "curie" in orig_citation:
-                                if orig_citation["curie"] == new_curie:
-                                    print('=', end='', flush=True)
-                                    append = 0
-
-                        if append == 1:
-                            # Create New Citation Record
-                            formatted_citation = getCrossrefCitation(re.sub("doi:", "", new_curie))
-                            new_citation = {"curie": new_curie, "relationship": new_rel, "type": new_type,
-                                            "comment": new_comment, "citation": formatted_citation, "source": new_source}
-
-                            citation_record["citations"].append(new_citation)
-    else:
-        print("[ERROR] No version information found for dataset: " + str(citation_record["id"]))
-        logger.error("No version information found for dataset: " + str(citation_record["id"]))
-
-    idx = idx + 1
-print('|', flush=True)
-
-print("[INFO] Add K-Core citations finished")
-logger.info("Add K-Core citations finished")
-
-#with open('./debug-k-core_data.json', 'w') as outfile:
-#    json.dump(citation_data, outfile, sort_keys=True, indent=4)
+    with open('./datasets-cache.json', 'w') as outfile:
+        json.dump(citation_data, outfile, sort_keys=True, indent=4)
 
 #####################################################################
 #####################################################################
+print("[INFO] Finishing Up")
+logger.info("Finishing Up")
 
 with open('./dataset_data_citations.json', 'w') as outfile:
     json.dump(citation_data, outfile, indent=4)
 
-#json_formatted_str = json.dumps(citation_data, indent=4)
-#print(json_formatted_str)
-
+print("[INFO] All citation processing has finished")
 logger.info("All citation processing has finished")
