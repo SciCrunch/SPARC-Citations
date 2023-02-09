@@ -19,12 +19,16 @@ if "datasets" in citations:
     markdown_file.write("# SPARC Dataset Citations \n \n")
 
     idx = 0
+    citation_count = 0
+
     while idx < num_datasets:
         dataset_record = datasets[idx]
         print("[INFO] Processing dataset: " + str(idx))
 
         citations = dataset_record["citations"]
         num_citations = len(citations)
+        citation_count = citation_count + num_citations
+
         print("[INFO] Processing citations: " + str(num_citations))
 
         if num_citations > 0:
@@ -64,6 +68,7 @@ if "datasets" in citations:
         idx = idx + 1
 
     markdown_file.close()
+    print("[INFO] Number of Citations: " + str(citation_count))
 
 else:
     print("[ERROR] No datasets")
