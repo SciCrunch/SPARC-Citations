@@ -6,6 +6,7 @@ temp-*.csv
 .*.icloud
 *-cache.json
 *.json
+citation_markdown.txt
 
 # PyCharm files
 .idea/
