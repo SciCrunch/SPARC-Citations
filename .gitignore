@@ -5,6 +5,7 @@ run.log
 temp-*.csv
 .*.icloud
 *-cache.json
+*.json
 
 # PyCharm files
 .idea/

@@ -165,8 +165,15 @@ else:
     for api_return in pen_data:
         datasets = api_return["datasets"]
 
+        # Make sure not to include bad test datasets                                                                                                                                                                  
+        bad_datasets = [213, 275]
+        
         for dataset in datasets:
-            if dataset["organizationId"] == 367:
+            if dataset["id"] in bad_datasets:
+                current_dataset = dataset["id"]
+                print("[INFO] Test Dataset Found: " + str(current_dataset))
+                logger.info("Test Dataset Found: " + str(current_dataset))
+            elif dataset["organizationId"] == 367:
                 if "doi" in dataset:
                     doi = str(dataset["doi"])
 
@@ -224,8 +231,9 @@ else:
         citation_record = citation_data["datasets"][idx]
 
         citation_record["citations"] = []
-        citation_data["datasets"][idx] = citation_record
 
+        citation_data["datasets"][idx] = citation_record
+        
         idx = idx + 1
 
     print("[INFO] Configuring data structures finished")
