@@ -3,7 +3,7 @@ import requests
 from requests.adapters import HTTPAdapter, Retry
 import configparser
 import re
-from elasticsearch import Elasticsearch
+from elasticsearch6 import Elasticsearch
 import pandas as pd
 import logging
 
@@ -269,11 +269,13 @@ else:
         try:
             es = Elasticsearch(
                 base_url,
-                verify_certs=False,
-                ssl_show_warn=False,
-                basic_auth=(es_user, es_pwd),
-                max_retries=10,
-                request_timeout=30
+#                verify_certs=False,
+#                ssl_show_warn=False,
+                http_auth=(es_user, es_pwd),
+                use_ssl=True,
+#                max_retries=10,
+#                request_timeout=30,
+                timeout=30
             )
         except:
             print("[ERROR] Elasticsearch connection failed")
@@ -282,12 +284,12 @@ else:
         dataset_id = citation_record["id"]
 
         try:
-            resp = es.get(index=es_index, id=dataset_id)
+            resp = es.get(index=es_index, doc_type='ks',id=dataset_id)
+            algolia_dataset = resp["_source"]
         except:
             print("[ERROR] Dataset not found: " + str(dataset_id))
             logger.error("Dataset not found: " + str(dataset_id))
-
-        algolia_dataset = resp["_source"]
+            algolia_dataset = []
 
         print('P', end='', flush=True)
 
