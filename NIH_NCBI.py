@@ -7,6 +7,7 @@
 #
 # Included from the SPARClink project:
 #   https://github.com/SPARC-FAIR-Codeathon/SPARClink
+#   A SPARC Hackathon project
 #-----------------------------------------------------------------------------
 
 import time
