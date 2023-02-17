@@ -15,7 +15,7 @@ if "datasets" in citations:
     print("[INFO] Number of datasets to process: " + str(num_datasets))
 
     # Open file for writing citation markdown
-    markdown_file = open("./citation_markdown.txt", "w", encoding='utf-8')
+    markdown_file = open("./citation_markdown.md", "w", encoding='utf-8')
     markdown_file.write("# SPARC Dataset Citations \n \n")
 
     idx = 0

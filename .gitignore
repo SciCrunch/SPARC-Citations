@@ -8,6 +8,9 @@ temp-*.csv
 *.json
 citation_markdown.txt
 
+# Pandoc Install
+pandoc-3.1/
+
 # PyCharm files
 .idea/
 .idea
