@@ -421,8 +421,14 @@ else:
                     oci_url = base_url + "/" + dataset_doi
 
                     oci_citations = getURL(oci_url)
-                    new_citations = oci_citations.json()
 
+                    try:
+                        new_citations = oci_citations.json()
+                    except:
+                        print("[WARNING] Fetching OCI Citation Failed: " + str(oci_url))
+                        logger.warn("Fetching OCI Citation Failed: " + str(oci_url))
+                        new_citations = []
+                        
                     num_citations = len(new_citations)
 
                     if num_citations > 0:
