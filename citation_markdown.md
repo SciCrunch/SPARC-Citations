@@ -240,6 +240,10 @@
     Citation: Kim, M., Heo, G., & Kim, S.-Y. (2022). Neural signalling of gut mechanosensation in ingestive and digestive processes. Nature Reviews Neuroscience, 23(3), 135â156. https://doi.org/10.1038/s41583-021-00544-7
  
  
+    DOI: doi:10.1152/ajpregu.00260.2022 [Citation] 
+    Citation: Jaffey, D. M., McAdams, J. L., Baronowsky, E. A., Black, D., & Powley, T. L. (2023). Vagal preganglionic axons arborize in the myenteric plexus into two types: nitrergic and non-nitrergic postganglionic motor pools? American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 324(3), R305âR316. https://doi.org/10.1152/ajpregu.00260.2022
+ 
+ 
 ## Feline brainstem neuron extracellular potential recordings 
 **DOI:** 10.26275/1upo-xvkt **Dataset ID:** 35 **Dataset Version:** 3 
 
@@ -1277,20 +1281,6 @@
     Citation: Rajendran, P. S., Challis, R. C., Fowlkes, C. C., Hanna, P., Tompkins, J. D., Jordan, M. C., Hiyari, S., Gabris-Weber, B. A., Greenbaum, A., Chan, K. Y., Deverman, B. E., MÃ¼nzberg, H., Ardell, J. L., Salama, G., Gradinaru, V., & Shivkumar, K. (2019). Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09770-1
  
  
-## Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs 
-**DOI:** 10.26275/unth-geqw **Dataset ID:** 26 **Dataset Version:** 4 
-
-**Citation:** Vaseghi, M., Ardell, J. L., &amp; Shivkumar, K. (2021). <i>Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs</i> (Version 4) [Data set]. SPARC Consortium. https://doi.org/10.26275/UNTH-GEQW 
- 
-## Dataset Citations 
-    DOI: doi:10.17504/protocols.io.2i4gcgw [Protocol] 
-    Citation: Ardell, J. (2019). Pig-Neural recording and analysis-workflow v1. https://doi.org/10.17504/protocols.io.2i4gcgw
- 
- 
-    DOI: doi:10.17504/protocols.io.2ncgdaw [Protocol] 
-    Citation: Vaseghi, M., & Ardell, J. (2019). Pig Nodose Ganglion protocol v1. https://doi.org/10.17504/protocols.io.2ncgdaw
- 
- 
 ## RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats 
 **DOI:** 10.26275/zwcw-v2re **Dataset ID:** 139 **Dataset Version:** 2 
 
@@ -1415,6 +1405,9 @@
     Citation: Larauche, M., Wang, Y., Wang, P., Dubrovsky, G., Lo, Y., Hsiang, E., Dunn, J. C. Y., TachÃ©, Y., Liu, W., & Million, M. (2020). The effect of colonic tissue electrical stimulation and celiac branch of the abdominal vagus nerve neuromodulation on colonic motility in anesthetized pigs. Neurogastroenterology &amp; Motility, 32(11). Portico. https://doi.org/10.1111/nmo.13925
  
  
+    DOI: doi:https://doi.org/10.26275/up27-ibcr [Citation] 
+    Citation: Larauche, M., Wang, Y., Wang, P.-M., Dubrovsky, G., Lo, Y.-K., Hsiang, I., Dunn, J., Liu, W., Tache, Y., &amp; Mulugeta, M. (2022). <i>Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/UP27-IBCR 
+ 
 ## Functional mapping with lumbosacral epidural stimulation for restoration of bladder function after spinal cord injury in rats 
 **DOI:** 10.26275/gvzt-oeti **Dataset ID:** 130 **Dataset Version:** 2 
 
@@ -1475,28 +1468,6 @@
 ## Dataset Citations 
     DOI: doi:10.17504/protocols.io.v72e9qe [Protocol] 
     Citation: Preissl, S., Verheyden, J., & Sun, X. (2018). Single Nucleus RNAseq Sample Prep from Nodose Ganglia v1. https://doi.org/10.17504/protocols.io.v72e9qe
- 
- 
-## Comparison of the intrinsic cardiac nervous system across male and female rat hearts 
-**DOI:** 10.26275/gbxz-incd **Dataset ID:** 77 **Dataset Version:** 3 
-
-**Citation:** Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Huffman, T., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z., &amp; Schwaber, J. (2022). <i>Comparison of the intrinsic cardiac nervous system across male and female rat hearts</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/GBXZ-INCD 
- 
-## Dataset Citations 
-    DOI: doi:10.17504/protocols.io.bdz5i786 [Protocol] 
-    Citation: Leung, C., Heal, M., Robbins, S., Moss, A., Monteith, C., & Tappan, S. (2020). Single-Cell ICN Neuron Mapping and 3D Heart Reconstruction with Tissue Mapper v1. https://doi.org/10.17504/protocols.io.bdz5i786
- 
- 
-    DOI: doi:10.1007/s12021-021-09530-x [Citation] 
-    Citation: Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2021). A Comprehensive, FAIR File Format for Neuroanatomical Structure Modeling. Neuroinformatics, 20(1), 221â240. https://doi.org/10.1007/s12021-021-09530-x
- 
- 
-    DOI: doi:10.1101/2020.09.22.306670 [Citation] 
-    Citation: Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2020). A comprehensive, FAIR file format for neuroanatomical structure modeling. https://doi.org/10.1101/2020.09.22.306670
- 
- 
-    DOI: doi:10.1016/j.isci.2021.102795 [Citation] 
-    Citation: Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z. (Jack), & Schwaber, J. S. (2021). 3D single cell scale anatomical map of sex-dependent variability of the rat intrinsic cardiac nervous system. IScience, 24(7), 102795. https://doi.org/10.1016/j.isci.2021.102795
  
  
 ## Effect of electrical stimulation of vagal afferent terminals located in the stomach muscle wall on feeding behavior 
@@ -1561,16 +1532,6 @@
 ## Dataset Citations 
     DOI: doi:10.1038/s41598-018-27306-3 [Originating Publication] 
     Citation: Bayles, R. G., Olivas, A., Denfeld, Q., Woodward, W. R., Fei, S. S., Gao, L., & Habecker, B. A. (2018). Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences. Scientific Reports, 8(1). https://doi.org/10.1038/s41598-018-27306-3
- 
- 
-## Chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of mouse colon 
-**DOI:** 10.26275/zmf4-yf9u **Dataset ID:** 148 **Dataset Version:** 2 
-
-**Citation:** Gould, T. (2022). <i>Chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of mouse colon</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/ZMF4-YF9U 
- 
-## Dataset Citations 
-    DOI: doi:10.17504/protocols.io.btuznnx6 [Protocol] 
-    Citation: Gould, T., & Heredia, D. (2021). Contractile response to chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of the mouse colon v1. https://doi.org/10.17504/protocols.io.btuznnx6
  
  
 ## Ultrastructural analysis of human vagus nerve 
@@ -1946,6 +1907,9 @@
     Citation: Verma, N. (2022). Electrophysiology from cervical vagus nerve and great auricular nerve in swine v1. https://doi.org/10.17504/protocols.io.j8nlkk6n5l5r/v1
  
  
+    DOI: doi:https://doi.org/10.26275/vm1h-k4kq [Citation] 
+    Citation: Ludwig, K. A., &amp; Verma, N. (2022). <i>Electrode design characterization for electrophysiology from swine peripheral nervous system</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/VM1H-K4KQ 
+ 
 ## Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neurons 
 **DOI:** 10.26275/bvpu-cuz7 **Dataset ID:** 263 **Dataset Version:** 1 
 
@@ -2155,6 +2119,9 @@
     DOI: doi:10.1088/1741-2552/aca0c2 [Citation] 
     Citation: Jantz, M. K., Gopinath, C., Kumar, R., Chin, C., Wong, L., Ogren, J. I., Fisher, L. E., McLaughlin, B. L., & Gaunt, R. A. (2022). High-density spinal cord stimulation selectively activates lower urinary tract nerves. Journal of Neural Engineering, 19(6), 066014. https://doi.org/10.1088/1741-2552/aca0c2
  
+ 
+    DOI: doi:https://doi.org/10.26275/hbuu-caud [Citation] 
+    Citation: Jantz, M., Gopinath, C., Kumar, R., Gaunt, R., &amp; McLaughlin, B. (2022). <i>Lower urinary tract nerve responses to high-density epidural spinal cord stimulation in cats</i> (Version 1) [Data set]. Pennsieve Discover. https://doi.org/10.26275/HBUU-CAUD 
  
 ## RNA sequencing analysis of transcriptomic responses to vagal nerve stimulation in myenteric ganglia of porcine colon 
 **DOI:** 10.26275/eikd-dg5c **Dataset ID:** 282 **Dataset Version:** 1 
@@ -2450,5 +2417,51 @@
 ## Dataset Citations 
     DOI: doi:10.17504/protocols.io.yxmvm2wzbg3p/v1 [Protocol] 
     Citation: L Blanz, S. (2023). Spatially selective stimulation of the pig vagus nerve to modulate target effect versus side effect v1. https://doi.org/10.17504/protocols.io.yxmvm2wzbg3p/v1
+ 
+ 
+## Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs 
+**DOI:** 10.26275/nomg-p2vk **Dataset ID:** 26 **Dataset Version:** 5 
+
+**Citation:** Vaseghi, M., Ardell, J. L., &amp; Shivkumar, K. (2023). <i>Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/NOMG-P2VK 
+ 
+## Dataset Citations 
+    DOI: doi:10.17504/protocols.io.2i4gcgw [Protocol] 
+    Citation: Ardell, J. (2019). Pig-Neural recording and analysis-workflow v1. https://doi.org/10.17504/protocols.io.2i4gcgw
+ 
+ 
+    DOI: doi:10.17504/protocols.io.2ncgdaw [Protocol] 
+    Citation: Vaseghi, M., & Ardell, J. (2019). Pig Nodose Ganglion protocol v1. https://doi.org/10.17504/protocols.io.2ncgdaw
+ 
+ 
+## Chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of mouse colon 
+**DOI:** 10.26275/kj2u-2ukf **Dataset ID:** 148 **Dataset Version:** 3 
+
+**Citation:** Heredia, D., &amp; Gould, T. (2023). <i>Chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of mouse colon</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/KJ2U-2UKF 
+ 
+## Dataset Citations 
+    DOI: doi:10.17504/protocols.io.btuznnx6 [Protocol] 
+    Citation: Gould, T., & Heredia, D. (2021). Contractile response to chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of the mouse colon v1. https://doi.org/10.17504/protocols.io.btuznnx6
+ 
+ 
+## Comparison of the intrinsic cardiac nervous system across male and female rat hearts 
+**DOI:** 10.26275/yh5c-5pjy **Dataset ID:** 77 **Dataset Version:** 4 
+
+**Citation:** Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Huffman, T., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z., &amp; Schwaber, J. (2023). <i>Comparison of the intrinsic cardiac nervous system across male and female rat hearts</i> (Version 4) [Data set]. SPARC Consortium. https://doi.org/10.26275/YH5C-5PJY 
+ 
+## Dataset Citations 
+    DOI: doi:10.17504/protocols.io.bdz5i786 [Protocol] 
+    Citation: Leung, C., Heal, M., Robbins, S., Moss, A., Monteith, C., & Tappan, S. (2020). Single-Cell ICN Neuron Mapping and 3D Heart Reconstruction with Tissue Mapper v1. https://doi.org/10.17504/protocols.io.bdz5i786
+ 
+ 
+    DOI: doi:10.1007/s12021-021-09530-x [Citation] 
+    Citation: Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2021). A Comprehensive, FAIR File Format for Neuroanatomical Structure Modeling. Neuroinformatics, 20(1), 221â240. https://doi.org/10.1007/s12021-021-09530-x
+ 
+ 
+    DOI: doi:10.1101/2020.09.22.306670 [Citation] 
+    Citation: Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2020). A comprehensive, FAIR file format for neuroanatomical structure modeling. https://doi.org/10.1101/2020.09.22.306670
+ 
+ 
+    DOI: doi:10.1016/j.isci.2021.102795 [Citation] 
+    Citation: Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z. (Jack), & Schwaber, J. S. (2021). 3D single cell scale anatomical map of sex-dependent variability of the rat intrinsic cardiac nervous system. IScience, 24(7), 102795. https://doi.org/10.1016/j.isci.2021.102795
  
  
