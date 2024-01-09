@@ -4,10 +4,11 @@ config.py
 run.log
 temp-*.csv
 .*.icloud
-*-cache.json
-*.json
+datasets-cache.json
+initial-datasets.json
 citation_markdown.txt
 logs/
+nohup.out
 
 # Pandoc Install
 pandoc-3.1/
