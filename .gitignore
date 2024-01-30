@@ -9,6 +9,8 @@ initial-datasets.json
 citation_markdown.txt
 logs/
 nohup.out
+2023*/
+2024*/
 
 # Pandoc Install
 pandoc-3.1/
