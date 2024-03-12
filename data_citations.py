@@ -439,6 +439,8 @@ else:
                                 new_curie = re.sub('DOI:', 'doi:', new_curie, flags=re.IGNORECASE)
                                 new_curie = re.sub('URL:', 'uri:', new_curie, flags=re.IGNORECASE)
                                 new_curie = re.sub('URI:', 'uri:', new_curie, flags=re.IGNORECASE)
+                                if new_curie[0:3] != "doi" and new_curie[0:3] != "uri":
+                                    new_curie = "doi:" + new_curie
                                 new_rel = "Cites"
                                 new_type = "Work"
                                 new_comment = ""
