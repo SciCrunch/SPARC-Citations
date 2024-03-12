@@ -111,20 +111,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1101/2023.08.30.555315",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Wernisch, L., Edwards, T., Berthon, A., Tessier-Lariviere, O., Sarkans, E., Stoukidi, M., Fortier-Poisson, P., Pinkney, M., Thornton, M., Hanley, C., Lee, S., Jennings, J., Appleton, B., Garsed, P., Patterson, B., Buttinger, W., Gonshaw, S., Jakopec, M., Shunmugam, S., \u00e2\u0080\u00a6 Hewage, E. (2023). Online Bayesian Optimization of Nerve Stimulation. https://doi.org/10.1101/2023.08.30.555315\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1101/2023.08.30.555315",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Wernisch, L., Edwards, T., Berthon, A., Tessier-Lariviere, O., Sarkans, E., Stoukidi, M., Fortier-Poisson, P., Pinkney, M., Thornton, M., Hanley, C., Lee, S., Jennings, J., Appleton, B., Garsed, P., Patterson, B., Buttinger, W., Gonshaw, S., Jakopec, M., Shunmugam, S., \u00e2\u0080\u00a6 Hewage, E. (2023). Online Bayesian Optimization of Nerve Stimulation. https://doi.org/10.1101/2023.08.30.555315\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 }
             ]
         },
@@ -519,20 +511,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1152/ajpregu.00111.2020",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331\u00e2\u0080\u0093R341. https://doi.org/10.1152/ajpregu.00111.2020\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1152/ajpregu.00111.2020",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331\u00e2\u0080\u0093R341. https://doi.org/10.1152/ajpregu.00111.2020\n",
-                    "source": "K-Core"
+                    "source": "OCI"
                 }
             ]
         },
@@ -575,20 +559,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1152/ajpregu.00111.2020",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331\u00e2\u0080\u0093R341. https://doi.org/10.1152/ajpregu.00111.2020\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1152/ajpregu.00111.2020",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331\u00e2\u0080\u0093R341. https://doi.org/10.1152/ajpregu.00111.2020\n",
-                    "source": "K-Core"
+                    "source": "OCI"
                 }
             ]
         },
@@ -623,7 +599,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1038/s41583-021-00544-7",
+                    "curie": "doi:10.1038/s41583-021-00544-7",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -637,14 +613,6 @@
                     "comment": "",
                     "citation": "Jaffey, D. M., McAdams, J. L., Baronowsky, E. A., Black, D., & Powley, T. L. (2023). Vagal preganglionic axons arborize in the myenteric plexus into two types: nitrergic and non-nitrergic postganglionic motor pools? American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 324(3), R305\u00e2\u0080\u0093R316. https://doi.org/10.1152/ajpregu.00260.2022\n",
                     "source": "Datacite"
-                },
-                {
-                    "curie": "doi:10.1038/s41583-021-00544-7",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Kim, M., Heo, G., & Kim, S.-Y. (2022). Neural signalling of gut mechanosensation in ingestive and digestive processes. Nature Reviews Neuroscience, 23(3), 135\u00e2\u0080\u0093156. https://doi.org/10.1038/s41583-021-00544-7\n",
-                    "source": "Crossref"
                 }
             ]
         },
@@ -1250,7 +1218,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/ac36e2",
+                    "curie": "doi:10.1088/1741-2552/ac36e2",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -1258,7 +1226,7 @@
                     "source": "OCI"
                 },
                 {
-                    "curie": "10.12688/f1000research.73492.1",
+                    "curie": "doi:10.12688/f1000research.73492.1",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -1271,22 +1239,6 @@
                     "type": "Work",
                     "comment": "",
                     "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581\n",
-                    "source": "Crossref"
-                },
-                {
-                    "curie": "doi:10.12688/f1000research.73492.1",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
-                    "source": "Crossref"
-                },
-                {
-                    "curie": "doi:10.1088/1741-2552/ac36e2",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2\n",
                     "source": "Crossref"
                 },
                 {
@@ -1374,36 +1326,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/acda64",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "OCI"
-                },
-                {
-                    "curie": "10.12688/f1000research.73492.1",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "Datacite"
-                },
-                {
-                    "curie": "doi:10.1101/2021.08.08.455581",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581\n",
-                    "source": "Crossref"
+                    "source": "OCI"
                 },
                 {
                     "curie": "doi:10.12688/f1000research.73492.1",
@@ -1411,6 +1339,14 @@
                     "type": "Work",
                     "comment": "",
                     "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
+                    "source": "OCI"
+                },
+                {
+                    "curie": "doi:10.1101/2021.08.08.455581",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581\n",
                     "source": "Crossref"
                 },
                 {
@@ -1512,46 +1448,6 @@
             ]
         },
         {
-            "doi": "10.26275/iiwv-k07f",
-            "type": "Dataset",
-            "name": "Excitation properties of computational models of unmyelinated peripheral axons",
-            "id": 86,
-            "version": 3,
-            "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., &amp; Grill, W. M. (2020). <i>Excitation properties of computational models of unmyelinated peripheral axons</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/IIWV-K07F",
-            "versions": [
-                {
-                    "doi": "10.26275/zmz1-3hmj",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/defd-macu",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/iiwv-k07f",
-                    "version": 3
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.1152/jn.00315.2020",
-                    "relationship": "Describes",
-                    "type": "Originating Publication",
-                    "comment": "",
-                    "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., Titus, N. D., Liang, E. D., Henriquez, C. S., & Grill, W. M. (2021). Excitation properties of computational models of unmyelinated peripheral axons. Journal of Neurophysiology, 125(1), 86\u00e2\u0080\u0093104. https://doi.org/10.1152/jn.00315.2020\n",
-                    "source": "SPARC"
-                },
-                {
-                    "curie": "10.1152/jn.00315.2020",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., Titus, N. D., Liang, E. D., Henriquez, C. S., & Grill, W. M. (2021). Excitation properties of computational models of unmyelinated peripheral axons. Journal of Neurophysiology, 125(1), 86\u00e2\u0080\u0093104. https://doi.org/10.1152/jn.00315.2020\n",
-                    "source": "OCI"
-                }
-            ]
-        },
-        {
             "doi": "10.26275/dap3-ckep",
             "type": "Dataset",
             "name": "Pig vagus nerve TH (tyrosine hydroxylase) and ChAT (choline acetyltransferase) positive fibers",
@@ -1590,20 +1486,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/ac01ff",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Settell, M. L., Pelot, N. A., Knudsen, B. E., Dingle, A. M., McConico, A. L., Nicolai, E. N., Trevathan, J. K., Ezzell, J. A., Ross, E. K., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., Zeng, W., Poore, S. O., Populin, L. C., Suminski, A. J., Grill, W. M., & Ludwig, K. A. (2021). Corrigendum: Functional vagotopy in the cervical vagus nerve of the domestic pig: implications for the study of vagus nerve stimulation (2020 J. Neural Eng. \n               17 026022). Journal of Neural Engineering, 18(4), 049501. https://doi.org/10.1088/1741-2552/ac01ff\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/ac01ff",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Settell, M. L., Pelot, N. A., Knudsen, B. E., Dingle, A. M., McConico, A. L., Nicolai, E. N., Trevathan, J. K., Ezzell, J. A., Ross, E. K., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., Zeng, W., Poore, S. O., Populin, L. C., Suminski, A. J., Grill, W. M., & Ludwig, K. A. (2021). Corrigendum: Functional vagotopy in the cervical vagus nerve of the domestic pig: implications for the study of vagus nerve stimulation (2020 J. Neural Eng. \n               17 026022). Journal of Neural Engineering, 18(4), 049501. https://doi.org/10.1088/1741-2552/ac01ff\n",
-                    "source": "Crossref"
+                    "source": "OCI"
                 }
             ]
         },
@@ -1784,6 +1672,14 @@
                     "comment": "",
                     "citation": "Lorenz, M. R., Brazill, J. M., Beeve, A., Shen, I., & Scheller, E. L. (2020). A neuroskeletal atlas of the mouse limb. https://doi.org/10.1101/2020.09.18.303958\n",
                     "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.1371/journal.pone.0279825",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Gupta, Y., Costa, C., Pinho, E., A. Basti\u00c3\u00a3o Silva, L., & Heintzmann, R. (2022). IMAGE-IN: Interactive web-based multidimensional 3D visualizer for multi-modal microscopy images. PLOS ONE, 17(12), e0279825. https://doi.org/10.1371/journal.pone.0279825\n",
+                    "source": "K-Core"
                 }
             ]
         },
@@ -1834,7 +1730,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1152/ajpregu.00111.2020",
+                    "curie": "doi:10.1152/ajpregu.00111.2020",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -2461,14 +2357,6 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/acda64",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
@@ -2557,22 +2445,6 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.12688/f1000research.73492.1",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
-                    "source": "OCI"
-                },
-                {
-                    "curie": "10.1088/1741-2552/acda64",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
@@ -2652,7 +2524,7 @@
             "name": "Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart",
             "id": 37,
             "version": 3,
-            "citation": "Leung, C., Chen, J., Moss, A., Tappan, S., Heal, M., Huffman, T., Farahani, N., Eisenman, L., Cheng, Z., Vadigepalli, R., &amp; Schwaber, J. (2021). <i>Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/PB3L-251H",
+            "citation": "Leung, C., Chen, J., Moss, A., Heal, M., Huffman, T., Farahani, N., Eisenman, L., Cheng, Z., Tappan, S., Vadigepalli, R., &amp; Schwaber, J. (2021). <i>Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/PB3L-251H",
             "versions": [
                 {
                     "doi": "10.26275/wox9-gqzp",
@@ -3126,14 +2998,6 @@
                     "comment": "",
                     "citation": "Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2\n",
                     "source": "SPARC"
-                },
-                {
-                    "curie": "10.1088/1741-2552/ac36e2",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2\n",
-                    "source": "OCI"
                 }
             ]
         },
@@ -3278,14 +3142,6 @@
                     "comment": "",
                     "citation": "Eiber, C. D., Keast, J. R., & Osborne, P. B. (2020). Simulating bidirectional peripheral neural interfaces in EIDORS. 2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC). https://doi.org/10.1109/embc44109.2020.9175921\n",
                     "source": "SPARC"
-                },
-                {
-                    "curie": "10.1088/1741-2552/ac36e2",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2\n",
-                    "source": "OCI"
                 }
             ]
         },
@@ -3929,30 +3785,6 @@
             ]
         },
         {
-            "doi": "10.26275/upm9-v4ya",
-            "type": "Dataset",
-            "name": "Calcitonin gene-related peptide immunoreactive (CGRP-IR) innervation of mouse stomach",
-            "id": 230,
-            "version": 1,
-            "citation": "Nguyen, D., Ma, J., Madas, J., Mistareehi, A., Chen, J., Powley, T. L., &amp; Cheng, Z. (2022). <i>Calcitonin gene-related peptide immunoreactive (CGRP-IR) innervation of mouse stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/UPM9-V4YA",
-            "versions": [
-                {
-                    "doi": "10.26275/upm9-v4ya",
-                    "version": 1
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.17504/protocols.io.6qpvr6k7zvmk/v1",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Mapping CGRP-IR innervation of male mice stomach with Neurolucida 360 v1. (2022). https://doi.org/10.17504/protocols.io.6qpvr6k7zvmk/v1\n",
-                    "source": "SPARC"
-                }
-            ]
-        },
-        {
             "doi": "10.26275/zuwb-qnqk",
             "type": "Dataset",
             "name": "Calcium dynamics imaging of vasoactive intestinal peptide-expressing (VIP) enteric nervous system (ENS) neurons",
@@ -3975,7 +3807,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1111/nmo.14678",
+                    "curie": "doi:10.1111/nmo.14678",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -4451,7 +4283,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1111/nmo.14678",
+                    "curie": "doi:10.1111/nmo.14678",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -4752,7 +4584,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/acc35c",
+                    "curie": "doi:10.1088/1741-2552/acc35c",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -5481,7 +5313,7 @@
             ],
             "citations": [
                 {
-                    "curie": "10.1109/tbme.2023.3234509",
+                    "curie": "doi:10.1109/tbme.2023.3234509",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -5495,14 +5327,6 @@
                     "comment": "",
                     "citation": "Avci, R., Wickens, J. D., Sangi, M., Athavale, O. N., Di Natale, M. R., Furness, J. B., Du, P., & Cheng, L. K. (2022). A Computational Model of Biophysical Properties of the Rat Stomach Informed by Comprehensive Analysis of Muscle Anatomy. 2022 44th Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC). https://doi.org/10.1109/embc48229.2022.9871314\n",
                     "source": "Datacite"
-                },
-                {
-                    "curie": "doi:10.1109/tbme.2023.3234509",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Wang, X., Cao, J., Han, K., Choi, M., She, Y., Scheven, U. M., Avci, R., Du, P., Cheng, L. K., Natale, M. R. D., Furness, J. B., & Liu, Z. (2023). Diffeomorphic Surface Modeling for MRI-Based Characterization of Gastric Anatomy and Motility. IEEE Transactions on Biomedical Engineering, 70(7), 2046\u00e2\u0080\u00932057. https://doi.org/10.1109/tbme.2023.3234509\n",
-                    "source": "Crossref"
                 }
             ]
         },
@@ -5617,20 +5441,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/aca0c2",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Jantz, M. K., Gopinath, C., Kumar, R., Chin, C., Wong, L., Ogren, J. I., Fisher, L. E., McLaughlin, B. L., & Gaunt, R. A. (2022). High-density spinal cord stimulation selectively activates lower urinary tract nerves. Journal of Neural Engineering, 19(6), 066014. https://doi.org/10.1088/1741-2552/aca0c2\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/aca0c2",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Jantz, M. K., Gopinath, C., Kumar, R., Chin, C., Wong, L., Ogren, J. I., Fisher, L. E., McLaughlin, B. L., & Gaunt, R. A. (2022). High-density spinal cord stimulation selectively activates lower urinary tract nerves. Journal of Neural Engineering, 19(6), 066014. https://doi.org/10.1088/1741-2552/aca0c2\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 },
                 {
                     "curie": "doi:https://doi.org/10.26275/hbuu-caud",
@@ -5672,7 +5488,7 @@
             "name": "Calcium imaging tension recordings and pelet transit in mouse colon in response to direct electrical field stimulation ",
             "id": 283,
             "version": 1,
-            "citation": "Heredia, D., &amp; Gould, T. (2022). <i>Calcium imaging tension recordings and pelet transit in mouse colon in response to direct electrical field stimulation </i>(Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/QMG0-ZBDE",
+            "citation": "Heredia, D., &amp; Gould, T. (2024). <i>Calcium imaging tension recordings and pelet transit in mouse colon in response to direct electrical field stimulation </i>(Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/QMG0-ZBDE",
             "versions": [
                 {
                     "doi": "10.26275/qmg0-zbde",
@@ -6062,20 +5878,12 @@
             ],
             "citations": [
                 {
-                    "curie": "10.1101/2021.12.30.474265",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "B\u00c3\u00b6rner, K., Bueckle, A., Herr, B. W., Cross, L. E., Quardokus, E. M., Record, E. G., Ju, Y., Silverstein, J. C., Browne, K. M., Jain, S., Wasserfall, C. H., Jorgensen, M. L., Spraggins, J. M., Patterson, N. H., & Weber, G. M. (2021). Tissue Registration and Exploration User Interfaces in support of a Human Reference Atlas. https://doi.org/10.1101/2021.12.30.474265\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1101/2021.12.30.474265",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "B\u00c3\u00b6rner, K., Bueckle, A., Herr, B. W., Cross, L. E., Quardokus, E. M., Record, E. G., Ju, Y., Silverstein, J. C., Browne, K. M., Jain, S., Wasserfall, C. H., Jorgensen, M. L., Spraggins, J. M., Patterson, N. H., & Weber, G. M. (2021). Tissue Registration and Exploration User Interfaces in support of a Human Reference Atlas. https://doi.org/10.1101/2021.12.30.474265\n",
-                    "source": "Crossref"
+                    "source": "OCI"
                 }
             ]
         },
@@ -6559,7 +6367,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1111/nmo.14678",
+                    "curie": "doi:10.1111/nmo.14678",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -6856,20 +6664,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1007/s12021-021-09530-x",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2021). A Comprehensive, FAIR File Format for Neuroanatomical Structure Modeling. Neuroinformatics, 20(1), 221\u00e2\u0080\u0093240. https://doi.org/10.1007/s12021-021-09530-x\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1007/s12021-021-09530-x",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2021). A Comprehensive, FAIR File Format for Neuroanatomical Structure Modeling. Neuroinformatics, 20(1), 221\u00e2\u0080\u0093240. https://doi.org/10.1007/s12021-021-09530-x\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 },
                 {
                     "curie": "doi:10.1101/2020.09.22.306670",
@@ -7007,20 +6807,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1088/1741-2552/acda64",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 }
             ]
         },
@@ -7296,20 +7088,12 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1038/s41598-022-17549-6",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Wang, Y., Wang, P.-M., Larauche, M., Mulugeta, M., & Liu, W. (2022). Bio-impedance method to monitor colon motility response to direct distal colon stimulation in anesthetized pigs. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-17549-6\n",
-                    "source": "OCI"
-                },
-                {
                     "curie": "doi:10.1038/s41598-022-17549-6",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Wang, Y., Wang, P.-M., Larauche, M., Mulugeta, M., & Liu, W. (2022). Bio-impedance method to monitor colon motility response to direct distal colon stimulation in anesthetized pigs. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-17549-6\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 },
                 {
                     "curie": "doi:10.1111/nmo.13925",
@@ -8085,7 +7869,7 @@
             ],
             "citations": [
                 {
-                    "curie": "10.1088/1741-2552/acda64",
+                    "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -8149,7 +7933,7 @@
             ],
             "citations": [
                 {
-                    "curie": "10.1088/1741-2552/acc42b",
+                    "curie": "doi:10.1088/1741-2552/acc42b",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -8187,7 +7971,7 @@
             "name": "Molecular phenotype distribution of single rat intracardiac neurons",
             "id": 29,
             "version": 7,
-            "citation": "Tappan, S., Heal, M., Leung, C., Chen, J., Cheng, Z., Schwaber, J., Vadigepalli, R., Achanta, S., Robbins, S., Moss, A., Gorky, J., &amp; Nieves, S. (2023). <i>Molecular phenotype distribution of single rat intracardiac neurons</i> (Version 7) [Data set]. SPARC Consortium. https://doi.org/10.26275/SP7Z-YLUN",
+            "citation": "Achanta, S., Robbins, S., Moss, A., Gorky, J., Nieves, S., Tappan, S., Heal, M., Leung, C., Chen, J., Cheng, Z., Schwaber, J., &amp; Vadigepalli, R. (2023). <i>Molecular phenotype distribution of single rat intracardiac neurons</i> (Version 7) [Data set]. SPARC Consortium. https://doi.org/10.26275/SP7Z-YLUN",
             "versions": [
                 {
                     "doi": "10.26275/n77i-mv0o",
@@ -8331,7 +8115,7 @@
                     "source": "SPARC"
                 },
                 {
-                    "curie": "10.1038/s41598-022-04854-3",
+                    "curie": "doi:10.1038/s41598-022-04854-3",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
@@ -8345,6 +8129,484 @@
                     "comment": "",
                     "citation": "Havton, L. A., Biscola, N. P., Plebani, E., Rajwa, B., Shemonti, A., Jaffey, D., Powley, T. L., Keast, J. R., Lu, K.-H., &amp; Dundar, M. (2022). <i>High-throughput segmentation of rat unmyelinated axons by deep learning</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/K0MX-JCTH",
                     "source": "Datacite"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/jh8n-lwdl",
+            "type": "Dataset",
+            "name": "Reflex voiding in rat occurs at consistent bladder volume regardless of pressure or infusion rate",
+            "id": 357,
+            "version": 1,
+            "citation": "Jaskowak, D., &amp; Danziger, Z. C. (2023). <i>Reflex voiding in rat occurs at consistent bladder volume regardless of pressure or infusion rate</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/JH8N-LWDL",
+            "versions": [
+                {
+                    "doi": "10.26275/jh8n-lwdl",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.n2bvj3xoblk5/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "J Jaskowak, D. (2023). Single-fill cystometry at varying bladder infusion rates in urethane anesthetized rats v1. https://doi.org/10.17504/protocols.io.n2bvj3xoblk5/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/hhnz-div3",
+            "type": "Dataset",
+            "name": "Mapping of dorsal root ganglia sensory nerve populations in the mouse lung",
+            "id": 353,
+            "version": 1,
+            "citation": "Kim, S.-H., Patil, M., &amp; Taylor-Clark, T. (2023). <i>Mapping of dorsal root ganglia sensory nerve populations in the mouse lung</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/HHNZ-DIV3",
+            "versions": [
+                {
+                    "doi": "10.26275/hhnz-div3",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.3byl4b6kjvo5/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Kim, S.-H. (2022). Dissection and immunohistochemistry of mouse lung v1. https://doi.org/10.17504/protocols.io.3byl4b6kjvo5/v1\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.n92ldz6z9v5b/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Kim, S.-H. (2022). Intraganglionic injection of AAV into thoracic dorsal root ganglia in mice v1. https://doi.org/10.17504/protocols.io.n92ldz6z9v5b/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/qdv4-0vx5",
+            "type": "Dataset",
+            "name": "Chronic intermittent hypoxia remodels catecholaminergic innervation in mouse atria",
+            "id": 362,
+            "version": 1,
+            "citation": "Bizanti, A. (G., Zhang, Y., Toledo, Z., Harden, S. W., Mistareehi, A., Chen, J., Gozal, D., Heal, M., Christie, R., Hunter, P., Tappan, S., Paton, J., &amp; Cheng, Z. (2023). <i>Chronic intermittent hypoxia remodels catecholaminergic innervation in mouse atria</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/QDV4-0VX5",
+            "versions": [
+                {
+                    "doi": "10.26275/qdv4-0vx5",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.14egn3jmzl5d/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Bizanti, A., Zhang, Y., Toledo, Z., & Bendowski, K. (2023). Chronic intermittent hypoxia remodels catecholaminergic innervation in mouse atria v1. https://doi.org/10.17504/protocols.io.14egn3jmzl5d/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/yanw-4h7n",
+            "type": "Dataset",
+            "name": "ASCENT Base",
+            "id": 363,
+            "version": 1,
+            "citation": "Marshall, D. P., Zamani, P. T., Musselman, E. D., Grill, W. M., Pelot, N. A., Zhuang, K., &amp; Iavarone, E. (2023). <i>ASCENT Base</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/YANW-4H7N",
+            "versions": [
+                {
+                    "doi": "10.26275/yanw-4h7n",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/0jz3-zrlo",
+            "type": "Dataset",
+            "name": "ASCENT Guided Mode Demo",
+            "id": 364,
+            "version": 1,
+            "citation": "Marshall, D. P., Zamani, P. T., Musselman, E. D., Grill, W. M., Pelot, N. A., Zhuang, K., &amp; Iavarone, E. (2023). <i>ASCENT Guided Mode Demo</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/0JZ3-ZRLO",
+            "versions": [
+                {
+                    "doi": "10.26275/0jz3-zrlo",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/3d2g-d3xd",
+            "type": "Dataset",
+            "name": "ASCENT Tutorial",
+            "id": 365,
+            "version": 1,
+            "citation": "Marshall, D. P., Zamani, P. T., Musselman, E. D., Grill, W. M., Pelot, N. A., Zhuang, K., &amp; Iavarone, E. (2023). <i>ASCENT Tutorial</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/3D2G-D3XD",
+            "versions": [
+                {
+                    "doi": "10.26275/3d2g-d3xd",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/mhji-cn6n",
+            "type": "Dataset",
+            "name": "Morphologies dimensions and targets of gastric nitric oxide synthase neurons in the rat stomach",
+            "id": 366,
+            "version": 1,
+            "citation": "Di Natale, M., Hunne, B., Liew, J., Fothergill, L. J., Stebbing, M., &amp; Furness, J. (2024). <i>Morphologies dimensions and targets of gastric nitric oxide synthase neurons in the rat stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/MHJI-CN6N",
+            "versions": [
+                {
+                    "doi": "10.26275/mhji-cn6n",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/tlgo-dfke",
+            "type": "Dataset",
+            "name": "Quantification of thickness of the gastric muscle in the rat stomach",
+            "id": 367,
+            "version": 1,
+            "citation": "Di Natale, M., Patten, L., Furness, J., &amp; Stebbing, M. (2024). <i>Quantification of thickness of the gastric muscle in the rat stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/TLGO-DFKE",
+            "versions": [
+                {
+                    "doi": "10.26275/tlgo-dfke",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.bybtpsnn",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R. Di Natale, M., Patten, L., Stebbing, M., & Furness, J. (2021). Histological quantification of thickness of the mucosal and muscle layers of the rat stomach v1. https://doi.org/10.17504/protocols.io.bybtpsnn\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/yv7l-9fst",
+            "type": "Dataset",
+            "name": "Synaptic components function and modulation characterized by GCaMP6f calcium imaging in cholinergic myenteric ganglion neurons",
+            "id": 368,
+            "version": 1,
+            "citation": "Margiotta, J., Howard, M., Smith-Edwards, K., Albers, K., &amp; Davis, B. (2024). <i>Synaptic components function and modulation characterized by GCaMP6f calcium imaging in cholinergic myenteric ganglion neurons</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/YV7L-9FST",
+            "versions": [
+                {
+                    "doi": "10.26275/yv7l-9fst",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1016/j.jcmgh.2021.08.016",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Nestor-Kalinoski, A., Smith-Edwards, K. M., Meerschaert, K., Margiotta, J. F., Rajwa, B., Davis, B. M., & Howard, M. J. (2022). Unique Neural Circuit Connectivity of Mouse Proximal, Middle, and Distal Colon Defines Regional Colonic Motor Patterns. Cellular and Molecular Gastroenterology and Hepatology, 13(1), 309-337.e3. https://doi.org/10.1016/j.jcmgh.2021.08.016\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/79vx-xnat",
+            "type": "Dataset",
+            "name": "Quantitation of nodose neurons labelled by retrograde tracing from selective injections into the gastric mucosa or muscle in the antrum and fundus",
+            "id": 369,
+            "version": 1,
+            "citation": "Molero, J., Furness, J., &amp; Stebbing, M. (2022). <i>Quantitation of nodose neurons labelled by retrograde tracing from selective injections into the gastric mucosa or muscle in the antrum and fundus</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/79VX-XNAT",
+            "versions": [
+                {
+                    "doi": "10.26275/79vx-xnat",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/n12j-ubmj",
+            "type": "Dataset",
+            "name": "RNAseq analysis of  nodose neurons projecting to specific regions and tissue layers within the rat stomach",
+            "id": 370,
+            "version": 1,
+            "citation": "Stebbing, M., Furness, J., &amp; Molero, J. (2022). <i>RNAseq analysis of  nodose neurons projecting to specific regions and tissue layers within the rat stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/N12J-UBMJ",
+            "versions": [
+                {
+                    "doi": "10.26275/n12j-ubmj",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/gud3-alhy",
+            "type": "Dataset",
+            "name": "Quantitation of nodose neurons labelled by retrograde tracing from selective gastric mucosal and gastric muscle injection",
+            "id": 371,
+            "version": 1,
+            "citation": "Molero, J., Stebbing, M., &amp; Furness, J. (2024). <i>Quantitation of nodose neurons labelled by retrograde tracing from selective gastric mucosal and gastric muscle injection</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/GUD3-ALHY",
+            "versions": [
+                {
+                    "doi": "10.26275/gud3-alhy",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/lcqj-dvpi",
+            "type": "Dataset",
+            "name": "Sex differences in sympathetic gene expression and cardiac neurochemistry in Wistar Kyoto rats",
+            "id": 372,
+            "version": 1,
+            "citation": "Bayles, R., Woodward, W., &amp; Habecker, B. (2023). <i>Sex differences in sympathetic gene expression and cardiac neurochemistry in Wistar Kyoto rats</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/LCQJ-DVPI",
+            "versions": [
+                {
+                    "doi": "10.26275/lcqj-dvpi",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/86ve-meck",
+            "type": "Dataset",
+            "name": "Distribution and morphology of calcitonin gene-related peptide (CGRP) innervation in flat mounts of whole rat atria and ventricles",
+            "id": 373,
+            "version": 1,
+            "citation": "Chen, J., Bendowski, K., Bizanti, A. (G., Hoover, D., Gozal, D., Shivkumar, K., &amp; Cheng, Z. (2024). <i>Distribution and morphology of calcitonin gene-related peptide (CGRP) innervation in flat mounts of whole rat atria and ventricles</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/86VE-MECK",
+            "versions": [
+                {
+                    "doi": "10.26275/86ve-meck",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.3byl4qd38vo5/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Chen, J. (2023). Distribution and Morphology of Calcitonin Gene-Related Peptide (CGRP) Innervation in Flat Mounts of Whole Rat Atria and Ventricles v1. https://doi.org/10.17504/protocols.io.3byl4qd38vo5/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/eauv-gxwl",
+            "type": "Dataset",
+            "name": "Electrocardiogram recordings in mice during vagus nerve stimulation",
+            "id": 375,
+            "version": 1,
+            "citation": "Huffman, W., Pelot, N. A., &amp; Grill, W. M. (2024). <i>Electrocardiogram recordings in mice during vagus nerve stimulation</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/EAUV-GXWL",
+            "versions": [
+                {
+                    "doi": "10.26275/eauv-gxwl",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.5jyl8pop7g2w/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Huffman, W., A Pelot, N., & Grill, W. (2024). Acute testing of temporal patterns of vagus nerve stimulation on physiological outcomes in mouse v1. https://doi.org/10.17504/protocols.io.5jyl8pop7g2w/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/2xys-dleh",
+            "type": "Dataset",
+            "name": "Electromyogram recordings in mice during vagus nerve stimulation",
+            "id": 376,
+            "version": 1,
+            "citation": "Huffman, W., Pelot, N. A., &amp; Grill, W. M. (2024). <i>Electromyogram recordings in mice during vagus nerve stimulation</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/2XYS-DLEH",
+            "versions": [
+                {
+                    "doi": "10.26275/2xys-dleh",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.5jyl8pop7g2w/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Huffman, W., A Pelot, N., & Grill, W. (2024). Acute testing of temporal patterns of vagus nerve stimulation on physiological outcomes in mouse v1. https://doi.org/10.17504/protocols.io.5jyl8pop7g2w/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/2njc-khrp",
+            "type": "Dataset",
+            "name": "Effects of manipulating epithelial cell-nerve signaling on anxiety-like behavior in mice",
+            "id": 377,
+            "version": 1,
+            "citation": "Ingraham, H., &amp; Venkataraman, A. (2024). <i>Effects of manipulating epithelial cell-nerve signaling on anxiety-like behavior in mice</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/2NJC-KHRP",
+            "versions": [
+                {
+                    "doi": "10.26275/2njc-khrp",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/7ax5-ngsl",
+            "type": "Dataset",
+            "name": "Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury",
+            "id": 378,
+            "version": 1,
+            "citation": "Medina Aguinaga, D., Herrity, A., Aslan, S. C., Mesbah, S., Siu, R., Kalvakuri, K., Ugiliweneza, B., Mohamed, A., Hubscher, C., &amp; Harkema, S. (2024). <i>Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/7AX5-NGSL",
+            "versions": [
+                {
+                    "doi": "10.26275/7ax5-ngsl",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/ixhd-0pfa",
+            "type": "Dataset",
+            "name": "A mathematical model for simulating the neural regulation of phasic contractions and slow waves in the distal stomach",
+            "id": 379,
+            "version": 1,
+            "citation": "Athavale, O., Iavarone, E., Du, P., &amp; Cheng, L. K. (2024). <i>A mathematical model for simulating the neural regulation of phasic contractions and slow waves in the distal stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/IXHD-0PFA",
+            "versions": [
+                {
+                    "doi": "10.26275/ixhd-0pfa",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/aw2z-a49z",
+            "type": "Dataset",
+            "name": "Influence of vagus nerve stimulation on vagal and cardiac activity in freely moving pigs",
+            "id": 380,
+            "version": 1,
+            "citation": "Armitage, O., Sarkans, E., Fortier-Poisson, P., Wernisch, L., Berthon, A., &amp; Tessier-Larivi\u00e8re, O. (2024). <i>Influence of vagus nerve stimulation on vagal and cardiac activity in freely moving pigs</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/AW2Z-A49Z",
+            "versions": [
+                {
+                    "doi": "10.26275/aw2z-a49z",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/zphj-6qnb",
+            "type": "Dataset",
+            "name": "Mapping of vagal sensory nerve populations and their brainstem projections in mice",
+            "id": 381,
+            "version": 1,
+            "citation": "Kim, S.-H., &amp; Taylor-Clark, T. (2024). <i>Mapping of vagal sensory nerve populations and their brainstem projections in mice</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/ZPHJ-6QNB",
+            "versions": [
+                {
+                    "doi": "10.26275/zphj-6qnb",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/cljd-yjqy",
+            "type": "Dataset",
+            "name": "Calcitonin gene-related peptide - immunoreactive (CGRP-IR) axon innervation of mouse stomach",
+            "id": 230,
+            "version": 2,
+            "citation": "Nguyen, D., Ma, J., Madas, J., Mistareehi, A., Chen, J., Heal, M., Baldwin, S., Tappan, S., Lin, M., Christie, R., Hunter, P., Powley, T. L., &amp; Cheng, Z. (2024). <i>Calcitonin gene-related peptide - immunoreactive (CGRP-IR) axon innervation of mouse stomach</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/CLJD-YJQY",
+            "versions": [
+                {
+                    "doi": "10.26275/upm9-v4ya",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/cljd-yjqy",
+                    "version": 2
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.6qpvr6k7zvmk/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Mapping CGRP-IR innervation of male mice stomach with Neurolucida 360 v1. (2022). https://doi.org/10.17504/protocols.io.6qpvr6k7zvmk/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/cheq-otb2",
+            "type": "Dataset",
+            "name": "Intravenously injected AAV9 transduced interstitial cells of Cajal in mouse colon",
+            "id": 382,
+            "version": 1,
+            "citation": "Wang, L., Tache, Y., &amp; Bains, M. (2024). <i>Intravenously injected AAV9 transduced interstitial cells of Cajal in mouse colon</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/CHEQ-OTB2",
+            "versions": [
+                {
+                    "doi": "10.26275/cheq-otb2",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/zkyy-6ytu",
+            "type": "Dataset",
+            "name": "Excitation properties of computational models of unmyelinated peripheral axons",
+            "id": 86,
+            "version": 5,
+            "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., &amp; Grill, W. M. (2024). <i>Excitation properties of computational models of unmyelinated peripheral axons</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/ZKYY-6YTU",
+            "versions": [
+                {
+                    "doi": "10.26275/zmz1-3hmj",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/defd-macu",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/iiwv-k07f",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/bpz2-7qni",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/zkyy-6ytu",
+                    "version": 5
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1152/jn.00315.2020",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., Titus, N. D., Liang, E. D., Henriquez, C. S., & Grill, W. M. (2021). Excitation properties of computational models of unmyelinated peripheral axons. Journal of Neurophysiology, 125(1), 86\u00e2\u0080\u0093104. https://doi.org/10.1152/jn.00315.2020\n",
+                    "source": "SPARC"
                 }
             ]
         }
