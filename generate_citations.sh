@@ -10,3 +10,5 @@ python3 /home/ec2-user/SPARC-Citations/data_citations.py >> /home/ec2-user/SPARC
 python3 /home/ec2-user/SPARC-Citations/output_citations.py >> /home/ec2-user/SPARC-Citations/logs/run_$current_date.log 2>&1
 
 /home/ec2-user/SPARC-Citations/pandoc-3.1/bin/pandoc --pdf-engine wkhtmltopdf /home/ec2-user/SPARC-Citations/citation_markdown.md -o /home/ec2-user/SPARC-Citations/citation_markdown.pdf 
+
+python3 /home/ec2-user/SPARC-Citations/export_tsv.py
