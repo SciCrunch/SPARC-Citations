@@ -1,0 +1,779 @@
+dataset_id	dataset_doi	dataset_type	dataset_name	citation_curie	citation_relationship	citation_type	citation_comment	citation_citation	citation_source
+44	10.26275/duz8-mq3n	Dataset	Computational modelling of the mechanical behavior of the colon	doi:10.17504/protocols.io.wzeff3e	IsDocumentedBy	Protocol		"Patel, B. (2019). Simulating colonic tissue mechanics using a structure-based material model in Abaqus v1. https://doi.org/10.17504/protocols.io.wzeff3e
+"	SPARC
+44	10.26275/duz8-mq3n	Dataset	Computational modelling of the mechanical behavior of the colon	doi:10.1016/j.jmbbm.2017.08.031	Describes	Originating Publication		"Patel, B., Chen, H., Ahuja, A., Krieger, J. F., Noblet, J., Chambers, S., & Kassab, G. S. (2018). Constitutive modeling of the passive inflation-extension behavior of the swine colon. Journal of the Mechanical Behavior of Biomedical Materials, 77, 176â186. https://doi.org/10.1016/j.jmbbm.2017.08.031
+"	SPARC
+48	10.26275/t4ng-2zm6	Dataset	Chronic interfacing with the autonomic nervous system using carbon nanotube (CNT) yarn electrodes	doi:10.17504/protocols.io.wssfeee	IsDocumentedBy	Protocol		"Glossopharyngeal Nerve Chronic  Recording In Anesthetized Rat v1. (2019). https://doi.org/10.17504/protocols.io.wssfeee
+"	SPARC
+48	10.26275/t4ng-2zm6	Dataset	Chronic interfacing with the autonomic nervous system using carbon nanotube (CNT) yarn electrodes	doi:10.1038/s41598-017-10639-w	Describes	Originating Publication		"McCallum, G. A., Sui, X., Qiu, C., Marmerstein, J., Zheng, Y., Eggers, T. E., Hu, C., Dai, L., & Durand, D. M. (2017). Chronic interfacing with the autonomic nervous system using carbon nanotube (CNT) yarn electrodes. Scientific Reports, 7(1). https://doi.org/10.1038/s41598-017-10639-w
+"	SPARC
+9	10.26275/qh3q-elj6	Dataset	Influence of left vagal stimulus pulse parameters on vagal and gastric activity in rat	doi:10.17504/protocols.io.2kugcww	IsDocumentedBy	Protocol		"Ward, M., V Nowak, T., Tan, Z., Rajwa, B., Phillips, R., & L Powley, T. (2019). A simple approach to identify the influence of left vagal stimulus pulse parameters on vagal and gastric electrical activity in rat v1. https://doi.org/10.17504/protocols.io.2kugcww
+"	SPARC
+9	10.26275/qh3q-elj6	Dataset	Influence of left vagal stimulus pulse parameters on vagal and gastric activity in rat	doi:10.1109/TNSRE.2014.2351271	Describes	Originating Publication		"Ward, M. P., Qing, K. Y., Otto, K. J., Worth, R. M., John, S. W. M., & Irazoqui, P. P. (2015). A Flexible Platform for Biofeedback-Driven Control and Personalization of Electrical Nerve Stimulation Therapy. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 23(3), 475â484. https://doi.org/10.1109/tnsre.2014.2351271
+"	SPARC
+9	10.26275/qh3q-elj6	Dataset	Influence of left vagal stimulus pulse parameters on vagal and gastric activity in rat	doi:10.1101/2023.08.30.555315	Cites	Work		"Wernisch, L., Edwards, T., Berthon, A., Tessier-Lariviere, O., Sarkans, E., Stoukidi, M., Fortier-Poisson, P., Pinkney, M., Thornton, M., Hanley, C., Lee, S., Jennings, J., Appleton, B., Garsed, P., Patterson, B., Buttinger, W., Gonshaw, S., Jakopec, M., Shunmugam, S., â¦ Hewage, E. (2023). Online Bayesian Optimization of Nerve Stimulation. https://doi.org/10.1101/2023.08.30.555315
+"	OCI
+50	10.26275/guqw-r3ca	Dataset	Processed fMRI data of transcutaneous auricular vagus nerve (taVNS) stimulation in humans	doi:10.17504/protocols.io.9zqh75w	IsDocumentedBy	Protocol		"Napadow, V., Sclocco, R., Napadow, V., & Sclocco, R. (2019). 7T MRI Protocol for response to Respiratory-gated Auricular Vagal Afferent Nerve Stimulation v1. https://doi.org/10.17504/protocols.io.9zqh75w
+"	SPARC
+24	10.26275/mvwc-fnqm	Dataset	Vagus nerve stimulation promotes gastric emptying by increasing pyloric opening measured with magnetic resonance imaging	doi:10.17504/protocols.io.wvxfe7n	IsDocumentedBy	Protocol		"Lu, K.-H., Liu, Z., & Cao, J. (2019). Contrast-enhanced magnetic resonance imaging of gastric emptying and motility in rats v1. https://doi.org/10.17504/protocols.io.wvxfe7n
+"	SPARC
+24	10.26275/mvwc-fnqm	Dataset	Vagus nerve stimulation promotes gastric emptying by increasing pyloric opening measured with magnetic resonance imaging	doi:10.1111/nmo.13380	Describes	Originating Publication		"Lu, K. âH., Cao, J., Oleson, S., Ward, M. P., Phillips, R. J., Powley, T. L., & Liu, Z. (2018). Vagus nerve stimulation promotes gastric emptying by increasing pyloric opening measured with magnetic resonance imaging. Neurogastroenterology &amp; Motility, 30(10). Portico. https://doi.org/10.1111/nmo.13380
+"	SPARC
+52	10.26275/c4xq-9kl0	Dataset	Effect of intermittent hypoxia preconditioning in rats with chronic cervical spinal cord injury – An electrophysiological study	doi:10.17504/protocols.io.2jpgcmn	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Tadjalli, A., Perim, R., & Mitchell, G. (2019). SPARC bilateral terminal phrenic neurophysiology preparation with moderate acute intermittent hypoxia v1. https://doi.org/10.17504/protocols.io.2jpgcmn
+"	SPARC
+52	10.26275/c4xq-9kl0	Dataset	Effect of intermittent hypoxia preconditioning in rats with chronic cervical spinal cord injury – An electrophysiological study	doi:10.17504/protocols.io.2j3gcqn	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Allen, L., Simon, A., Seven, Y., Ciesla, M., & Mitchell, G. (2019). SPARC Long-term exposure to intermittent hypoxia (or normoxia) using a custom in-cage computer controlled system v1. https://doi.org/10.17504/protocols.io.2j3gcqn
+"	SPARC
+55	10.26275/pzek-91wx	Dataset	Robust 3-Dimensional visualization of human colon enteric nervous system without tissue sectioning	doi:10.17504/protocols.io.wyeffte	IsDocumentedBy	Protocol		"Heuckeroth, R., Huerta Lopez, S., Graham, K., & Sengupta, R. (2019). Human colon tissue clearing and Immunohistochemistry v1. https://doi.org/10.17504/protocols.io.wyeffte
+"	SPARC
+54	10.26275/ge74-ypxd	Dataset	Visualizing sympathetic projections in the intact brown adipose tissue depot in the mouse	doi:10.17504/protocols.io.wqmfdu6	IsDocumentedBy	Protocol		"Lee, S., & Zeltser, L. (2019). iDisco immunolabeling in brown adipose tissue (BAT) v1. https://doi.org/10.17504/protocols.io.wqmfdu6
+"	SPARC
+56	10.26275/dwzu-xtmj	Dataset	Cholera toxin B retrograde tracing from brown adipose tissue and forelimb to the stellate ganglion	doi:10.17504/protocols.io.wjrfcm6	IsDocumentedBy	Protocol		"Lee, S., & Zeltser, L. (2018). Retrograde labeling of brown adipose tissue (BAT)-projecting sympathetic neurons with cholera toxin B (CTB) v1. https://doi.org/10.17504/protocols.io.wjrfcm6
+"	SPARC
+57	10.26275/xmsp-wwtu	Dataset	Quantification of Cholera Toxin Subunit Beta (CTb) positive neurons in the coeliac nodose and dorsal root ganglia 1 week after pancreas injection in mice	doi:10.17504/protocols.io.14egnx47pl5d/v1	IsDocumentedBy	Protocol		"Jimenez Gonzalez, M. (2019). Intrapancreatic injection surgery v1. https://doi.org/10.17504/protocols.io.14egnx47pl5d/v1
+"	SPARC
+58	10.26275/w4my-puqm	Dataset	Functional neuronal nodose recording from pig- Modulation by myocardial ischemia and variably coupled PVC's	doi:10.17504/protocols.io.2i4gcgw	IsDocumentedBy	Protocol		"Ardell, J. (2019). Pig-Neural recording and analysis-workflow v1. https://doi.org/10.17504/protocols.io.2i4gcgw
+"	SPARC
+58	10.26275/w4my-puqm	Dataset	Functional neuronal nodose recording from pig- Modulation by myocardial ischemia and variably coupled PVC's	doi:10.17504/protocols.io.2ncgdaw	IsDocumentedBy	Protocol		"Vaseghi, M., & Ardell, J. (2019). Pig Nodose Ganglion protocol v1. https://doi.org/10.17504/protocols.io.2ncgdaw
+"	SPARC
+58	10.26275/w4my-puqm	Dataset	Functional neuronal nodose recording from pig- Modulation by myocardial ischemia and variably coupled PVC's	doi:10.1152/ajpheart.00286.2019	Describes	Originating Publication		"Salavatian, S., Yamaguchi, N., Hoang, J., Lin, N., Patel, S., Ardell, J. L., Armour, J. A., & Vaseghi, M. (2019). Premature ventricular contractions activate vagal afferents and alter autonomic tone: implications for premature ventricular contraction-induced cardiomyopathy. American Journal of Physiology-Heart and Circulatory Physiology, 317(3), H607âH616. https://doi.org/10.1152/ajpheart.00286.2019
+"	SPARC
+59	10.26275/ppgj-qqpf	Dataset	Mapping of human gastric enteroendocrine cells	doi:10.17504/protocols.io.w3tfgnn	IsDocumentedBy	Protocol		"Immunohistochemistry and high resolution microscopy of human gastric enteroendocrine cells v1. (2019). https://doi.org/10.17504/protocols.io.w3tfgnn
+"	SPARC
+59	10.26275/ppgj-qqpf	Dataset	Mapping of human gastric enteroendocrine cells	doi:10.1007/s00441-018-2957-0	Describes	Originating Publication		"Fakhry, J., Stebbing, M. J., Hunne, B., Bayguinov, Y., Ward, S. M., Sasse, K. C., Callaghan, B., McQuade, R. M., & Furness, J. B. (2018). Relationships of endocrine cells to each other and to other cell types in the human gastric fundus and corpus. Cell and Tissue Research, 376(1), 37â49. https://doi.org/10.1007/s00441-018-2957-0
+"	SPARC
+21	10.26275/mzth-oxbk	Dataset	Quantification of the relationship between rat gastric nerve fibers and enteroendocrine cells (EEC)	doi:10.17504/protocols.io.xz8fp9w	IsDocumentedBy	Protocol		"Hunne, B., Stebbing, M., M McQuade, R., & B Furness, J. (2019). Immunohistochemistry and high resolution microscopy of rat gastric nerve fibers and their relationship with enteroendocrine cells v1. https://doi.org/10.17504/protocols.io.xz8fp9w
+"	SPARC
+20	10.26275/o9qr-l4x9	Dataset	Quantification of rat gastric enteroendocrine cells	doi:10.17504/protocols.io.xeyfjfw	IsDocumentedBy	Protocol		"Hunne, B., Stebbing, M., M. McQuade, R., & B. Furness, J. (2019). Immunohistochemistry and high resolution microscopy of rat gastric enteroendocrine cells v1. https://doi.org/10.17504/protocols.io.xeyfjfw
+"	SPARC
+20	10.26275/o9qr-l4x9	Dataset	Quantification of rat gastric enteroendocrine cells	doi:10.1007/s00441-019-03029-3	Describes	Originating Publication		"Hunne, B., Stebbing, M. J., McQuade, R. M., & Furness, J. B. (2019). Distributions and relationships of chemically defined enteroendocrine cells in the rat gastric mucosa. Cell and Tissue Research, 378(1), 33â48. https://doi.org/10.1007/s00441-019-03029-3
+"	SPARC
+62	10.26275/spfh-lx9g	Dataset	Imaging fast neural traffic at fascicular level with electrical impedance tomography - Proof of principle in rat sciatic nerve	doi:10.17504/protocols.io.ww7ffhn	IsDocumentedBy	Protocol		"Aristovich, K., Donega, M., & Holder, D. (2019). EIT data aquisition in rat sciatic nerve using stimulation of tibial and peroneal branches v1. https://doi.org/10.17504/protocols.io.ww7ffhn
+"	SPARC
+62	10.26275/spfh-lx9g	Dataset	Imaging fast neural traffic at fascicular level with electrical impedance tomography - Proof of principle in rat sciatic nerve	doi:10.1088/1741-2552/aad78e	Describes	Originating Publication		"Aristovich, K., DonegÃ¡, M., Blochet, C., Avery, J., Hannan, S., Chew, D. J., & Holder, D. (2018). Imaging fast neural traffic at fascicular level with electrical impedance tomography: proof of principle in rat sciatic nerve. Journal of Neural Engineering, 15(5), 056025. https://doi.org/10.1088/1741-2552/aad78e
+"	SPARC
+10	10.26275/wzry-sf7v	Dataset	Spatial distribution and morphometric characterization of vagal afferents associated with the myenteric plexus of the rat stomach	doi:10.17504/protocols.io.2ipgcdn	IsDocumentedBy	Protocol		"Powley, T., Mcadams, J., & Phillips, R. (2019). High resolution labeling of vagal afferent fibers using Dextran-Biotin with counterstaining v1. https://doi.org/10.17504/protocols.io.2ipgcdn
+"	SPARC
+10	10.26275/wzry-sf7v	Dataset	Spatial distribution and morphometric characterization of vagal afferents associated with the myenteric plexus of the rat stomach	doi:10.1152/ajpregu.00111.2020	Cites	Work		"Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331âR341. https://doi.org/10.1152/ajpregu.00111.2020
+"	OCI
+11	10.26275/3m8n-0owa	Dataset	Spatial distribution and morphometric characterization of vagal afferents (intramuscular arrays (IMAs)) within the longitudinal and circular muscle layers of the rat stomach	doi:10.17504/protocols.io.2ipgcdn	IsDocumentedBy	Protocol		"Powley, T., Mcadams, J., & Phillips, R. (2019). High resolution labeling of vagal afferent fibers using Dextran-Biotin with counterstaining v1. https://doi.org/10.17504/protocols.io.2ipgcdn
+"	SPARC
+11	10.26275/3m8n-0owa	Dataset	Spatial distribution and morphometric characterization of vagal afferents (intramuscular arrays (IMAs)) within the longitudinal and circular muscle layers of the rat stomach	doi:10.1002/cne.23892	Describes	Originating Publication		"Powley, T. L., Hudson, C. N., McAdams, J. L., Baronowsky, E. A., & Phillips, R. J. (2015). Vagal Intramuscular Arrays: The Specialized Mechanoreceptor Arbors That Innervate the Smooth Muscle Layers of the Stomach Examined in the Rat. Journal of Comparative Neurology, 524(4), 713â737. Portico. https://doi.org/10.1002/cne.23892
+"	SPARC
+11	10.26275/3m8n-0owa	Dataset	Spatial distribution and morphometric characterization of vagal afferents (intramuscular arrays (IMAs)) within the longitudinal and circular muscle layers of the rat stomach	doi:10.1152/ajpregu.00111.2020	Cites	Work		"Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331âR341. https://doi.org/10.1152/ajpregu.00111.2020
+"	OCI
+12	10.26275/ukz3-0fao	Dataset	Spatial distribution and morphometric characterization of vagal efferents associated with the myenteric plexus of the rat stomach	doi:10.17504/protocols.io.2iqgcdw	IsDocumentedBy	Protocol		"Jaffey, D., Powley, T., Mcadams, J., & Phillips, R. (2019). High resolution labeling of vagal efferent fibers using Dextran-Biotin with counterstaining v1. https://doi.org/10.17504/protocols.io.2iqgcdw
+"	SPARC
+12	10.26275/ukz3-0fao	Dataset	Spatial distribution and morphometric characterization of vagal efferents associated with the myenteric plexus of the rat stomach	doi:10.1038/s41583-021-00544-7	Cites	Work		"Kim, M., Heo, G., & Kim, S.-Y. (2022). Neural signalling of gut mechanosensation in ingestive and digestive processes. Nature Reviews Neuroscience, 23(3), 135â156. https://doi.org/10.1038/s41583-021-00544-7
+"	OCI
+12	10.26275/ukz3-0fao	Dataset	Spatial distribution and morphometric characterization of vagal efferents associated with the myenteric plexus of the rat stomach	doi:10.1152/ajpregu.00260.2022	Cites	Work		"Jaffey, D. M., McAdams, J. L., Baronowsky, E. A., Black, D., & Powley, T. L. (2023). Vagal preganglionic axons arborize in the myenteric plexus into two types: nitrergic and non-nitrergic postganglionic motor pools? American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 324(3), R305âR316. https://doi.org/10.1152/ajpregu.00260.2022
+"	Datacite
+35	10.26275/1upo-xvkt	Dataset	Feline brainstem neuron extracellular potential recordings	doi:10.17504/protocols.io.bci8iuhw	IsDocumentedBy	Protocol		"Segers, L., Morris, K., & Bolser, D. (2020). Morris USF Lab protocol v2. https://doi.org/10.17504/protocols.io.bci8iuhw
+"	SPARC
+35	10.26275/1upo-xvkt	Dataset	Feline brainstem neuron extracellular potential recordings	doi:10.3389/fphys.2018.00785	Describes	Originating Publication		"Horton, K.-K., Segers, L. S., Nuding, S. C., OâConnor, R., Alencar, P. A., Davenport, P. W., Bolser, D. C., Pitts, T., Lindsey, B. G., Morris, K. F., & Gestreau, C. (2018). Central Respiration and Mechanical Ventilation in the Gating of Swallow With Breathing. Frontiers in Physiology, 9. https://doi.org/10.3389/fphys.2018.00785
+"	SPARC
+35	10.26275/1upo-xvkt	Dataset	Feline brainstem neuron extracellular potential recordings	doi:10.1101/2021.02.10.430563	Cites	Work		"Bandrowski, A., Grethe, J. S., Pilko, A., Gillespie, T., Pine, G., Patel, B., Surles-Zeigler, M., & Martone, M. E. (2021). SPARC Data Structure: Rationale and Design of a FAIR Standard for Biomedical Research Data. https://doi.org/10.1101/2021.02.10.430563
+"	K-Core
+63	10.26275/uztw-z5sc	Dataset	Prototype simulation of undiseased human cardiac ventricular cells	doi:10.17504/protocols.io.xjwfkpe	IsDocumentedBy	Protocol		"clancy, C., & Yang, P.-C. (2019). Undiseased Human Cardiac Ventricular Cells v1. https://doi.org/10.17504/protocols.io.xjwfkpe
+"	SPARC
+63	10.26275/uztw-z5sc	Dataset	Prototype simulation of undiseased human cardiac ventricular cells	doi:10.1371/journal.pcbi.1002061	Describes	Originating Publication		"OâHara, T., VirÃ¡g, L., VarrÃ³, A., & Rudy, Y. (2011). Simulation of the Undiseased Human Cardiac Ventricular Action Potential: Model Formulation and Experimental Validation. PLoS Computational Biology, 7(5), e1002061. https://doi.org/10.1371/journal.pcbi.1002061
+"	SPARC
+51	10.26275/osy6-dn3o	Dataset	Bilateral recordings of cervical vagus nerve activity in rats	doi:10.17504/protocols.io.yxhfxj6	IsDocumentedBy	Protocol		"Napadow, V., Ay, I., & Morello, C. (2019). Recordings of cervical vagus nerve activity v1. https://doi.org/10.17504/protocols.io.yxhfxj6
+"	SPARC
+73	10.26275/xkoa-oqec	Dataset	iBAT (interscapular Brown Adipose Tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.wzuff6w	IsDocumentedBy	Protocol		"Huesing, C., Muenzberg, H., Burk, D., & Torres, H. (2019). iDISCO protocol for whole-mount immunostaining and volume imaging v1. https://doi.org/10.17504/protocols.io.wzuff6w
+"	SPARC
+73	10.26275/xkoa-oqec	Dataset	iBAT (interscapular Brown Adipose Tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.wz3ff8n	IsDocumentedBy	Protocol		"Huesing, C., Torres, H., Burk, D., & Muenzberg, H. (2019). Light sheet microscopy v1. https://doi.org/10.17504/protocols.io.wz3ff8n
+"	SPARC
+73	10.26275/xkoa-oqec	Dataset	iBAT (interscapular Brown Adipose Tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.w2vfge6	IsDocumentedBy	Protocol		"Pseudorabies Virus (PRV) injection into interscapular brown adipose tissue v1. (2019). https://doi.org/10.17504/protocols.io.w2vfge6
+"	SPARC
+49	10.26275/63lh-hdz5	Dataset	Electrophysiology in dog after subcutaneous nerve stimulation	doi:10.1016/j.hrthm.2019.02.027	Describes	Originating Publication		"Wan, J., Chen, M., Yuan, Y., Wang, Z., Shen, C., Fishbein, M. C., Chen, Z., Wong, J., Grant, M. B., Everett, T. H., & Chen, P.-S. (2019). Antiarrhythmic and proarrhythmic effects of subcutaneous nerve stimulation in ambulatory dogs. Heart Rhythm, 16(8), 1251â1260. https://doi.org/10.1016/j.hrthm.2019.02.027
+"	SPARC
+49	10.26275/63lh-hdz5	Dataset	Electrophysiology in dog after subcutaneous nerve stimulation	doi:10.17504/protocols.io.bz5wp87e	Cites	Work		"Subcutaneous nerve stimulation in canine model of persistent atrial fibrillation v1. (2021). https://doi.org/10.17504/protocols.io.bz5wp87e
+"	Datacite
+75	10.26275/prjd-jhoc	Dataset	Submandibular ganglion stained by bungarotoxin and nanosensors in mouse	doi:10.17504/protocols.io.wxrffm6	IsDocumentedBy	Protocol		"Staining and imaging of mouse submandibular ganglion by Î±-bungarotoxin and nanosensor v1. (2019). https://doi.org/10.17504/protocols.io.wxrffm6
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2j3gcqn	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Allen, L., Simon, A., Seven, Y., Ciesla, M., & Mitchell, G. (2019). SPARC Long-term exposure to intermittent hypoxia (or normoxia) using a custom in-cage computer controlled system v1. https://doi.org/10.17504/protocols.io.2j3gcqn
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kfgctn	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Seven, Y., Allen, L., Ciesla, M., & Mitchell, G. (2019). SPARC Adenosine 2A Receptor Immunohistochemistry Protocol in Rat Tissues Labeled with Cholera Toxin B-fragment v1. https://doi.org/10.17504/protocols.io.2kfgctn
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kggctw	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Seven, Y., Allen, L., Ciesla, M., & Mitchell, G. (2019). SPARC Serotonin (5-HT) Immunohistochemistry Protocol in Rat Tissues Labeled with Cholera Toxin B-fragment v1. https://doi.org/10.17504/protocols.io.2kggctw
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2khgct6	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Seven, Y., Allen, L., Ciesla, M., & Mitchell, G. (2019). SPARC Serotonin 2A Receptor (5-HT2AR) Immunohistochemistry Protocol in Rat Tissues Labeled with Cholera Toxin B-fragment v1. https://doi.org/10.17504/protocols.io.2khgct6
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kigcue	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Seven, Y., Allen, L., Ciesla, M., & Mitchell, G. (2019). SPARC Serotonin 2B Receptor (5-HT2BR) Immunohistochemistry Protocol in Rat Tissues Labeled with Cholera Toxin B-fragment v1. https://doi.org/10.17504/protocols.io.2kigcue
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kjgcun	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Seven, Y., Allen, L., Ciesla, M., & Mitchell, G. (2019). SPARC Serotonin 7 Receptor (5-HT7) Immunohistochemistry Protocol in Rat Tissues Labeled with Cholera Toxin B-fragment v1. https://doi.org/10.17504/protocols.io.2kjgcun
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kngcve	IsDocumentedBy	Protocol		"Gonzalez-Rothi, E., Ciesla, M., Allen, L., & Mitchell, G. (2019). SPARC C2 Spinal Cord Hemisection Protocol in Rats v1. https://doi.org/10.17504/protocols.io.2kngcve
+"	SPARC
+53	10.26275/nnyt-bqpg	Dataset	Phrenic nerve immunohistochemistry	doi:10.17504/protocols.io.2kpgcvn	IsDocumentedBy	Protocol		"Allen, L., Ciesla, M., Seven, Y., Gonzalez-Rothi, E., & Pool, G. (2019). SPARC Retrograde Neuroanatomical Tracing of Phrenic Motor Neurons Using Intrapleural Injections of Cholera Toxin B Fragment v1. https://doi.org/10.17504/protocols.io.2kpgcvn
+"	SPARC
+28	10.26275/owri-mpsx	Dataset	Functional recordings from the pig intrinsic cardiac nervous system (ICN)	doi:10.17504/protocols.io.2jugcnw	IsDocumentedBy	Protocol		"Ardell, J. (2019). Pig ICN recording v1. https://doi.org/10.17504/protocols.io.2jugcnw
+"	SPARC
+28	10.26275/owri-mpsx	Dataset	Functional recordings from the pig intrinsic cardiac nervous system (ICN)	doi:10.1016/j.ifacol.2023.01.031	Cites	Work		"Gee, M. M., Lenhoff, A. M., Schwaber, J. S., Ogunnaike, B. A., & Vadigepalli, R. (2022). Modeling and Analysis of the Intrinsic Cardiac Nervous System in Closed-Loop Cardiovascular Control. IFAC-PapersOnLine, 55(23), 146â147. https://doi.org/10.1016/j.ifacol.2023.01.031
+"	Datacite
+82	10.26275/pgr9-bk2e	Dataset	Pig vagus nerve stained with Masson's trichrome	doi:10.17504/protocols.io.6bqhamw	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_PigVagusNerve_Collection_Histology_Microscopy v1. (2019). https://doi.org/10.17504/protocols.io.6bqhamw
+"	SPARC
+16	10.26275/z3ab-7j9y	Dataset	Rat vagus nerve stained with Masson's trichrome	doi:10.17504/protocols.io.ww3ffgn	IsDocumentedBy	Protocol		"SPARC_Duke_Grill_OT2-OD025340_RatVagusNerveCollectionHistologyMicroscopy v1. (2019). https://doi.org/10.17504/protocols.io.ww3ffgn
+"	SPARC
+16	10.26275/z3ab-7j9y	Dataset	Rat vagus nerve stained with Masson's trichrome	doi:10.17504/protocols.io.bh4bj8sn	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_RatVagusNerve_Collection_Histology_Microscopy v2. (2020). https://doi.org/10.17504/protocols.io.bh4bj8sn
+"	SPARC
+16	10.26275/z3ab-7j9y	Dataset	Rat vagus nerve stained with Masson's trichrome	doi:10.3389/fnins.2020.601479	Describes	Originating Publication		"Pelot, N. A., Goldhagen, G. B., Cariello, J. E., Musselman, E. D., Clissold, K. A., Ezzell, J. A., & Grill, W. M. (2020). Quantified Morphology of the Cervical and Subdiaphragmatic Vagus Nerves of Human, Pig, and Rat. Frontiers in Neuroscience, 14. https://doi.org/10.3389/fnins.2020.601479
+"	K-Core
+41	10.26275/boe7-1bms	Dataset	Characterizing the effect of feeding distension and emetic stimuli on gastric myoelectric activity in ferrets	doi:10.17504/protocols.io.6a7hahn	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Acute surgery and experimentation of the gastrointestinal tract and vagus nerve in the ferret v1. https://doi.org/10.17504/protocols.io.6a7hahn
+"	SPARC
+41	10.26275/boe7-1bms	Dataset	Characterizing the effect of feeding distension and emetic stimuli on gastric myoelectric activity in ferrets	doi:10.17504/protocols.io.6a8hahw	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Gastrointestinal myoelectric recordings from the behaving ferret v1. https://doi.org/10.17504/protocols.io.6a8hahw
+"	SPARC
+41	10.26275/boe7-1bms	Dataset	Characterizing the effect of feeding distension and emetic stimuli on gastric myoelectric activity in ferrets	doi:10.17504/protocols.io.6crhav6	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Chronic implantation of gastrointestinal and vagus nerve electrodes in the ferret v1. https://doi.org/10.17504/protocols.io.6crhav6
+"	SPARC
+41	10.26275/boe7-1bms	Dataset	Characterizing the effect of feeding distension and emetic stimuli on gastric myoelectric activity in ferrets	doi:10.1371/journal.pone.0223279	Describes	Originating Publication		"Nanivadekar, A. C., Miller, D. M., Fulton, S., Wong, L., Ogren, J., Chitnis, G., McLaughlin, B., Zhai, S., Fisher, L. E., Yates, B. J., & Horn, C. C. (2019). Machine learning prediction of emesis and gastrointestinal state in ferrets. PLOS ONE, 14(10), e0223279. https://doi.org/10.1371/journal.pone.0223279
+"	SPARC
+36	10.26275/0y4e-eskx	Dataset	Distribution of nitregic cholinergic and all  myenteric plexus neurons	doi:10.17504/protocols.io.xz6fp9e	IsDocumentedBy	Protocol		"Heredia, D., & Smith, T. (2019). Dissection and fixation of murine colonic tissue for myenteric plexus visualization v1. https://doi.org/10.17504/protocols.io.xz6fp9e
+"	SPARC
+36	10.26275/0y4e-eskx	Dataset	Distribution of nitregic cholinergic and all  myenteric plexus neurons	doi:10.1152/ajpgi.00252.2018	Describes	Originating Publication		"Gould, T. W., Swope, W. A., Heredia, D. J., Corrigan, R. D., & Smith, T. K. (2019). Activity within specific enteric neurochemical subtypes is correlated with distinct patterns of gastrointestinal motility in the murine colon. American Journal of Physiology-Gastrointestinal and Liver Physiology, 317(2), G210âG221. https://doi.org/10.1152/ajpgi.00252.2018
+"	SPARC
+88	10.26275/jg3k-z5qm	Dataset	Immediate early gene (IEG) mapping of spinal cord neurons activated by cystometry induced micturition in rat	doi:10.17504/protocols.io.bakxicxn	IsDocumentedBy	Protocol		"R Keast, J., B Osborne, P., & Wiedmann, N. (2019). Immediate Early Gene (IEG) mapping of spinal cord neurons activated by cystometry-induced micturition in rats [keast-002] v1. https://doi.org/10.17504/protocols.io.bakxicxn
+"	SPARC
+88	10.26275/jg3k-z5qm	Dataset	Immediate early gene (IEG) mapping of spinal cord neurons activated by cystometry induced micturition in rat	doi:10.1002/cne.24949	Describes	Originating Publication		"Wiedmann, N. M., Wong, A. W., Keast, J. R., & Osborne, P. B. (2020). Sex differences in câFos and EGRâ1/Zif268 activity maps of rat sacral spinal cord following cystometryâinduced micturition. Journal of Comparative Neurology, 529(2), 311â326. Portico. https://doi.org/10.1002/cne.24949
+"	SPARC
+89	10.26275/8pc2-rhu2	Dataset	Quantified morphology of the pig vagus nerve with anti-fibronectin	doi:10.17504/protocols.io.bfwtjpen	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_PigVagusNerve_FibronectinIF_Morphology v1. (2020). https://doi.org/10.17504/protocols.io.bfwtjpen
+"	SPARC
+60	10.26275/ilb9-0e2a	Dataset	Quantified morphology of the rat vagus nerve	doi:10.17504/protocols.io.y6hfzb6	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_RatVagusNerve_Morphology v1. (2019). https://doi.org/10.17504/protocols.io.y6hfzb6
+"	SPARC
+60	10.26275/ilb9-0e2a	Dataset	Quantified morphology of the rat vagus nerve	doi:10.1088/1741-2552/ac36e2	Cites	Work		"Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2
+"	OCI
+60	10.26275/ilb9-0e2a	Dataset	Quantified morphology of the rat vagus nerve	doi:10.12688/f1000research.73492.1	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1
+"	OCI
+60	10.26275/ilb9-0e2a	Dataset	Quantified morphology of the rat vagus nerve	doi:10.1101/2021.08.08.455581	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581
+"	Crossref
+60	10.26275/ilb9-0e2a	Dataset	Quantified morphology of the rat vagus nerve	doi:10.3389/fnins.2020.601479	Describes	Originating Publication		"Pelot, N. A., Goldhagen, G. B., Cariello, J. E., Musselman, E. D., Clissold, K. A., Ezzell, J. A., & Grill, W. M. (2020). Quantified Morphology of the Cervical and Subdiaphragmatic Vagus Nerves of Human, Pig, and Rat. Frontiers in Neuroscience, 14. https://doi.org/10.3389/fnins.2020.601479
+"	K-Core
+61	10.26275/sydt-lkiw	Dataset	Human vagus nerve stained with Masson's trichrome	doi:10.17504/protocols.io.bh4cj8sw	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_HumanVagusNerve_Collection_Histology_Microscopy v2. (2020). https://doi.org/10.17504/protocols.io.bh4cj8sw
+"	SPARC
+61	10.26275/sydt-lkiw	Dataset	Human vagus nerve stained with Masson's trichrome	doi:10.3389/fnins.2020.601479	Describes	Originating Publication		"Pelot, N. A., Goldhagen, G. B., Cariello, J. E., Musselman, E. D., Clissold, K. A., Ezzell, J. A., & Grill, W. M. (2020). Quantified Morphology of the Cervical and Subdiaphragmatic Vagus Nerves of Human, Pig, and Rat. Frontiers in Neuroscience, 14. https://doi.org/10.3389/fnins.2020.601479
+"	K-Core
+64	10.26275/maq2-eii4	Dataset	Quantified morphology of the pig vagus nerve 	doi:10.17504/protocols.io.6bvhan6	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_PigVagusNerve_Morphology v1. (2019). https://doi.org/10.17504/protocols.io.6bvhan6
+"	SPARC
+64	10.26275/maq2-eii4	Dataset	Quantified morphology of the pig vagus nerve 	doi:10.1088/1741-2552/acda64	Cites	Work		"Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64
+"	OCI
+64	10.26275/maq2-eii4	Dataset	Quantified morphology of the pig vagus nerve 	doi:10.12688/f1000research.73492.1	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1
+"	OCI
+64	10.26275/maq2-eii4	Dataset	Quantified morphology of the pig vagus nerve 	doi:10.1101/2021.08.08.455581	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581
+"	Crossref
+64	10.26275/maq2-eii4	Dataset	Quantified morphology of the pig vagus nerve 	doi:doi.org/10.3389/fnins.2020.601479	Describes	Originating Publication		CITATION[doi.org/10.3389/fnins.2020.601479]	K-Core
+90	10.26275/ilkm-9f8r	Dataset	Morphometric analysis of the abdominal vagus nerve in rats	doi:10.17504/protocols.io.xpxfmpn	IsDocumentedBy	Protocol		"Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn
+"	SPARC
+23	10.26275/tv7g-o8ff	Dataset	A multi-scale model of cardiac electrophysiology	doi:10.17504/protocols.io.5nkg5cw	IsDocumentedBy	Protocol		"clancy, C., not provided, P.-C., & Aghasafari, P. (2019). A multi-scale model of cardiac electrophysiology v1. https://doi.org/10.17504/protocols.io.5nkg5cw
+"	SPARC
+23	10.26275/tv7g-o8ff	Dataset	A multi-scale model of cardiac electrophysiology	doi:10.1371/journal.pcbi.1006856	Describes	Originating Publication		"Yang, P.-C., Purawat, S., Ieong, P. U., Jeng, M.-T., DeMarco, K. R., Vorobyov, I., McCulloch, A. D., Altintas, I., Amaro, R. E., & Clancy, C. E. (2019). A demonstration of modularity, reuse, reproducibility, portability and scalability for modeling and simulation of cardiac electrophysiology using Kepler Workflows. PLOS Computational Biology, 15(3), e1006856. https://doi.org/10.1371/journal.pcbi.1006856
+"	SPARC
+27	10.26275/bjp1-ppqo	Dataset	Functional neuronal nodose recording from pig - Cardiac field chemical and mechanical stimulation	doi:10.17504/protocols.io.2ncgdaw	IsDocumentedBy	Protocol		"Vaseghi, M., & Ardell, J. (2019). Pig Nodose Ganglion protocol v1. https://doi.org/10.17504/protocols.io.2ncgdaw
+"	SPARC
+97	10.26275/dap3-ckep	Dataset	Pig vagus nerve TH (tyrosine hydroxylase) and ChAT (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hehb3e	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_TH v1. https://doi.org/10.17504/protocols.io.6hehb3e
+"	SPARC
+97	10.26275/dap3-ckep	Dataset	Pig vagus nerve TH (tyrosine hydroxylase) and ChAT (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hfhb3n	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_ChAT v1. https://doi.org/10.17504/protocols.io.6hfhb3n
+"	SPARC
+97	10.26275/dap3-ckep	Dataset	Pig vagus nerve TH (tyrosine hydroxylase) and ChAT (choline acetyltransferase) positive fibers	doi:10.1088/1741-2552/ab7ad4	Describes	Originating Publication		"Settell, M. L., Pelot, N. A., Knudsen, B. E., Dingle, A. M., McConico, A. L., Nicolai, E. N., Trevathan, J. K., Ezzell, J. A., Ross, E. K., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., Zeng, W., Poore, S. O., Populin, L. C., Suminski, A. J., Grill, W. M., & Ludwig, K. A. (2020). Functional vagotopy in the cervical vagus nerve of the domestic pig: implications for the study of vagus nerve stimulation. Journal of Neural Engineering, 17(2), 026022. https://doi.org/10.1088/1741-2552/ab7ad4
+"	SPARC
+97	10.26275/dap3-ckep	Dataset	Pig vagus nerve TH (tyrosine hydroxylase) and ChAT (choline acetyltransferase) positive fibers	doi:10.1088/1741-2552/ac01ff	Cites	Work		"Settell, M. L., Pelot, N. A., Knudsen, B. E., Dingle, A. M., McConico, A. L., Nicolai, E. N., Trevathan, J. K., Ezzell, J. A., Ross, E. K., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., Zeng, W., Poore, S. O., Populin, L. C., Suminski, A. J., Grill, W. M., & Ludwig, K. A. (2021). Corrigendum: Functional vagotopy in the cervical vagus nerve of the domestic pig: implications for the study of vagus nerve stimulation (2020 J. Neural Eng. 
+               17 026022). Journal of Neural Engineering, 18(4), 049501. https://doi.org/10.1088/1741-2552/ac01ff
+"	OCI
+43	10.26275/fcrd-lbid	Dataset	Human islet microvasculature analysis	doi:10.17504/protocols.io.wxbffin	IsDocumentedBy	Protocol		"PeÃ±aloza, J., & Campbell-Thompson, M. (2019). Human Islet Microvasculature Image Processing v1. https://doi.org/10.17504/protocols.io.wxbffin
+"	SPARC
+43	10.26275/fcrd-lbid	Dataset	Human islet microvasculature analysis	doi:10.17504/protocols.io.y3tfynn	IsDocumentedBy	Protocol		"Campbell-Thompson, M., Butterworth Hosaka, E., & N Carty, K. (2019). Human Islet Microvasculature Immunofluorescence in Optically Cleared Samples v1. https://doi.org/10.17504/protocols.io.y3tfynn
+"	SPARC
+43	10.26275/fcrd-lbid	Dataset	Human islet microvasculature analysis	doi:10.17504/protocols.io.9gbh3sn	IsDocumentedBy	Protocol		"Human Pancreas PACT Optical Clearing and High Resolution 3D Microscopy v1. (2019). https://doi.org/10.17504/protocols.io.9gbh3sn
+"	SPARC
+43	10.26275/fcrd-lbid	Dataset	Human islet microvasculature analysis	doi:10.17504/protocols.io.bjfzkjp6	IsDocumentedBy	Protocol		"Vesselucida 360 Protocol for Segmenting and Analyzing Human Islet Microvasculature v1. (2020). https://doi.org/10.17504/protocols.io.bjfzkjp6
+"	SPARC
+106	10.26275/gdot-t59p	Dataset	Immunohistochemical classification of sensory and autonomic neurons projecting to the lower urinary tract in rats	doi:10.17504/protocols.io.w3gfgjw	IsDocumentedBy	Protocol		"R Keast, J., & B Osborne, P. (2019). Immunohistochemical classification of sensory and autonomic neurons projecting to the lower urinary tract in rats [keast-001] v1. https://doi.org/10.17504/protocols.io.w3gfgjw
+"	SPARC
+107	10.26275/jl5t-xfgu	Dataset	Micro Computed Tomography (Micro-CT) imaging of iodine-stained rat stomachs from full to empty	doi:10.17504/protocols.io.95ih84e	IsDocumentedBy	Protocol		"Micro-CT imaging of iodine-stained rat stomach v1. (2019). https://doi.org/10.17504/protocols.io.95ih84e
+"	SPARC
+108	10.26275/w027-cisv	Dataset	Imaging in vivo acetylcholine release in the peripheral nervous system with a fluorescent nanosensor in mice	doi:10.17504/protocols.io.bmmxk47n	IsDocumentedBy	Protocol		"In vivo imaging of acetylcholine release in the peripheral nervous system with a fluorescent nanosensor v1. (2020). https://doi.org/10.17504/protocols.io.bmmxk47n
+"	SPARC
+108	10.26275/w027-cisv	Dataset	Imaging in vivo acetylcholine release in the peripheral nervous system with a fluorescent nanosensor in mice	doi:10.1101/2020.07.06.189696	Describes	Originating Publication		"Xia, J., Yang, H., Mu, M., Micovic, N., Poskanzer, K. E., Monaghan, J. R., & Clark, H. A. (2020). A DNA-based optical nanosensor for in vivo imaging of acetylcholine in the peripheral nervous system. https://doi.org/10.1101/2020.07.06.189696
+"	SPARC
+109	10.26275/6xtv-zfpc	Dataset	Spatial mapping and contextualization of axon subtypes innervating the long bones of C3H and B6 mice	doi:10.17504/protocols.io.bqu2mwye	IsDocumentedBy	Protocol		"Spatial mapping and contextualization of axon subtypes innervating the long bones of C3H and B6 mice v1. (2020). https://doi.org/10.17504/protocols.io.bqu2mwye
+"	SPARC
+109	10.26275/6xtv-zfpc	Dataset	Spatial mapping and contextualization of axon subtypes innervating the long bones of C3H and B6 mice	doi:10.1101/2020.09.18.303958	Describes	Originating Publication		"Lorenz, M. R., Brazill, J. M., Beeve, A., Shen, I., & Scheller, E. L. (2020). A neuroskeletal atlas of the mouse limb. https://doi.org/10.1101/2020.09.18.303958
+"	SPARC
+109	10.26275/6xtv-zfpc	Dataset	Spatial mapping and contextualization of axon subtypes innervating the long bones of C3H and B6 mice	doi:10.1371/journal.pone.0279825	Describes	Originating Publication		"Gupta, Y., Costa, C., Pinho, E., A. BastiÃ£o Silva, L., & Heintzmann, R. (2022). IMAGE-IN: Interactive web-based multidimensional 3D visualizer for multi-modal microscopy images. PLOS ONE, 17(12), e0279825. https://doi.org/10.1371/journal.pone.0279825
+"	K-Core
+121	10.26275/zxe9-o3ss	Dataset	MicroCT imaging of rat stomach vasculature with Microfil MV-122	doi:10.17504/protocols.io.bafnibme	IsDocumentedBy	Protocol		"Micro-CT imaging of rat stomach vasculature v1. (2019). https://doi.org/10.17504/protocols.io.bafnibme
+"	SPARC
+123	10.26275/rtzw-x9u4	Dataset	Functional mapping of the stomach neural circuitry - gastric electrical stimulation (GES) evoked duodenal motility in rats	doi:10.17504/protocols.io.2irgcd6	IsDocumentedBy	Protocol		"Powley, T., Tan, Z., & Ward, M. (2019). Measurement of duodenal motility using implanted strain gauges v1. https://doi.org/10.17504/protocols.io.2irgcd6
+"	SPARC
+123	10.26275/rtzw-x9u4	Dataset	Functional mapping of the stomach neural circuitry - gastric electrical stimulation (GES) evoked duodenal motility in rats	doi:10.1152/ajpregu.00111.2020	Cites	Work		"Tan, Z. T., Ward, M., Phillips, R. J., Zhang, X., Jaffey, D. M., Chesney, L., Rajwa, B., Baronowsky, E. A., McAdams, J., & Powley, T. L. (2021). Stomach region stimulated determines effects on duodenal motility in rats. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 320(3), R331âR341. https://doi.org/10.1152/ajpregu.00111.2020
+"	OCI
+127	10.26275/tuof-9odl	Dataset	Chemogenetic iBAT (interscapular brown adipose tissue)-specific sympathetic stimulation and e-mitter implant in mice	doi:10.17504/protocols.io.bh3tj8nn	IsDocumentedBy	Protocol		"Bilateral Adeno-associated virus (AAV) injection into interscapular brown adipose tissue v1. (2020). https://doi.org/10.17504/protocols.io.bh3tj8nn
+"	SPARC
+127	10.26275/tuof-9odl	Dataset	Chemogenetic iBAT (interscapular brown adipose tissue)-specific sympathetic stimulation and e-mitter implant in mice	doi:10.17504/protocols.io.bpzbmp2n	IsDocumentedBy	Protocol		"Lee, N. (2020). Abdominal Emitter Implantation v1. https://doi.org/10.17504/protocols.io.bpzbmp2n
+"	SPARC
+128	10.26275/pidf-15l3	Dataset	Chemogenetic whole-body and iBAT (interscapular brown adipose tissue) -specific sympathetic stimulation in anesthetized mice	doi:10.17504/protocols.io.bh3tj8nn	IsDocumentedBy	Protocol		"Bilateral Adeno-associated virus (AAV) injection into interscapular brown adipose tissue v1. (2020). https://doi.org/10.17504/protocols.io.bh3tj8nn
+"	SPARC
+131	10.26275/m9ti-0pbj	Dataset	Gene expression profile of interscapular brown adipose tissue (iBAT) and inguinal white adipose tissue (iWAT) whole ganglia sequencing in mice	doi:10.17504/protocols.io.98uh9ww	IsDocumentedBy	Protocol		"Zhang, R., Huesing, C., & Muenzberg, H. (2019). RNA extraction_Trizol method_Protocol v1. https://doi.org/10.17504/protocols.io.98uh9ww
+"	SPARC
+131	10.26275/m9ti-0pbj	Dataset	Gene expression profile of interscapular brown adipose tissue (iBAT) and inguinal white adipose tissue (iWAT) whole ganglia sequencing in mice	doi:10.17504/protocols.io.baagiabw	IsDocumentedBy	Protocol		"Zhang, R., & Muenzberg, H. (2019). Sympathetic chain ganglia dissection_Protocol v1. https://doi.org/10.17504/protocols.io.baagiabw
+"	SPARC
+133	10.26275/pkgd-bopz	Dataset	Retrograde tracing of interscapular brown adipose tissue (iBAT) specific sympathetic neurons in mice - virus and reporter testing	doi:10.17504/protocols.io.bh3tj8nn	IsDocumentedBy	Protocol		"Bilateral Adeno-associated virus (AAV) injection into interscapular brown adipose tissue v1. (2020). https://doi.org/10.17504/protocols.io.bh3tj8nn
+"	SPARC
+137	10.26275/56h4-ypua	Dataset	Acquisition of single neurons and regional neuronal samples from the porcine right atrial ganglionic plexus (RAGP) through laser capture microdissection	doi:10.21203/rs.3.pex-928/v1	Cites	Work		"Robbins, S., Vadigepalli, R., & Schwaber, J. (2021). Cryosectioning, block face imaging and Nissl staining fluorescently labeled pig heart. https://doi.org/10.21203/rs.3.pex-928/v1
+"	Datacite
+137	10.26275/56h4-ypua	Dataset	Acquisition of single neurons and regional neuronal samples from the porcine right atrial ganglionic plexus (RAGP) through laser capture microdissection	doi:10.21203/rs.3.pex-927/v1	Cites	Work		"Robbins, S., Achanta, S., & Vadigepalli, R. (2021). Laser Capture Microdissection (LCM) and 3D Sample Tracking Protocol. https://doi.org/10.21203/rs.3.pex-927/v1
+"	Datacite
+137	10.26275/56h4-ypua	Dataset	Acquisition of single neurons and regional neuronal samples from the porcine right atrial ganglionic plexus (RAGP) through laser capture microdissection	doi:10.1101/2020.07.29.227090	Cites	Work		"Moss, A., Robbins, S., Achanta, S., Kuttippurathu, L., Turick, S., Nieves, S., Hanna, P., Smith, E. H., Hoover, D. B., Chen, J., Cheng, Z. (Jack), Ardell, J. L., Shivkumar, K., Schwaber, J. S., & Vadigepalli, R. (2020). A spatially-tracked single cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system. https://doi.org/10.1101/2020.07.29.227090
+"	K-Core
+140	10.26275/ckgb-5ewo	Dataset	TRAP-SEQ (Translating Ribosome Affinity Purification followed by RNA sequencing) of interscapular brown adipose tissue (iBAT)- related ganglia from 7-day cold and warm treated mice	doi:10.17504/protocols.io.babtiann	IsDocumentedBy	Protocol		"Zhang, R. (2019). TRAP-SEQ_Sympathetic chain ganglia_Protocol v1. https://doi.org/10.17504/protocols.io.babtiann
+"	SPARC
+143	10.26275/advv-1awo	Dataset	Optogenetic stimulation prevents lipopolysaccharide induced TNFa production	doi:10.17504/protocols.io.wwbffan	IsDocumentedBy	Protocol		"Optogenetic Stimulation of superior mesenteric ganglion in a model of septic shock v1. (2019). https://doi.org/10.17504/protocols.io.wwbffan
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfy9jpz6	IsDocumentedBy	Protocol		"SPARC Cat surgery Day 0 v1. (2020). https://doi.org/10.17504/protocols.io.bfy9jpz6
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzajp2e	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 1, Day 0 v1. (2020). https://doi.org/10.17504/protocols.io.bfzajp2e
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzcjp2w	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 2, Day 0 v1. (2020). https://doi.org/10.17504/protocols.io.bfzcjp2w
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzdjp26	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 3, Day 0 v1. (2020). https://doi.org/10.17504/protocols.io.bfzdjp26
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzhjp36	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 1, Day 14 v1. (2020). https://doi.org/10.17504/protocols.io.bfzhjp36
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzijp4e	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Implant Cat 4, Day 0 v1. (2020). https://doi.org/10.17504/protocols.io.bfzijp4e
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfznjp5e	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 2, Day 14 v1. (2020). https://doi.org/10.17504/protocols.io.bfznjp5e
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzpjp5n	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 3, Day 14 v1. (2020). https://doi.org/10.17504/protocols.io.bfzpjp5n
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzrjp56	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Implant Cat 4, Day 14 v1. (2020). https://doi.org/10.17504/protocols.io.bfzrjp56
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfztjp6n	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 1 Day 30 v1. (2020). https://doi.org/10.17504/protocols.io.bfztjp6n
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfzwjp7e	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Cat 2 Day 30 v1. (2020). https://doi.org/10.17504/protocols.io.bfzwjp7e
+"	SPARC
+145	10.26275/imbg-0okx	Dataset	Effects of cystotomy on the feline urinary bladder	doi:10.17504/protocols.io.bfz3jp8n	IsDocumentedBy	Protocol		"SPARC Cat - Sham Control Chronic Implant Cat 4, Day 30 v1. (2020). https://doi.org/10.17504/protocols.io.bfz3jp8n
+"	SPARC
+124	10.26275/0khe-2os4	Dataset	In vitro imaging of mechanosensitive submucous neurons in the porcine colon	doi:10.17504/protocols.io.bpcamise	IsDocumentedBy	Protocol		"Mazzuoli-Weber, G., Elfers, K., & Katharina Filzmayer, A. (2020). Mechanosensitive enteric neurons: incidence and abundance in the porcine submucosal plexus with ultrafast neuroimaging and immunhistochemical techniques v1. https://doi.org/10.17504/protocols.io.bpcamise
+"	SPARC
+124	10.26275/0khe-2os4	Dataset	In vitro imaging of mechanosensitive submucous neurons in the porcine colon	doi:10.17504/protocols.io.btv3nn8n	IsDocumentedBy	Protocol		"Mechanosensitive enteric neurons: incidence and abundance in the porcine submucosal plexus with ultrafast neuroimaging and immunhistochemical techniques v1. (2021). https://doi.org/10.17504/protocols.io.btv3nn8n
+"	SPARC
+124	10.26275/0khe-2os4	Dataset	In vitro imaging of mechanosensitive submucous neurons in the porcine colon	doi:10.1038/s41598-020-70216-6	Describes	Originating Publication		"Filzmayer, A. K., Elfers, K., Michel, K., Buhner, S., Zeller, F., Demir, I. E., Theisen, J., Schemann, M., & Mazzuoli-Weber, G. (2020). Compression and stretch sensitive submucosal neurons of the porcine and human colon. Scientific Reports, 10(1). https://doi.org/10.1038/s41598-020-70216-6
+"	SPARC
+151	10.26275/jkux-orfg	Dataset	Phrenic nerve stimulation spinal intact rats	doi:10.17504/protocols.io.bgfzjtp6	IsDocumentedBy	Protocol		"Streeter, K., sunshine, M., & Fuller, D. (2020). SPARC bilateral phrenic neurophysiology preparation with phrenic afferent stimulation - spinal intact study v1. https://doi.org/10.17504/protocols.io.bgfzjtp6
+"	SPARC
+152	10.26275/1h3s-thms	Dataset	Sympathetic iBAT (interscapular brown adipose tissue) activation high fat (HF) low fat (LF) diet study	doi:10.17504/protocols.io.bh3tj8nn	IsDocumentedBy	Protocol		"Bilateral Adeno-associated virus (AAV) injection into interscapular brown adipose tissue v1. (2020). https://doi.org/10.17504/protocols.io.bh3tj8nn
+"	SPARC
+153	10.26275/j4he-9spq	Dataset	Optogenetic iBAT (interscapular brown adipose tissue) stimulation in anesthetized mice	doi:10.17504/protocols.io.bh3tj8nn	IsDocumentedBy	Protocol		"Bilateral Adeno-associated virus (AAV) injection into interscapular brown adipose tissue v1. (2020). https://doi.org/10.17504/protocols.io.bh3tj8nn
+"	SPARC
+158	10.26275/i7dl-58h1	Dataset	Antibodies tested in the colon – Mouse	doi:10.17504/protocols.io.bqavmse6	IsDocumentedBy	Protocol		"Multicolor adeno-associate virus labeling and 3D digital tracing of enteric plexus in mouse proximal colon v1. (2020). https://doi.org/10.17504/protocols.io.bqavmse6
+"	SPARC
+159	10.26275/ek1m-xqw1	Dataset	Sympathetic and parasympathetic effects on subcellular cAMP responses in isolated ventricular myocytes	doi:10.17504/protocols.io.ba8hiht6	IsDocumentedBy	Protocol		"Preparation of Adult Rat Ventricular Myocytes for FRET Imaging Experiments v1. (2020). https://doi.org/10.17504/protocols.io.ba8hiht6
+"	SPARC
+159	10.26275/ek1m-xqw1	Dataset	Sympathetic and parasympathetic effects on subcellular cAMP responses in isolated ventricular myocytes	doi:10.3389/fphar.2018.00332	Describes	Originating Publication		"Agarwal, S. R., Gratwohl, J., Cozad, M., Yang, P.-C., Clancy, C. E., & Harvey, R. D. (2018). Compartmentalized cAMP Signaling Associated With Lipid Raft and Non-raft Membrane Domains in Adult Ventricular Myocytes. Frontiers in Pharmacology, 9. https://doi.org/10.3389/fphar.2018.00332
+"	SPARC
+160	10.26275/lkvz-vrcy	Dataset	Single cell RNA sequencing (scRNAseq) analysis identifies the cell populations in the muscularis externa of the pig colon	doi:10.17504/protocols.io.bgdmjs46	IsDocumentedBy	Protocol		"Li, T., Yuan, P.-Q., & Tache, Y. (2020). A single cell RNA sequencing protocol for the pig colon v1. https://doi.org/10.17504/protocols.io.bgdmjs46
+"	SPARC
+161	10.26275/wyn1-eww6	Dataset	3D imaging of enteric neurons in a male mouse	doi:10.17504/protocols.io.wr6fd9e	IsDocumentedBy	Protocol		"Howard, M. (2019). Wholemount Immunolabeling for GUT Samples v1. https://doi.org/10.17504/protocols.io.wr6fd9e
+"	SPARC
+162	10.26275/ngey-3iz7	Dataset	Effects of subcutaneous nerve stimulation on nerve sprouting in ambulatory dogs	doi:10.17504/protocols.io.bv94n98w	IsDocumentedBy	Protocol		"not provided, P.-Sheng. C., Kusayama, T., Wan, J., Yuan, Y., Liu, X., Li, X., Shen, C., C Fishbein, M., H Everett, T., & Peng-Sheng Chen,  not provided. (2021). Trichrome Staining Protocol in studies ofEffects of subcutaneous nerve stimulation on nerve sprouting in ambulatory dogs v1. https://doi.org/10.17504/protocols.io.bv94n98w
+"	SPARC
+162	10.26275/ngey-3iz7	Dataset	Effects of subcutaneous nerve stimulation on nerve sprouting in ambulatory dogs	doi:10.17504/protocols.io.bv96n99e	IsDocumentedBy	Protocol		"Kusayama, T., Wan, J., Yuan, Y., Liu, X., Li, X., C Fishbein, M., H Everett, T., & not provided, P.-Sheng. C. (2021). Immunostaining of tissues from dogs with subcutaneous nerve stimulation v1. https://doi.org/10.17504/protocols.io.bv96n99e
+"	SPARC
+162	10.26275/ngey-3iz7	Dataset	Effects of subcutaneous nerve stimulation on nerve sprouting in ambulatory dogs	doi:10.1016/j.hrthm.2019.02.027	Describes	Originating Publication		"Wan, J., Chen, M., Yuan, Y., Wang, Z., Shen, C., Fishbein, M. C., Chen, Z., Wong, J., Grant, M. B., Everett, T. H., & Chen, P.-S. (2019). Antiarrhythmic and proarrhythmic effects of subcutaneous nerve stimulation in ambulatory dogs. Heart Rhythm, 16(8), 1251â1260. https://doi.org/10.1016/j.hrthm.2019.02.027
+"	SPARC
+163	10.26275/qcuk-a8ty	Dataset	Sources of off-target effects for vagus nerve stimulation using the LivaNova clinical lead in swine	doi:10.17504/protocols.io.bkeyktfw	IsDocumentedBy	Protocol		"Vagus Nerve Stimulation Evoked Electroneurography and Electromyography Recordings in Swine v1. (2020). https://doi.org/10.17504/protocols.io.bkeyktfw
+"	SPARC
+163	10.26275/qcuk-a8ty	Dataset	Sources of off-target effects for vagus nerve stimulation using the LivaNova clinical lead in swine	doi:10.1088/1741-2552/ab9db8	Describes	Originating Publication		"Nicolai, E. N., Settell, M. L., Knudsen, B. E., McConico, A. L., Gosink, B. A., Trevathan, J. K., Baumgart, I. W., Ross, E. K., Pelot, N. A., Grill, W. M., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., & Ludwig, K. A. (2020). Sources of off-target effects of vagus nerve stimulation using the helical clinical lead in domestic pigs. Journal of Neural Engineering, 17(4), 046017. https://doi.org/10.1088/1741-2552/ab9db8
+"	SPARC
+163	10.26275/qcuk-a8ty	Dataset	Sources of off-target effects for vagus nerve stimulation using the LivaNova clinical lead in swine	doi:10.1088/1741-2552/acda64	Cites	Work		"Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64
+"	Datacite
+164	10.26275/er7m-gir3	Dataset	Functional mapping with lumbosacral epidural stimulation for restoration of bladder function after spinal cord injury in rats (T13)	doi:10.17504/protocols.io.w6hfhb6	IsDocumentedBy	Protocol		"Hubscher, C., & Hoey, R. (2019). Epidural stimulation mapping protocol v1. https://doi.org/10.17504/protocols.io.w6hfhb6
+"	SPARC
+164	10.26275/er7m-gir3	Dataset	Functional mapping with lumbosacral epidural stimulation for restoration of bladder function after spinal cord injury in rats (T13)	doi:10.1038/s41598-021-81822-3	Describes	Originating Publication		"Hoey, R. F., Medina-AguiÃ±aga, D., Khalifa, F., Ugiliweneza, B., Zdunowski, S., Fell, J., Naglah, A., El-Baz, A. S., Herrity, A. N., Harkema, S. J., & Hubscher, C. H. (2021). Bladder and bowel responses to lumbosacral epidural stimulation in uninjured and transected anesthetized rats. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-81822-3
+"	SPARC
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.17504/protocols.io.bh4dj8s6	IsDocumentedBy	Protocol		"SPARC_Duke_PelotGrill_OT2-OD025340_HumanVagusNerve_Claudin1IHC_Morphology v4. (2020). https://doi.org/10.17504/protocols.io.bh4dj8s6
+"	SPARC
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.1088/1741-2552/acda64	Cites	Work		"Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64
+"	Datacite
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.1101/2021.08.08.455581	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581
+"	Crossref
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.12688/f1000research.73492.1	Cites	Work		"Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1
+"	Crossref
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.3389/fnins.2020.601479	Describes	Originating Publication		"Pelot, N. A., Goldhagen, G. B., Cariello, J. E., Musselman, E. D., Clissold, K. A., Ezzell, J. A., & Grill, W. M. (2020). Quantified Morphology of the Cervical and Subdiaphragmatic Vagus Nerves of Human, Pig, and Rat. Frontiers in Neuroscience, 14. https://doi.org/10.3389/fnins.2020.601479
+"	K-Core
+65	10.26275/ofja-ghoz	Dataset	Quantified morphology of the human vagus nerve with anti-claudin-1	doi:10.1101/2021.08.08.455581v1	Cites	Work		CITATION[10.1101/2021.08.08.455581v1]	K-Core
+165	10.26275/pvib-4jat	Dataset	Endorgan-specific Pseudorabies (PRV) infection in mouse kidney and liver	doi:10.17504/protocols.io.bujanuie	IsDocumentedBy	Protocol		"Peripheral PRV injection - Kidney &amp;amp; Liver Protocol v1. (2021). https://doi.org/10.17504/protocols.io.bujanuie
+"	SPARC
+165	10.26275/pvib-4jat	Dataset	Endorgan-specific Pseudorabies (PRV) infection in mouse kidney and liver	doi:10.1152/ajpregu.00079.2021	Describes	Originating Publication		"Torres, H., Huesing, C., Burk, D. H., Molinas, A. J. R., Neuhuber, W. L., Berthoud, H.-R., MÃ¼nzberg, H., Derbenev, A. V., & Zsombok, A. (2021). Sympathetic innervation of the mouse kidney and liver arising from prevertebral ganglia. American Journal of Physiology-Regulatory, Integrative and Comparative Physiology, 321(3), R328âR337. https://doi.org/10.1152/ajpregu.00079.2021
+"	SPARC
+37	10.26275/pb3l-251h	Dataset	Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart	doi:10.17504/protocols.io.bdz5i786	IsDocumentedBy	Protocol		"Leung, C., Heal, M., Robbins, S., Moss, A., Monteith, C., & Tappan, S. (2020). Single-Cell ICN Neuron Mapping and 3D Heart Reconstruction with Tissue Mapper v1. https://doi.org/10.17504/protocols.io.bdz5i786
+"	SPARC
+37	10.26275/pb3l-251h	Dataset	Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart	doi:10.1016/j.isci.2020.101140	Describes	Originating Publication		"Achanta, S., Gorky, J., Leung, C., Moss, A., Robbins, S., Eisenman, L., Chen, J., Tappan, S., Heal, M., Farahani, N., Huffman, T., England, S., Cheng, Z. (Jack), Vadigepalli, R., & Schwaber, J. S. (2020). A Comprehensive Integrated Anatomical and Molecular Atlas of Rat Intrinsic Cardiac Nervous System. IScience, 23(6), 101140. https://doi.org/10.1016/j.isci.2020.101140
+"	SPARC
+37	10.26275/pb3l-251h	Dataset	Mapping of intrinsic cardiac nervous system (ICN) neurons in a 3D reconstructed rat heart	doi:10.1016/j.isci.2021.102795	Cites	Work		"Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z. (Jack), & Schwaber, J. S. (2021). 3D single cell scale anatomical map of sex-dependent variability of the rat intrinsic cardiac nervous system. IScience, 24(7), 102795. https://doi.org/10.1016/j.isci.2021.102795
+"	K-Core
+168	10.26275/do5j-enxl	Dataset	Monosynaptic circuit mapping of iBAT (interscapular brown adipose tissues) in mice 	doi:10.17504/protocols.io.wzuff6w	IsDocumentedBy	Protocol		"Huesing, C., Muenzberg, H., Burk, D., & Torres, H. (2019). iDISCO protocol for whole-mount immunostaining and volume imaging v1. https://doi.org/10.17504/protocols.io.wzuff6w
+"	SPARC
+168	10.26275/do5j-enxl	Dataset	Monosynaptic circuit mapping of iBAT (interscapular brown adipose tissues) in mice 	doi:10.17504/protocols.io.wz3ff8n	IsDocumentedBy	Protocol		"Huesing, C., Torres, H., Burk, D., & Muenzberg, H. (2019). Light sheet microscopy v1. https://doi.org/10.17504/protocols.io.wz3ff8n
+"	SPARC
+168	10.26275/do5j-enxl	Dataset	Monosynaptic circuit mapping of iBAT (interscapular brown adipose tissues) in mice 	doi:10.17504/protocols.io.baamiac6	IsDocumentedBy	Protocol		"Pseudorabies virus (PRV) injection into inguinal white adipose tissue v1. (2019). https://doi.org/10.17504/protocols.io.baamiac6
+"	SPARC
+169	10.26275/t8he-z5uu	Dataset	Effects of nodose ganglion blockade on gastric motility during cervical vagus nerve stimulation measured with magnetic resonance imaging in rats	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+175	10.26275/mhq6-csy1	Dataset	iWAT (inguinal white adipose tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.wzuff6w	IsDocumentedBy	Protocol		"Huesing, C., Muenzberg, H., Burk, D., & Torres, H. (2019). iDISCO protocol for whole-mount immunostaining and volume imaging v1. https://doi.org/10.17504/protocols.io.wzuff6w
+"	SPARC
+175	10.26275/mhq6-csy1	Dataset	iWAT (inguinal white adipose tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.wz3ff8n	IsDocumentedBy	Protocol		"Huesing, C., Torres, H., Burk, D., & Muenzberg, H. (2019). Light sheet microscopy v1. https://doi.org/10.17504/protocols.io.wz3ff8n
+"	SPARC
+175	10.26275/mhq6-csy1	Dataset	iWAT (inguinal white adipose tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.17504/protocols.io.baamiac6	IsDocumentedBy	Protocol		"Pseudorabies virus (PRV) injection into inguinal white adipose tissue v1. (2019). https://doi.org/10.17504/protocols.io.baamiac6
+"	SPARC
+175	10.26275/mhq6-csy1	Dataset	iWAT (inguinal white adipose tissue) sympathetic innervation circuit pseudorabies viral tracing in reporter mice	doi:10.1002/cne.25031	Describes	Originating Publication		"Huesing, C., QuallsâCreekmore, E., Lee, N., FranÃ§ois, M., Torres, H., Zhang, R., Burk, D. H., Yu, S., Morrison, C. D., Berthoud, H., Neuhuber, W., & MÃ¼nzberg, H. (2020). Sympathetic innervation of inguinal white adipose tissue in the mouse. Journal of Comparative Neurology, 529(7), 1465â1485. Portico. https://doi.org/10.1002/cne.25031
+"	SPARC
+177	10.26275/j5wc-rwcr	Dataset	Intraneural recordings in rat vagus nerves using carbon fiber microelectrode arrays	doi:10.17504/protocols.io.bet2jeqe	IsDocumentedBy	Protocol		"Intraneural Recordings in Rat Vagus Nerves Using Carbon Fiber Microelectrode Arrays v1. (2020). https://doi.org/10.17504/protocols.io.bet2jeqe
+"	SPARC
+177	10.26275/j5wc-rwcr	Dataset	Intraneural recordings in rat vagus nerves using carbon fiber microelectrode arrays	doi:10.1038/s41598-020-72512-7	Cites	Work		"Jiman, A. A., Ratze, D. C., Welle, E. J., Patel, P. R., Richie, J. M., Bottorff, E. C., Seymour, J. P., Chestek, C. A., & Bruns, T. M. (2020). Multi-channel intraneural vagus nerve recordings with a novel high-density carbon fiber microelectrode array. Scientific Reports, 10(1). https://doi.org/10.1038/s41598-020-72512-7
+"	K-Core
+178	10.26275/9ffg-482d	Dataset	3D imaging of enteric neurons in mouse	doi:10.17504/protocols.io.bwuapese	IsDocumentedBy	Protocol		"Wholemount immunolabeling of mouse gut tissue v1. (2021). https://doi.org/10.17504/protocols.io.bwuapese
+"	SPARC
+178	10.26275/9ffg-482d	Dataset	3D imaging of enteric neurons in mouse	doi:10.1016/j.jcmgh.2021.08.016	Describes	Originating Publication		"Nestor-Kalinoski, A., Smith-Edwards, K. M., Meerschaert, K., Margiotta, J. F., Rajwa, B., Davis, B. M., & Howard, M. J. (2022). Unique Neural Circuit Connectivity of Mouse Proximal, Middle, and Distal Colon Defines Regional Colonic Motor Patterns. Cellular and Molecular Gastroenterology and Hepatology, 13(1), 309-337.e3. https://doi.org/10.1016/j.jcmgh.2021.08.016
+"	K-Core
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.21203/rs.3.pex-928/v1	Cites	Work		"Robbins, S., Vadigepalli, R., & Schwaber, J. (2021). Cryosectioning, block face imaging and Nissl staining fluorescently labeled pig heart. https://doi.org/10.21203/rs.3.pex-928/v1
+"	Datacite
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.21203/rs.3.pex-927/v1	Cites	Work		"Robbins, S., Achanta, S., & Vadigepalli, R. (2021). Laser Capture Microdissection (LCM) and 3D Sample Tracking Protocol. https://doi.org/10.21203/rs.3.pex-927/v1
+"	Datacite
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.21203/rs.3.pex-962/v1	Cites	Work		"Kuttippurathu, L., Moss, A., & Vadigepalli, R. (2021). Single Cell scale RNA-seq Analysis Protocol to analyze Smart-3SEQ data from RAGP neurons of pig heart. https://doi.org/10.21203/rs.3.pex-962/v1
+"	Datacite
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.21203/rs.3.pex-919/v1	Cites	Work		"Achanta, S., & Vadigepalli, R. (2021). Single cell high-throughput qRT-PCR protocol. https://doi.org/10.21203/rs.3.pex-919/v1
+"	Datacite
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.21203/rs.3.pex-922/v1	Cites	Work		"Robbins, S., Vadigepalli, R., & Schwaber, J. (2021). Single-Cell Mapping and 3D Tissue Reconstruction using Cryosection-derived Images and Tissue Mapper software. https://doi.org/10.21203/rs.3.pex-922/v1
+"	Datacite
+115	10.26275/hrww-enzr	Dataset	Spatially tracked single-cell transcriptomics map of neuronal networks in the intrinsic cardiac nervous system	doi:10.1016/j.isci.2021.102713	Cites	Work		"Moss, A., Robbins, S., Achanta, S., Kuttippurathu, L., Turick, S., Nieves, S., Hanna, P., Smith, E. H., Hoover, D. B., Chen, J., Cheng, Z. (Jack), Ardell, J. L., Shivkumar, K., Schwaber, J. S., & Vadigepalli, R. (2021). A single cell transcriptomics map of paracrine networks in the intrinsic cardiac nervous system. IScience, 24(7), 102713. https://doi.org/10.1016/j.isci.2021.102713
+"	K-Core
+117	10.26275/slsc-eahw	Dataset	Spatially tracked single-neuron transcriptomics of a female porcine right atrial ganglionic plexus (RAGP)	doi:10.21203/rs.3.pex-922/v1	Cites	Work		"Robbins, S., Vadigepalli, R., & Schwaber, J. (2021). Single-Cell Mapping and 3D Tissue Reconstruction using Cryosection-derived Images and Tissue Mapper software. https://doi.org/10.21203/rs.3.pex-922/v1
+"	Datacite
+117	10.26275/slsc-eahw	Dataset	Spatially tracked single-neuron transcriptomics of a female porcine right atrial ganglionic plexus (RAGP)	doi:10.1016/j.isci.2021.102713	Cites	Work		"Moss, A., Robbins, S., Achanta, S., Kuttippurathu, L., Turick, S., Nieves, S., Hanna, P., Smith, E. H., Hoover, D. B., Chen, J., Cheng, Z. (Jack), Ardell, J. L., Shivkumar, K., Schwaber, J. S., & Vadigepalli, R. (2021). A single cell transcriptomics map of paracrine networks in the intrinsic cardiac nervous system. IScience, 24(7), 102713. https://doi.org/10.1016/j.isci.2021.102713
+"	K-Core
+118	10.26275/c14g-2czn	Dataset	Spatially tracked single-neuron transcriptomics of a male porcine right atrial ganglionic plexus (RAGP)	doi:10.21203/rs.3.pex-922/v1	Cites	Work		"Robbins, S., Vadigepalli, R., & Schwaber, J. (2021). Single-Cell Mapping and 3D Tissue Reconstruction using Cryosection-derived Images and Tissue Mapper software. https://doi.org/10.21203/rs.3.pex-922/v1
+"	Datacite
+118	10.26275/c14g-2czn	Dataset	Spatially tracked single-neuron transcriptomics of a male porcine right atrial ganglionic plexus (RAGP)	doi:10.1016/j.isci.2021.102713	Cites	Work		"Moss, A., Robbins, S., Achanta, S., Kuttippurathu, L., Turick, S., Nieves, S., Hanna, P., Smith, E. H., Hoover, D. B., Chen, J., Cheng, Z. (Jack), Ardell, J. L., Shivkumar, K., Schwaber, J. S., & Vadigepalli, R. (2021). A single cell transcriptomics map of paracrine networks in the intrinsic cardiac nervous system. IScience, 24(7), 102713. https://doi.org/10.1016/j.isci.2021.102713
+"	K-Core
+181	10.26275/fsfw-dmfd	Dataset	Effects of subcutaneous nerve stimulation with blindly inserted electrodes on ventricular rate control in a canine model of persistent atrial fibrillation	doi:10.17504/protocols.io.bz5wp87e	IsDocumentedBy	Protocol		"Subcutaneous nerve stimulation in canine model of persistent atrial fibrillation v1. (2021). https://doi.org/10.17504/protocols.io.bz5wp87e
+"	SPARC
+181	10.26275/fsfw-dmfd	Dataset	Effects of subcutaneous nerve stimulation with blindly inserted electrodes on ventricular rate control in a canine model of persistent atrial fibrillation	doi:10.1016/j.hrthm.2020.09.009	Describes	Originating Publication		"Kusayama, T., Wan, J., Yuan, Y., Liu, X., Li, X., Shen, C., Fishbein, M. C., Everett, T. H., & Chen, P.-S. (2021). Effects of subcutaneous nerve stimulation with blindly inserted electrodes on ventricular rate control in a canine model of persistent atrial fibrillation. Heart Rhythm, 18(2), 261â270. https://doi.org/10.1016/j.hrthm.2020.09.009
+"	SPARC
+183	10.26275/eoqv-ozxc	Dataset	Acute effects of efferent and afferent vagus nerve stimulation (VNS) on neural activity accessed with functional Magnetic Resonance Imaging (fMRI) in rats (Part 2)	doi:10.17504/protocols.io.bciwiufe	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Brain Neural Activity Assessed with Magnetic Resonance Imaging and electrophysiology v1. (2020). https://doi.org/10.17504/protocols.io.bciwiufe
+"	SPARC
+185	10.26275/ypwk-0xbo	Dataset	Acute effects of gastric electrical stimulation (GES) settings on neural activity accessed with functional magnetic resonance imaging (fMRI) in rats	doi:10.17504/protocols.io.bciwiufe	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Brain Neural Activity Assessed with Magnetic Resonance Imaging and electrophysiology v1. (2020). https://doi.org/10.17504/protocols.io.bciwiufe
+"	SPARC
+188	10.26275/z61u-2tcs	Dataset	Simulations of pelvic and vagus neural interface anatomy-dependent stimulus and recording properties	doi:10.1088/1741-2552/ac36e2	Describes	Originating Publication		"Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2
+"	SPARC
+189	10.26275/e6vk-2lky	Dataset	Identification of lung innervating sensory neurons and their target specificity in mouse (1)	doi:10.17504/protocols.io.b2gvqbw6	IsDocumentedBy	Protocol		"Protocol for CUBIC Clearing and Whole Mount Imaging of Mouse Lung Lobes v1. (2021). https://doi.org/10.17504/protocols.io.b2gvqbw6
+"	SPARC
+189	10.26275/e6vk-2lky	Dataset	Identification of lung innervating sensory neurons and their target specificity in mouse (1)	doi:10.1152/ajplung.00376.2021	Describes	Originating Publication		"Su, Y., Barr, J., Jaquish, A., Xu, J., Verheyden, J. M., & Sun, X. (2022). Identification of lung innervating sensory neurons and their target specificity. American Journal of Physiology-Lung Cellular and Molecular Physiology, 322(1), L50âL63. https://doi.org/10.1152/ajplung.00376.2021
+"	SPARC
+205	10.26275/ts6z-z80x	Dataset	Safety testing of the Fecobionics device	doi:10.17504/protocols.io.9nih5ce	IsDocumentedBy	Protocol		"Safety Study of Wireless Fecobionics Device v1. (2019). https://doi.org/10.17504/protocols.io.9nih5ce
+"	SPARC
+206	10.26275/kkmb-vun5	Dataset	Recording of electrically evoked neural activity and bladder pressure responses in awake rats chronically implanted with a pelvic nerve array	doi:10.17504/protocols.io.bgrmjv46	IsDocumentedBy	Protocol		"B Fallon, J., Payne, S., B Osborne, P., & R Keast, J. (2020). Pelvic nerve implantation, testing and processing in awake rats v1. https://doi.org/10.17504/protocols.io.bgrmjv46
+"	SPARC
+206	10.26275/kkmb-vun5	Dataset	Recording of electrically evoked neural activity and bladder pressure responses in awake rats chronically implanted with a pelvic nerve array	doi:10.3389/fnins.2020.619275	Describes	Originating Publication		"Payne, S. C., Wiedmann, N. M., Eiber, C. D., Wong, A. W., Senn, P., Osborne, P. B., Keast, J. R., & Fallon, J. B. (2020). Recording of Electrically Evoked Neural Activity and Bladder Pressure Responses in Awake Rats Chronically Implanted With a Pelvic Nerve Array. Frontiers in Neuroscience, 14. https://doi.org/10.3389/fnins.2020.619275
+"	SPARC
+204	10.26275/s2vo-pje2	Dataset	Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies part (2)	doi:10.17504/protocols.io.x3sfqne	IsDocumentedBy	Protocol		"Rajendran, P. (2019). iDISCO clearing of mouse heart v1. https://doi.org/10.17504/protocols.io.x3sfqne
+"	SPARC
+204	10.26275/s2vo-pje2	Dataset	Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies part (2)	doi:10.1038/s41467-019-09770-1	Describes	Originating Publication		"Rajendran, P. S., Challis, R. C., Fowlkes, C. C., Hanna, P., Tompkins, J. D., Jordan, M. C., Hiyari, S., Gabris-Weber, B. A., Greenbaum, A., Chan, K. Y., Deverman, B. E., MÃ¼nzberg, H., Ardell, J. L., Salama, G., Gradinaru, V., & Shivkumar, K. (2019). Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09770-1
+"	SPARC
+207	10.26275/chfk-eugm	Dataset	ViNERS (Visceral Nerve Ensemble Recording & Stimulation) peripheral neural interface modeling environment	doi:10.1109/EMBC44109.2020.9175921	Describes	Originating Publication		"Eiber, C. D., Keast, J. R., & Osborne, P. B. (2020). Simulating bidirectional peripheral neural interfaces in EIDORS. 2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC). https://doi.org/10.1109/embc44109.2020.9175921
+"	SPARC
+209	10.26275/g3xc-oztw	Dataset	Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon	doi:10.17504/protocols.io.bfqmjmu6	IsDocumentedBy	Protocol		"Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon v1. (2020). https://doi.org/10.17504/protocols.io.bfqmjmu6
+"	SPARC
+209	10.26275/g3xc-oztw	Dataset	Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon	doi:10.1007/s00441-020-03286-7	Describes	Originating Publication		"Mazzoni, M., Caremoli, F., Cabanillas, L., de los Santos, J., Million, M., Larauche, M., Clavenzani, P., De Giorgio, R., & Sternini, C. (2020). Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon. Cell and Tissue Research, 383(2), 645â654. https://doi.org/10.1007/s00441-020-03286-7
+"	SPARC
+210	10.26275/tbuz-s6gu	Dataset	Acute effects of gastric electrical stimulation settings on gastric motility assessed with magnetic resonance imaging in rats	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+180	10.26275/9uqz-zwnh	Dataset	Acute effects of efferent and afferent vagus nerve stimulation (VNS) on neural activity accessed with functional Magnetic Resonance Imaging (fMRI) in rats	doi:10.17504/protocols.io.bciwiufe	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Brain Neural Activity Assessed with Magnetic Resonance Imaging and electrophysiology v1. (2020). https://doi.org/10.17504/protocols.io.bciwiufe
+"	SPARC
+211	10.26275/ih2m-pphy	Dataset	Acute effects of vagus nerve stimulation (VNS) settings on neural activity in the nucleus of solitary tract (NTS) in rats	doi:10.17504/protocols.io.bciwiufe	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Brain Neural Activity Assessed with Magnetic Resonance Imaging and electrophysiology v1. (2020). https://doi.org/10.17504/protocols.io.bciwiufe
+"	SPARC
+212	10.26275/lok5-wje6	Dataset	Sympathetic nerve stimulation of mouse and rabbit hearts	doi:10.1113/JP278016	Describes	Originating Publication		"Wang, L., Morotti, S., Tapa, S., Francis Stuart, S. D., Jiang, Y., Wang, Z., Myles, R. C., Brack, K. E., Ng, G. A., Bers, D. M., Grandi, E., & Ripplinger, C. M. (2019). Different paths, same destination: divergent action potential responses produce conserved cardiac fightâorâflight response in mouse and rabbit hearts. The Journal of Physiology, 597(15), 3867â3883. Portico. https://doi.org/10.1113/jp278016
+"	SPARC
+215	10.26275/wlhm-c7ba	Dataset	Characterization of adeno associated virus serotypes 4 weeks after pancreas injection in mice	doi:10.17504/protocols.io.14egnx47pl5d/v1	IsDocumentedBy	Protocol		"Jimenez Gonzalez, M. (2019). Intrapancreatic injection surgery v1. https://doi.org/10.17504/protocols.io.14egnx47pl5d/v1
+"	SPARC
+130	10.26275/gvzt-oeti	Dataset	Functional mapping with lumbosacral epidural stimulation for restoration of bladder function after spinal cord injury in rats	doi:10.17504/protocols.io.w6hfhb6	IsDocumentedBy	Protocol		"Hubscher, C., & Hoey, R. (2019). Epidural stimulation mapping protocol v1. https://doi.org/10.17504/protocols.io.w6hfhb6
+"	SPARC
+130	10.26275/gvzt-oeti	Dataset	Functional mapping with lumbosacral epidural stimulation for restoration of bladder function after spinal cord injury in rats	doi:10.1038/s41598-021-81822-3	Describes	Originating Publication		"Hoey, R. F., Medina-AguiÃ±aga, D., Khalifa, F., Ugiliweneza, B., Zdunowski, S., Fell, J., Naglah, A., El-Baz, A. S., Herrity, A. N., Harkema, S. J., & Hubscher, C. H. (2021). Bladder and bowel responses to lumbosacral epidural stimulation in uninjured and transected anesthetized rats. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-81822-3
+"	SPARC
+119	10.26275/z6jn-j5tx	Dataset	Transcriptional diversity of single neurons in the porcine right atrial ganglionic plexus (RAGP)	doi:10.21203/rs.3.pex-927/v1	Cites	Work		"Robbins, S., Achanta, S., & Vadigepalli, R. (2021). Laser Capture Microdissection (LCM) and 3D Sample Tracking Protocol. https://doi.org/10.21203/rs.3.pex-927/v1
+"	Datacite
+216	10.26275/of13-iokw	Dataset	Antibodies tested in the colon - Pig	doi:10.17504/protocols.io.4r9gv96	IsDocumentedBy	Protocol		"pq Yuan, P.-Q., & TachÃ©, Y. (2019). Tache_Yuan_OT2OD024899_CLARITYAnd3DImagingOfColonicENSintheMouseAndPig_1_2019-Pig_Protocol v1. https://doi.org/10.17504/protocols.io.4r9gv96
+"	SPARC
+216	10.26275/of13-iokw	Dataset	Antibodies tested in the colon - Pig	doi:10.17504/protocols.io.bfqmjmu6	IsDocumentedBy	Protocol		"Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon v1. (2020). https://doi.org/10.17504/protocols.io.bfqmjmu6
+"	SPARC
+216	10.26275/of13-iokw	Dataset	Antibodies tested in the colon - Pig	doi:10.17504/protocols.io.b4qrqvv6	IsDocumentedBy	Protocol		"Immunohistochemistry of porcine enteric neurons v1. (2022). https://doi.org/10.17504/protocols.io.b4qrqvv6
+"	SPARC
+187	10.26275/dhbx-w17y	Dataset	Safety testing of predicate device for Fecobionics	doi:10.17504/protocols.io.b4u8qwzw	IsDocumentedBy	Protocol		"Staining Protocols for Safety Study of Wireless Fecobionics Device v1. (2022). https://doi.org/10.17504/protocols.io.b4u8qwzw
+"	SPARC
+220	10.26275/wucy-ljuk	Dataset	Single nucleus RNAseq of nodose ganglia in mice	doi:10.17504/protocols.io.v72e9qe	IsDocumentedBy	Protocol		"Preissl, S., Verheyden, J., & Sun, X. (2018). Single Nucleus RNAseq Sample Prep from Nodose Ganglia v1. https://doi.org/10.17504/protocols.io.v72e9qe
+"	SPARC
+46	10.26275/elbl-3vxh	Dataset	Effect of electrical stimulation of vagal afferent terminals located in the stomach muscle wall on feeding behavior	doi:10.17504/protocols.io.b2qgqdtw	IsDocumentedBy	Protocol		"Protocol for chronic implantation of patch electrodes on the gastric muscle wall of the rat v1. (2021). https://doi.org/10.17504/protocols.io.b2qgqdtw
+"	SPARC
+222	10.26275/cxej-bm2v	Dataset	Enteric nervous system expression profiling by high throughput scRNA-sequencing in human and mouse colon 	doi:10.17504/protocols.io.w26fghe	IsDocumentedBy	Protocol		"M Wright, C., & Robert O Heuckeroth,  not provided. (2019). Processing Human Colon &amp;quot;Myenteric Plexus&amp;quot; for Single Nuclei RNA-seq v1. https://doi.org/10.17504/protocols.io.w26fghe
+"	SPARC
+222	10.26275/cxej-bm2v	Dataset	Enteric nervous system expression profiling by high throughput scRNA-sequencing in human and mouse colon 	doi:10.1016/j.jcmgh.2020.12.014	Describes	Originating Publication		"Wright, C. M., Schneider, S., Smith-Edwards, K. M., Mafra, F., Leembruggen, A. J. L., Gonzalez, M. V., Kothakapa, D. R., Anderson, J. B., Maguire, B. A., Gao, T., Missall, T. A., Howard, M. J., Bornstein, J. C., Davis, B. M., & Heuckeroth, R. O. (2021). scRNA-Seq Reveals New Enteric Nervous System Roles for GDNF, NRTN, and TBX3. Cellular and Molecular Gastroenterology and Hepatology, 11(5), 1548-1592.e1. https://doi.org/10.1016/j.jcmgh.2020.12.014
+"	SPARC
+116	10.26275/az1n-uv7s	Dataset	Spatially tracked single-cell-scale RNAseq of porcine right atrial ganglionic plexus (RAGP) neurons	doi:10.21203/rs.3.pex-962/v1	Cites	Work		"Kuttippurathu, L., Moss, A., & Vadigepalli, R. (2021). Single Cell scale RNA-seq Analysis Protocol to analyze Smart-3SEQ data from RAGP neurons of pig heart. https://doi.org/10.21203/rs.3.pex-962/v1
+"	Datacite
+224	10.26275/qskp-awpu	Dataset	Optogenetic inhibition of nitrergic and cholinergic neurons of murine colonic myenteric plexus	doi:10.17504/protocols.io.bqppmvmn	IsDocumentedBy	Protocol		"Heredia, D., & Gould, T. (2020). Optogenetically inhibiting enteric neurons in the murine large intestine v1. https://doi.org/10.17504/protocols.io.bqppmvmn
+"	SPARC
+208	10.26275/e3cf-ofgn	Dataset	Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences	doi:10.1038/s41598-018-27306-3	Describes	Originating Publication		"Bayles, R. G., Olivas, A., Denfeld, Q., Woodward, W. R., Fei, S. S., Gao, L., & Habecker, B. A. (2018). Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences. Scientific Reports, 8(1). https://doi.org/10.1038/s41598-018-27306-3
+"	SPARC
+225	10.26275/rt8g-gu2v	Dataset	Ultrastructural analysis of human vagus nerve	doi:10.17504/protocols.io.xpxfmpn	IsDocumentedBy	Protocol		"Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn
+"	SPARC
+225	10.26275/rt8g-gu2v	Dataset	Ultrastructural analysis of human vagus nerve	doi:10.17504/protocols.io.b446qyze	IsDocumentedBy	Protocol		"Collection of human vagal tissue samples for TEM imaging v2. (2022). https://doi.org/10.17504/protocols.io.b446qyze
+"	SPARC
+31	10.26275/sip4-ioyz	Dataset	CLARITY and three-dimensional (3D) imaging of the mouse and porcine colonic innervation	doi:10.17504/protocols.io.4sagwae	IsDocumentedBy	Protocol		"pq Yuan, P.-Q., Wang, L., & TachÃ©, Y. (2019). Tache_Yuan_OT2OD024899_CLARITYAnd3DImagingOfColonicENSintheMouseAndPig_1_2019-Mouse_Protocol (Annotation Copy) v1. https://doi.org/10.17504/protocols.io.4sagwae
+"	SPARC
+221	10.26275/1uno-tynt	Dataset	Multicolor adeno-associated virus sparse labeling and 3D digital tracing of enteric plexus in mouse proximal colon	doi:10.17504/protocols.io.bqavmse6	IsDocumentedBy	Protocol		"Multicolor adeno-associate virus labeling and 3D digital tracing of enteric plexus in mouse proximal colon v1. (2020). https://doi.org/10.17504/protocols.io.bqavmse6
+"	SPARC
+228	10.26275/jsaw-2w1q	Dataset	Sympathetic and parasympathetic effects on membrane currents in isolated pig ventricular myocytes	doi:10.17504/protocols.io.ba8iihue	IsDocumentedBy	Protocol		"Isolation of Adult Pig Ventricular Myocytes v1. (2020). https://doi.org/10.17504/protocols.io.ba8iihue
+"	SPARC
+228	10.26275/jsaw-2w1q	Dataset	Sympathetic and parasympathetic effects on membrane currents in isolated pig ventricular myocytes	doi:10.17504/protocols.io.ba8mihu6	IsDocumentedBy	Protocol		"L-Type Ca2+ Current Protocol v1. (2020). https://doi.org/10.17504/protocols.io.ba8mihu6
+"	SPARC
+228	10.26275/jsaw-2w1q	Dataset	Sympathetic and parasympathetic effects on membrane currents in isolated pig ventricular myocytes	doi:10.1111/bph.15382	Describes	Originating Publication		"Rudokas, M. W., Post, J. P., SatarayâRodriguez, A., Sherpa, R. T., Moshal, K. S., Agarwal, S. R., & Harvey, R. D. (2021). Compartmentation of Î²2âadrenoceptor stimulated cAMP responses by phosphodiesterase types 2 and 3 in cardiac ventricular myocytes. British Journal of Pharmacology, 178(7), 1574â1587. Portico. https://doi.org/10.1111/bph.15382
+"	SPARC
+229	10.26275/qw1u-zxea	Dataset	Vagus nerve stimulation mapping in swine	doi:10.17504/protocols.io.bkeyktfw	IsDocumentedBy	Protocol		"Vagus Nerve Stimulation Evoked Electroneurography and Electromyography Recordings in Swine v1. (2020). https://doi.org/10.17504/protocols.io.bkeyktfw
+"	SPARC
+231	10.26275/zuwb-qnqk	Dataset	Calcium dynamics imaging of vasoactive intestinal peptide-expressing (VIP) enteric nervous system (ENS) neurons	doi:10.17504/protocols.io.14egn76xpv5d/v1	IsDocumentedBy	Protocol		"Imaging of Calcium Dynamics in Vasoactive Intestinal Peptide-expressing Neurons of Enteric Nervous System v1. (2022). https://doi.org/10.17504/protocols.io.14egn76xpv5d/v1
+"	SPARC
+231	10.26275/zuwb-qnqk	Dataset	Calcium dynamics imaging of vasoactive intestinal peptide-expressing (VIP) enteric nervous system (ENS) neurons	doi:10.1111/nmo.14678	Cites	Work		"Barth, B. B., Redington, E. R., Gautam, N., Pelot, N. A., & Grill, W. M. (2023). Calcium image analysis in the moving gut. Neurogastroenterology &amp; Motility, 35(12). Portico. https://doi.org/10.1111/nmo.14678
+"	OCI
+233	10.26275/nav5-oeol	Dataset	Rat vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hehb3e	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_TH v1. https://doi.org/10.17504/protocols.io.6hehb3e
+"	SPARC
+233	10.26275/nav5-oeol	Dataset	Rat vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.bi9tkh6n	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2020). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_ChAT v2. https://doi.org/10.17504/protocols.io.bi9tkh6n
+"	SPARC
+233	10.26275/nav5-oeol	Dataset	Rat vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hfhb3n	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_ChAT v1. https://doi.org/10.17504/protocols.io.6hfhb3n
+"	SPARC
+234	10.26275/x10i-9c9u	Dataset	Human vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hehb3e	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_TH v1. https://doi.org/10.17504/protocols.io.6hehb3e
+"	SPARC
+234	10.26275/x10i-9c9u	Dataset	Human vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.6hfhb3n	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2019). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_ChAT v1. https://doi.org/10.17504/protocols.io.6hfhb3n
+"	SPARC
+234	10.26275/x10i-9c9u	Dataset	Human vagus nerve TH- (tyrosine hydroxylase) and ChAT- (choline acetyltransferase) positive fibers	doi:10.17504/protocols.io.bi9tkh6n	IsDocumentedBy	Protocol		"Ashley Ezzell, J., A. Pelot, N., A. Clissold, K., & M. Grill, W. (2020). SPARC_Duke_Grill_OT2-OD025340_VagusNerve_IHC_ChAT v2. https://doi.org/10.17504/protocols.io.bi9tkh6n
+"	SPARC
+236	10.26275/vzxw-kwdu	Dataset	High-density penetrating array dorsal root ganglia recordings	doi:10.17504/protocols.io.w5nfg5e	IsDocumentedBy	Protocol		"J Sperry, Z., Na, K., VÃ¶rÃ¶slakos, M., Parizi, S., Jun, J., M. Bruns, T., Yoon, E., & P. Seymour, J. (2019). High-Density Penetrating Microelectrode Recordings from Anesthetized Feline Dorsal Root Ganglia v1. https://doi.org/10.17504/protocols.io.w5nfg5e
+"	SPARC
+236	10.26275/vzxw-kwdu	Dataset	High-density penetrating array dorsal root ganglia recordings	doi:10.1038/s41378-020-0149-z	Describes	Originating Publication		"Na, K., Sperry, Z. J., Lu, J., VÃ¶rÃ¶slakos, M., Parizi, S. S., Bruns, T. M., Yoon, E., & Seymour, J. P. (2020). Novel diamond shuttle to deliver flexible neural probe with reduced tissue compression. Microsystems &amp; Nanoengineering, 6(1). https://doi.org/10.1038/s41378-020-0149-z
+"	SPARC
+237	10.26275/rmkt-5ypu	Dataset	Ablation of the intrinsic cardiac nervous system to evaluate efferent control of cardiac function	doi:10.17504/protocols.io.bvpbn5in	IsDocumentedBy	Protocol		"Evaluating intrinsic cardiac neural control of cardiac function using sequential ganglionated plexus ablations v1. (2021). https://doi.org/10.17504/protocols.io.bvpbn5in
+"	SPARC
+237	10.26275/rmkt-5ypu	Dataset	Ablation of the intrinsic cardiac nervous system to evaluate efferent control of cardiac function	doi:10.1161/CIRCRESAHA.120.318458	Describes	Originating Publication		"Hanna, P., Dacey, M. J., Brennan, J., Moss, A., Robbins, S., Achanta, S., Biscola, N. P., Swid, M. A., Rajendran, P. S., Mori, S., Hadaya, J. E., Smith, E. H., Peirce, S. G., Chen, J., Havton, L. A., Cheng, Z. (Jack), Vadigepalli, R., Schwaber, J., Lux, R. L., â¦ Shivkumar, K. (2021). Innervation and Neuronal Control of the Mammalian Sinoatrial Node a Comprehensive Atlas. Circulation Research, 128(9), 1279â1296. https://doi.org/10.1161/circresaha.120.318458
+"	SPARC
+239	10.26275/4mfy-y7bj	Dataset	Temporal dispersion in porcine subdiaphragmatic nerves ex vivo	doi:10.17504/protocols.io.b59hq936	IsDocumentedBy	Protocol		"Tarotin, I., Mastitskaya, S., Ravagli, E., D Perkins, J., S Holder, D., & Aristovich, K. (2022). Measurement of activity-related impedance changes in porcine subdiaphragmatic nerve v2. https://doi.org/10.17504/protocols.io.b59hq936
+"	SPARC
+238	10.26275/be0x-9mzy	Dataset	Mapping colon and bladder innervating sensory neurons in CLARITY cleared ganglia in mouse	doi:10.17504/protocols.io.x54v9y391g3e/v1	IsDocumentedBy	Protocol		"Harrington, A. (2022). Cholera Toxin Subunit B (CTB) Retrograde tracing from the mouse colon and bladder wall. v1. https://doi.org/10.17504/protocols.io.x54v9y391g3e/v1
+"	SPARC
+238	10.26275/be0x-9mzy	Dataset	Mapping colon and bladder innervating sensory neurons in CLARITY cleared ganglia in mouse	doi:10.17504/protocols.io.j8nlkk971l5r/v2	IsDocumentedBy	Protocol		"Harrington, A. (2022). Mapping dichotomisingcolon and bladder sensory afferent neurons and terminals and if they undergo structural plasticity post-colitis. v2. https://doi.org/10.17504/protocols.io.j8nlkk971l5r/v2
+"	SPARC
+238	10.26275/be0x-9mzy	Dataset	Mapping colon and bladder innervating sensory neurons in CLARITY cleared ganglia in mouse	doi:10.17504/protocols.io.14egn7mpqv5d/v1	IsDocumentedBy	Protocol		"Harrington, A. (2022). Mouse model of post-colitis (DNBS) chronic visceral hypersensitivity. v1. https://doi.org/10.17504/protocols.io.14egn7mpqv5d/v1
+"	SPARC
+240	10.26275/iyto-oxay	Dataset	Imaging colon and bladder sensory convergence in CLARITY cleared mouse spinal cord 	doi:10.17504/protocols.io.x54v9y391g3e/v1	IsDocumentedBy	Protocol		"Harrington, A. (2022). Cholera Toxin Subunit B (CTB) Retrograde tracing from the mouse colon and bladder wall. v1. https://doi.org/10.17504/protocols.io.x54v9y391g3e/v1
+"	SPARC
+240	10.26275/iyto-oxay	Dataset	Imaging colon and bladder sensory convergence in CLARITY cleared mouse spinal cord 	doi:10.17504/protocols.io.j8nlkk971l5r/v2	IsDocumentedBy	Protocol		"Harrington, A. (2022). Mapping dichotomisingcolon and bladder sensory afferent neurons and terminals and if they undergo structural plasticity post-colitis. v2. https://doi.org/10.17504/protocols.io.j8nlkk971l5r/v2
+"	SPARC
+241	10.26275/wcli-rv5b	Dataset	Evaluating spheres of influence for efferent neural control of the heart	doi:10.17504/protocols.io.bvpbn5in	IsDocumentedBy	Protocol		"Evaluating intrinsic cardiac neural control of cardiac function using sequential ganglionated plexus ablations v1. (2021). https://doi.org/10.17504/protocols.io.bvpbn5in
+"	SPARC
+242	10.26275/x0oc-7oc5	Dataset	Calcium imaging and motility tracking of distinct myenteric neuronal subsets in mice	doi:10.17504/protocols.io.82fhybn	IsDocumentedBy	Protocol		"Imaging and stimulating enteric neurons in the murine large intestine v1. (2019). https://doi.org/10.17504/protocols.io.82fhybn
+"	SPARC
+243	10.26275/36ua-upkq	Dataset	Dorsal root ganglion stimulation to modulate mechanosensitive colorectal afferent transmission in mice	doi:10.17504/protocols.io.36wgq7b4ovk5/v1	IsDocumentedBy	Protocol		"Chen, L. (2022). Synchronized spinal nerve and dorsal root ganglia stimulation v1. https://doi.org/10.17504/protocols.io.36wgq7b4ovk5/v1
+"	SPARC
+244	10.26275/iwxw-y2tz	Dataset	Assessment of gastric emptying and motility with magnetic resonance imaging (MRI) under gastric electrical stimulation (GES) in rats	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+245	10.26275/ya41-6sfo	Dataset	Dorsal root ganglion stimulation to modulate mechanosensitive colorectal afferent transmission	doi:10.17504/protocols.io.bp2l61rnzvqe/v1	IsDocumentedBy	Protocol		"Chen, L. (2022). Dorsal Root Ganglia stimulation-block colorectal afferents v1. https://doi.org/10.17504/protocols.io.bp2l61rnzvqe/v1
+"	SPARC
+246	10.26275/tscp-vk1d	Dataset	Activity of and neurochemical expression in nitrergic and cholinergic neurons in the murine colonic myenteric plexus	doi:10.17504/protocols.io.82fhybn	IsDocumentedBy	Protocol		"Imaging and stimulating enteric neurons in the murine large intestine v1. (2019). https://doi.org/10.17504/protocols.io.82fhybn
+"	SPARC
+246	10.26275/tscp-vk1d	Dataset	Activity of and neurochemical expression in nitrergic and cholinergic neurons in the murine colonic myenteric plexus	doi:10.1111/nmo.14678	Cites	Work		"Barth, B. B., Redington, E. R., Gautam, N., Pelot, N. A., & Grill, W. M. (2023). Calcium image analysis in the moving gut. Neurogastroenterology &amp; Motility, 35(12). Portico. https://doi.org/10.1111/nmo.14678
+"	OCI
+252	10.26275/i6uj-vhx8	Dataset	In vivo visualization of pig vagus nerve 'vagotopy' using ultrasound	doi:10.17504/protocols.io.9ieh4be	IsDocumentedBy	Protocol		"Settell, M., E Knudsen, B., L McConico, A., & A Ludwig, K. (2019). Protocol for Pig Vagus Nerve Microdissection and Histology v1. https://doi.org/10.17504/protocols.io.9ieh4be
+"	SPARC
+252	10.26275/i6uj-vhx8	Dataset	In vivo visualization of pig vagus nerve 'vagotopy' using ultrasound	doi:10.17504/protocols.io.bp2l61m4zvqe/v1	IsDocumentedBy	Protocol		"Methods for Visualization of Pig Vagus Nerve &amp;#34;Vagotopy&amp;#34; Using Ultrasound v1. (2022). https://doi.org/10.17504/protocols.io.bp2l61m4zvqe/v1
+"	SPARC
+253	10.26275/jr6t-jcoe	Dataset	Performance testing of the Fecobionics device	doi:10.17504/protocols.io.bpzfmp3n	IsDocumentedBy	Protocol		"Performance Study of Wireless Fecobionics Device in Canine v1. (2020). https://doi.org/10.17504/protocols.io.bpzfmp3n
+"	SPARC
+253	10.26275/jr6t-jcoe	Dataset	Performance testing of the Fecobionics device	doi:10.1053/j.gastro.2020.09.055	Describes	Originating Publication		"Gregersen, H., Wang, Y., Guo, X., Field, F., Nelson, M., Combs, W., Wang, M., & Kassab, G. (2021). Simulated Colonic Feces Reveals Novel Contraction Patterns. Gastroenterology, 160(3), 660â662. https://doi.org/10.1053/j.gastro.2020.09.055
+"	SPARC
+254	10.26275/akxk-vcbm	Dataset	Electrochemical measurement of kanamycin in whole blood for implant longevity evaluation	doi:10.17504/protocols.io.j8nlk5dydl5r/v1	IsDocumentedBy	Protocol		"Chien, J.-C. (2019). Wireless electrochemical measurement of kanamycin in whole blood v1. https://doi.org/10.17504/protocols.io.j8nlk5dydl5r/v1
+"	SPARC
+256	10.26275/jrj4-zrmj	Dataset	Substance P-immunoreactive axon innervation of mouse stomach	doi:10.17504/protocols.io.j8nlkknn5l5r/v1	IsDocumentedBy	Protocol		"Topographical Organization, Morphology, and Density Analysis of Substance P (SP)-IR axons in the Whole Mouse Stomach v1. (2022). https://doi.org/10.17504/protocols.io.j8nlkknn5l5r/v1
+"	SPARC
+257	10.26275/dtlj-t4bf	Dataset	Increased arrhythmia susceptibility in type 2 diabetic mice related to dysregulation of ventricular sympathetic innervation	doi:10.17504/protocols.io.81wgb6ep3lpk/v1	IsDocumentedBy	Protocol		"D Tompkins, J. (2022). Protocol for intracellular recording from mouse intrinsic cardiac neurons v1. https://doi.org/10.17504/protocols.io.81wgb6ep3lpk/v1
+"	SPARC
+258	10.26275/23je-ute3	Dataset	4D upper gastrointestinal magnetic resonance imaging in healthy human subjects and gastroparetic patients	doi:10.17504/protocols.io.kxygxpx9dl8j/v1	IsDocumentedBy	Protocol		"4D Upper Gastrointestinal Magnetic Resonance Imaging in Healthy Human Subjects and Gastroparetic Patients v1. (2021). https://doi.org/10.17504/protocols.io.kxygxpx9dl8j/v1
+"	SPARC
+260	10.26275/vkvk-3hqe	Dataset	Expression of molecular markers in mouse and human stellate ganglia	doi:10.17504/protocols.io.rm7vzyko5lx1/v1	IsDocumentedBy	Protocol		"Neri, D. (2022). Expression of molecular markers in mouse and human stellate ganglia v1. https://doi.org/10.17504/protocols.io.rm7vzyko5lx1/v1
+"	SPARC
+261	10.26275/zly9-ow0w	Dataset	Expression of molecular markers in subpopulations of mouse stellate ganglion neurons 	doi:10.17504/protocols.io.8epv592bdg1b/v1	IsDocumentedBy	Protocol		"Neri, D. (2022). Expression of molecular markers in subpopulations of mouse stellate ganglion neurons v1. https://doi.org/10.17504/protocols.io.8epv592bdg1b/v1
+"	SPARC
+262	10.26275/vm1h-k4kq	Dataset	Electrode design characterization for electrophysiology from swine peripheral nervous system	doi:10.17504/protocols.io.j8nlkk6n5l5r/v1	IsDocumentedBy	Protocol		"Electrophysiology from cervical vagus nerve and great auricular nerve in swine v1. (2022). https://doi.org/10.17504/protocols.io.j8nlkk6n5l5r/v1
+"	SPARC
+262	10.26275/vm1h-k4kq	Dataset	Electrode design characterization for electrophysiology from swine peripheral nervous system	doi:10.1088/1741-2552/acc35c	Cites	Work		"Verma, N., Knudsen, B., Gholston, A., Skubal, A., Blanz, S., Settell, M., Frank, J., Trevathan, J., & Ludwig, K. (2023). Microneurography as a minimally invasive method to assess target engagement during neuromodulation. Journal of Neural Engineering, 20(2), 026036. https://doi.org/10.1088/1741-2552/acc35c
+"	OCI
+262	10.26275/vm1h-k4kq	Dataset	Electrode design characterization for electrophysiology from swine peripheral nervous system	doi:https://doi.org/10.26275/vm1h-k4kq	Cites	Work		Ludwig, K. A., &amp; Verma, N. (2022). <i>Electrode design characterization for electrophysiology from swine peripheral nervous system</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/VM1H-K4KQ	K-Core
+263	10.26275/bvpu-cuz7	Dataset	Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neurons	doi:10.17504/protocols.io.wjrfcm6	IsDocumentedBy	Protocol		"Lee, S., & Zeltser, L. (2018). Retrograde labeling of brown adipose tissue (BAT)-projecting sympathetic neurons with cholera toxin B (CTB) v1. https://doi.org/10.17504/protocols.io.wjrfcm6
+"	SPARC
+263	10.26275/bvpu-cuz7	Dataset	Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neurons	doi:10.17504/protocols.io.14egn79e6v5d/v1	IsDocumentedBy	Protocol		"Lee, S. (2022). Ganglia dissociation and single-cell sorting v1. https://doi.org/10.17504/protocols.io.14egn79e6v5d/v1
+"	SPARC
+263	10.26275/bvpu-cuz7	Dataset	Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neurons	doi:10.17504/protocols.io.bp2l61drdvqe/v1	IsDocumentedBy	Protocol		"Neri, D. (2022). Single-cell sequencing and analysis v1. https://doi.org/10.17504/protocols.io.bp2l61drdvqe/v1
+"	SPARC
+263	10.26275/bvpu-cuz7	Dataset	Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neurons	doi:10.17504/protocols.io.261generdg47/v1	IsDocumentedBy	Protocol		"Single cell RNA sequencing of retrogradely labeled mouse stellate ganglion neuron v1. (2022). https://doi.org/10.17504/protocols.io.261generdg47/v1
+"	SPARC
+264	10.26275/pfjd-cfty	Dataset	Optical mapping of action potentials and calcium transients in the mouse heart during optogenetic stimulation of the intracardiac ganglia and interconnecting neurons (ICNS)	doi:10.17504/protocols.io.bcdtis6n	IsDocumentedBy	Protocol		"Dual Optical Mapping of Action Potentials and Calcium Transients in the Mouse Heart during Optogenetic Stimulation of the ICNS v1. (2020). https://doi.org/10.17504/protocols.io.bcdtis6n
+"	SPARC
+265	10.26275/s3iw-km0k	Dataset	Expression of molecular markers in subpopulations of mouse celiac ganglion neurons 	doi:10.17504/protocols.io.8epv592bdg1b/v1	IsDocumentedBy	Protocol		"Neri, D. (2022). Expression of molecular markers in subpopulations of mouse stellate ganglion neurons v1. https://doi.org/10.17504/protocols.io.8epv592bdg1b/v1
+"	SPARC
+266	10.26275/eedx-wrhi	Dataset	Expression of molecular markers in subpopulations of mouse superior cervical ganglion neurons 	doi:10.17504/protocols.io.8epv592bdg1b/v1	IsDocumentedBy	Protocol		"Neri, D. (2022). Expression of molecular markers in subpopulations of mouse stellate ganglion neurons v1. https://doi.org/10.17504/protocols.io.8epv592bdg1b/v1
+"	SPARC
+268	10.26275/yt5s-pt6t	Dataset	Central terminal fields of lower urinary tract afferents in rat	doi:10.17504/protocols.io.w3efgje	IsDocumentedBy	Protocol		"R Keast, J., & B Osborne, P. (2019). Immunohistochemical analysis of ganglion neurons innervating the lower urinary tract [keast-001-stage03] v1. https://doi.org/10.17504/protocols.io.w3efgje
+"	SPARC
+268	10.26275/yt5s-pt6t	Dataset	Central terminal fields of lower urinary tract afferents in rat	doi:10.17504/protocols.io.b2ueqete	IsDocumentedBy	Protocol		"Fuller-Jackson, J.-P., B Osborne, P., & R Keast, J. (2021). Visualizing lower urinary tract afferent projections in the lumbosacral spinal cord in rats v1. https://doi.org/10.17504/protocols.io.b2ueqete
+"	SPARC
+247	10.26275/z4wa-dxjx	Dataset	Acute effects of gastric electrical stimulation settings on neural activity in the nucleus of solitary tract in rats	doi:10.17504/protocols.io.4r3l2okzjv1y/v1	IsDocumentedBy	Protocol		"The Acute Effects of Gastric Electrical Stimulation on Nucleus of the Solitary Tract Neural Activity Assessed with Electrophysiological Recording v1. (2022). https://doi.org/10.17504/protocols.io.4r3l2okzjv1y/v1
+"	SPARC
+269	10.26275/y4k2-mkam	Dataset	Effect of chronic gastric electrical stimulation on the feeding behavior of female rats consuming a 45% high-fat diet	doi:10.17504/protocols.io.b2qgqdtw	IsDocumentedBy	Protocol		"Protocol for chronic implantation of patch electrodes on the gastric muscle wall of the rat v1. (2021). https://doi.org/10.17504/protocols.io.b2qgqdtw
+"	SPARC
+270	10.26275/r5gw-clgv	Dataset	Effects of vagal efferent blockade on gastric motility and emptying during cervical vagus nerve stimulation measured with magnetic resonance imaging in rats	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+271	10.26275/adzn-2fes	Dataset	In vivo mapping of gastric electrical activation with manganese enhanced magnetic resonance imaging	doi:10.17504/protocols.io.wvxfe7n	IsDocumentedBy	Protocol		"Lu, K.-H., Liu, Z., & Cao, J. (2019). Contrast-enhanced magnetic resonance imaging of gastric emptying and motility in rats v1. https://doi.org/10.17504/protocols.io.wvxfe7n
+"	SPARC
+271	10.26275/adzn-2fes	Dataset	In vivo mapping of gastric electrical activation with manganese enhanced magnetic resonance imaging	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+272	10.26275/spcl-epsl	Dataset	Effects of vagal afferent blockade on gastric motility during cervical vagus nerve stimulation measured with magnetic resonance imaging in rats	doi:10.17504/protocols.io.bawfifbn	IsDocumentedBy	Protocol		"Effects of Vagus Nerve Stimulation/Gastric Electrical Stimulation on Gastric Emptying and Motility Assessed with Magnetic Resonance Imaging v1. (2019). https://doi.org/10.17504/protocols.io.bawfifbn
+"	SPARC
+273	10.26275/ebql-cdno	Dataset	Effect of chronic gastric electrical stimulation on the feeding behavior of male rats consuming a 45% high-fat diet	doi:10.17504/protocols.io.b2qgqdtw	IsDocumentedBy	Protocol		"Protocol for chronic implantation of patch electrodes on the gastric muscle wall of the rat v1. (2021). https://doi.org/10.17504/protocols.io.b2qgqdtw
+"	SPARC
+274	10.26275/umgm-rzar	Dataset	Correlated electrophysiological immunohistochemical and morphological properties of proximal colon myenteric neurons	doi:10.17504/protocols.io.e6nvwkp97vmk/v1	IsDocumentedBy	Protocol		"Intracellular recordings and post hoc immunofluorescence v1. (2021). https://doi.org/10.17504/protocols.io.e6nvwkp97vmk/v1
+"	SPARC
+259	10.26275/mxnk-4tvt	Dataset	Scaffold map - Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig	doi:10.17504/protocols.io.n2bvj6o35lk5/v2	IsDocumentedBy	Protocol		"Scaffold Mapping Protocol - Version 1.1.0 v2. (2022). https://doi.org/10.17504/protocols.io.n2bvj6o35lk5/v2
+"	SPARC
+105	10.26275/iefx-c2qi	Dataset	Generic rat stomach scaffold	doi:10.1109/tbme.2023.3234509	Cites	Work		"Wang, X., Cao, J., Han, K., Choi, M., She, Y., Scheven, U. M., Avci, R., Du, P., Cheng, L. K., Natale, M. R. D., Furness, J. B., & Liu, Z. (2023). Diffeomorphic Surface Modeling for MRI-Based Characterization of Gastric Anatomy and Motility. IEEE Transactions on Biomedical Engineering, 70(7), 2046â2057. https://doi.org/10.1109/tbme.2023.3234509
+"	OCI
+105	10.26275/iefx-c2qi	Dataset	Generic rat stomach scaffold	doi:10.1109/embc48229.2022.9871314	Cites	Work		"Avci, R., Wickens, J. D., Sangi, M., Athavale, O. N., Di Natale, M. R., Furness, J. B., Du, P., & Cheng, L. K. (2022). A Computational Model of Biophysical Properties of the Rat Stomach Informed by Comprehensive Analysis of Muscle Anatomy. 2022 44th Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC). https://doi.org/10.1109/embc48229.2022.9871314
+"	Datacite
+120	10.26275/wcwr-hmch	Dataset	Chronic wireless Urological Monitor of Conscious Activity (UroMOCA) implantation in feline bladder	doi:10.17504/protocols.io.bf2kjqcw	IsDocumentedBy	Protocol		"SPARC Cat acute UroMOCA implantation v1. (2020). https://doi.org/10.17504/protocols.io.bf2kjqcw
+"	SPARC
+120	10.26275/wcwr-hmch	Dataset	Chronic wireless Urological Monitor of Conscious Activity (UroMOCA) implantation in feline bladder	doi:10.17504/protocols.io.bf2pjqdn	IsDocumentedBy	Protocol		"SPARC Cat acute UroMOCA implantation surgery v1. (2020). https://doi.org/10.17504/protocols.io.bf2pjqdn
+"	SPARC
+32	10.26275/pbrd-ci3l	Dataset	Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies	doi:10.17504/protocols.io.x3sfqne	IsDocumentedBy	Protocol		"Rajendran, P. (2019). iDISCO clearing of mouse heart v1. https://doi.org/10.17504/protocols.io.x3sfqne
+"	SPARC
+32	10.26275/pbrd-ci3l	Dataset	Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies	doi:10.1038/s41467-019-09770-1	Describes	Originating Publication		"Rajendran, P. S., Challis, R. C., Fowlkes, C. C., Hanna, P., Tompkins, J. D., Jordan, M. C., Hiyari, S., Gabris-Weber, B. A., Greenbaum, A., Chan, K. Y., Deverman, B. E., MÃ¼nzberg, H., Ardell, J. L., Salama, G., Gradinaru, V., & Shivkumar, K. (2019). Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09770-1
+"	SPARC
+32	10.26275/pbrd-ci3l	Dataset	Identification of peripheral neural circuits that regulate heart rate using optogenetic and viral vector strategies	doi:10.1038/s41596-018-0097-3	Cites	Work		"Challis, R. C., Ravindra Kumar, S., Chan, K. Y., Challis, C., Beadle, K., Jang, M. J., Kim, H. M., Rajendran, P. S., Tompkins, J. D., Shivkumar, K., Deverman, B. E., & Gradinaru, V. (2019). Systemic AAV vectors for widespread and targeted gene delivery in rodents. Nature Protocols, 14(2), 379â414. https://doi.org/10.1038/s41596-018-0097-3
+"	Datacite
+279	10.26275/hbuu-caud	Dataset	Lower urinary tract nerve responses to high-density epidural spinal cord stimulation in cats	doi:10.17504/protocols.io.xszfnf6	IsDocumentedBy	Protocol		"SPARC RNEL Bladder January 2019 protocol v1. (2019). https://doi.org/10.17504/protocols.io.xszfnf6
+"	SPARC
+279	10.26275/hbuu-caud	Dataset	Lower urinary tract nerve responses to high-density epidural spinal cord stimulation in cats	doi:10.1088/1741-2552/aca0c2	Cites	Work		"Jantz, M. K., Gopinath, C., Kumar, R., Chin, C., Wong, L., Ogren, J. I., Fisher, L. E., McLaughlin, B. L., & Gaunt, R. A. (2022). High-density spinal cord stimulation selectively activates lower urinary tract nerves. Journal of Neural Engineering, 19(6), 066014. https://doi.org/10.1088/1741-2552/aca0c2
+"	OCI
+279	10.26275/hbuu-caud	Dataset	Lower urinary tract nerve responses to high-density epidural spinal cord stimulation in cats	doi:https://doi.org/10.26275/hbuu-caud	Cites	Work		Jantz, M., Gopinath, C., Kumar, R., Gaunt, R., &amp; McLaughlin, B. (2022). <i>Lower urinary tract nerve responses to high-density epidural spinal cord stimulation in cats</i> (Version 1) [Data set]. Pennsieve Discover. https://doi.org/10.26275/HBUU-CAUD	K-Core
+282	10.26275/eikd-dg5c	Dataset	RNA sequencing analysis of transcriptomic responses to vagal nerve stimulation in myenteric ganglia of porcine colon	doi:10.17504/protocols.io.eq2lynmeqvx9/v1	IsDocumentedBy	Protocol		"Li, T. (2022). RNA sequencing analysis of transcriptomic responses to vagal nerve stimulation in myenteric ganglia of porcine colon v1. https://doi.org/10.17504/protocols.io.eq2lynmeqvx9/v1
+"	SPARC
+283	10.26275/qmg0-zbde	Dataset	Calcium imaging tension recordings and pelet transit in mouse colon in response to direct electrical field stimulation 	doi:10.17504/protocols.io.36wgq7yokvk5/v1	IsDocumentedBy	Protocol		"Heredia, D. (2022). Measuring tension, pellet transit, and calcium imaging within cell subtypes in response to direct electrical field stimulation of colon v1. https://doi.org/10.17504/protocols.io.36wgq7yokvk5/v1
+"	SPARC
+135	10.26275/zodp-mgzu	Dataset	Computational analysis of the human sinus node action potential - Model development and effects of mutations	doi:10.1113/jp273259	Describes	Originating Publication		"Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365â2396. Portico. https://doi.org/10.1113/jp273259
+"	SPARC
+157	10.26275/qour-lluj	Dataset	Fabbri-based composite SAN model	doi:10.1113/jp273259	Describes	Originating Publication		"Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365â2396. Portico. https://doi.org/10.1113/jp273259
+"	SPARC
+287	10.26275/hmwa-nqdu	Dataset	Organotopic organization of the porcine vagus nerve	doi:10.17504/protocols.io.b4p2qvqe	IsDocumentedBy	Protocol		"Thompson, N., Mastitskaya, S., Ravagli, E., Aristovich, K., & Holder, D. (2022). Nerve Sample Preparation for MicroCT Scanning v1. https://doi.org/10.17504/protocols.io.b4p2qvqe
+"	SPARC
+287	10.26275/hmwa-nqdu	Dataset	Organotopic organization of the porcine vagus nerve	doi:10.17504/protocols.io.b4qeqvte	IsDocumentedBy	Protocol		"Thompson, N., Mastitskaya, S., Ravagli, E., Aristovich, K., & Holder, D. (2022). MicroCT Scanning of Pig Vagus Nerves v1. https://doi.org/10.17504/protocols.io.b4qeqvte
+"	SPARC
+287	10.26275/hmwa-nqdu	Dataset	Organotopic organization of the porcine vagus nerve	doi:10.17504/protocols.io.b42zqyf6	IsDocumentedBy	Protocol		"Ravagli, E., Mastitskaya, S., Thompson, N., Aristovich, K., & Holder, D. (2022). Vagus Nerve Selective Stimulation and EIT recording v1. https://doi.org/10.17504/protocols.io.b42zqyf6
+"	SPARC
+85	10.26275/4iqi-hazf	Dataset	Anatomy and histology of the domestic pig in the context of vagus nerve stimulation	doi:10.17504/protocols.io.9ieh4be	IsDocumentedBy	Protocol		"Settell, M., E Knudsen, B., L McConico, A., & A Ludwig, K. (2019). Protocol for Pig Vagus Nerve Microdissection and Histology v1. https://doi.org/10.17504/protocols.io.9ieh4be
+"	SPARC
+85	10.26275/4iqi-hazf	Dataset	Anatomy and histology of the domestic pig in the context of vagus nerve stimulation	doi:10.1088/1741-2552/ab7ad4	Describes	Originating Publication		"Settell, M. L., Pelot, N. A., Knudsen, B. E., Dingle, A. M., McConico, A. L., Nicolai, E. N., Trevathan, J. K., Ezzell, J. A., Ross, E. K., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., Zeng, W., Poore, S. O., Populin, L. C., Suminski, A. J., Grill, W. M., & Ludwig, K. A. (2020). Functional vagotopy in the cervical vagus nerve of the domestic pig: implications for the study of vagus nerve stimulation. Journal of Neural Engineering, 17(2), 026022. https://doi.org/10.1088/1741-2552/ab7ad4
+"	SPARC
+288	10.26275/biqn-mqy4	Dataset	Enteric neuron responses in mouse distal colon to lumbosacral spinal cord stimulation	doi:10.17504/protocols.io.ewov1o817lr2/v1	IsDocumentedBy	Protocol		"Smith-Edwards, K. (2022). Enteric neuron activity in the mouse colon and responses to lumbosacral stimulation v2. https://doi.org/10.17504/protocols.io.ewov1o817lr2/v1
+"	SPARC
+156	10.26275/5mkx-apz9	Dataset	Human whole-body with embedded organs	doi:10.1101/2021.12.30.474265	Cites	Work		"BÃ¶rner, K., Bueckle, A., Herr, B. W., Cross, L. E., Quardokus, E. M., Record, E. G., Ju, Y., Silverstein, J. C., Browne, K. M., Jain, S., Wasserfall, C. H., Jorgensen, M. L., Spraggins, J. M., Patterson, N. H., & Weber, G. M. (2021). Tissue Registration and Exploration User Interfaces in support of a Human Reference Atlas. https://doi.org/10.1101/2021.12.30.474265
+"	OCI
+125	10.26275/g8aq-rjsp	Dataset	Characterization of projections of longitudinal muscle motor neurons in human colon	doi:10.17504/protocols.io.btwinpce	IsDocumentedBy	Protocol		"Protocol for &amp;#34;Characterization of projections of long interneurons in human colon&amp;#34; - Brookes Lab v1. (2021). https://doi.org/10.17504/protocols.io.btwinpce
+"	SPARC
+125	10.26275/g8aq-rjsp	Dataset	Characterization of projections of longitudinal muscle motor neurons in human colon	doi:10.1111/nmo.13685	Describes	Originating Publication		"Humenick, A., Chen, B. N., Lauder, C. I. W., Wattchow, D. A., Zagorodnyuk, V. P., Dinning, P. G., Spencer, N. J., Costa, M., & Brookes, S. J. H. (2019). Characterization of projections of longitudinal muscle motor neurons in human colon. Neurogastroenterology &amp; Motility, 31(10). Portico. https://doi.org/10.1111/nmo.13685
+"	SPARC
+291	10.26275/h4yk-volr	Dataset	Calcium imaging and tension recording in response to stimulation of the vagus nerve (VNS)	doi:10.17504/protocols.io.x54v9y9wzg3e/v1	IsDocumentedBy	Protocol		"Heredia, D. (2022). Measuring tension and calcium imaging within cell subtypes of the colon in response to vagus nerve stimulation v1. https://doi.org/10.17504/protocols.io.x54v9y9wzg3e/v1
+"	SPARC
+293	10.26275/f4p0-d1ic	Dataset	Mouse genetic models to manipulate enterochromaffin cell activity	doi:10.17504/protocols.io.j8nlkw575l5r/v1	IsDocumentedBy	Protocol		"D Rossen, N. (2022). Preparation and Immunohistochemistry of Mouse Small Intestine and Colon v1. https://doi.org/10.17504/protocols.io.j8nlkw575l5r/v1
+"	SPARC
+294	10.26275/x1ht-tsiz	Dataset	Innervation of enteroendocrine cells in the gastric mucosa in human and pig - including a description of the innervation of mucosal vasculature	doi:10.17504/protocols.io.8u7hwzn	IsDocumentedBy	Protocol		"Di Natale, M., Fakhry, J., Stebbing, M., Hunne, B., & B. Furness, J. (2019). Identification of different EEC types and nerve fiber types in human gastric mucosa v1. https://doi.org/10.17504/protocols.io.8u7hwzn
+"	SPARC
+294	10.26275/x1ht-tsiz	Dataset	Innervation of enteroendocrine cells in the gastric mucosa in human and pig - including a description of the innervation of mucosal vasculature	doi:10.1007/s00441-020-03294-7	Describes	Originating Publication		"Furness, J. B., Di Natale, M., Hunne, B., Oparija-Rogenmozere, L., Ward, S. M., Sasse, K. C., Powley, T. L., Stebbing, M. J., Jaffey, D., & Fothergill, L. J. (2020). The identification of neuronal control pathways supplying effector tissues in the stomach. Cell and Tissue Research, 382(3), 433â445. https://doi.org/10.1007/s00441-020-03294-7
+"	SPARC
+295	10.26275/tpu4-kvzo	Dataset	Spatial distribution and morphometric characterization of mucosal afferents of the pylorus of the rat stomach	doi:10.17504/protocols.io.bp2l6nx5rgqe/v1	IsDocumentedBy	Protocol		"Powley, T. (2020). High resolution labeling of mucosal vagal afferent fibers using Dextran-Biotin with counterstaining v1. https://doi.org/10.17504/protocols.io.bp2l6nx5rgqe/v1
+"	SPARC
+296	10.26275/lck3-f9v0	Dataset	Mapping of the vagal afferent innervation of the mouse lung	doi:10.17504/protocols.io.3byl4b6kjvo5/v1	IsDocumentedBy	Protocol		"Kim, S.-H. (2022). Dissection and immunohistochemistry of mouse lung v1. https://doi.org/10.17504/protocols.io.3byl4b6kjvo5/v1
+"	SPARC
+296	10.26275/lck3-f9v0	Dataset	Mapping of the vagal afferent innervation of the mouse lung	doi:10.17504/protocols.io.81wgb6w61lpk/v1	IsDocumentedBy	Protocol		"Kim, S.-H. (2022). Intraganglionic injection of AAV into nodose ganglia in mice v1. https://doi.org/10.17504/protocols.io.81wgb6w61lpk/v1
+"	SPARC
+297	10.26275/d3jb-pkzx	Dataset	Sympathetic and parasympathetic effects on action potentials in isolated pig ventricular myocytes	doi:10.17504/protocols.io.ba8iihue	IsDocumentedBy	Protocol		"Isolation of Adult Pig Ventricular Myocytes v1. (2020). https://doi.org/10.17504/protocols.io.ba8iihue
+"	SPARC
+297	10.26275/d3jb-pkzx	Dataset	Sympathetic and parasympathetic effects on action potentials in isolated pig ventricular myocytes	doi:10.17504/protocols.io.ba8qihvw	IsDocumentedBy	Protocol		"Cardiac Action Potential Protocol v1. (2020). https://doi.org/10.17504/protocols.io.ba8qihvw
+"	SPARC
+301	10.26275/dfk5-6w3z	Dataset	Selective stimulation of the ferret abdominal vagus nerve with multi‐contact nerve cuff electrodes	doi:10.17504/protocols.io.6a7hahn	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Acute surgery and experimentation of the gastrointestinal tract and vagus nerve in the ferret v1. https://doi.org/10.17504/protocols.io.6a7hahn
+"	SPARC
+301	10.26275/dfk5-6w3z	Dataset	Selective stimulation of the ferret abdominal vagus nerve with multi‐contact nerve cuff electrodes	doi:10.17504/protocols.io.6a8hahw	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Gastrointestinal myoelectric recordings from the behaving ferret v1. https://doi.org/10.17504/protocols.io.6a8hahw
+"	SPARC
+301	10.26275/dfk5-6w3z	Dataset	Selective stimulation of the ferret abdominal vagus nerve with multi‐contact nerve cuff electrodes	doi:10.17504/protocols.io.6crhav6	IsDocumentedBy	Protocol		"C Horn, C., M. Miller, D., Fulton, S., J. Yates, B., E. Fisher, L., & C. Nanivadekar, A. (2019). SPARC - Chronic implantation of gastrointestinal and vagus nerve electrodes in the ferret v1. https://doi.org/10.17504/protocols.io.6crhav6
+"	SPARC
+301	10.26275/dfk5-6w3z	Dataset	Selective stimulation of the ferret abdominal vagus nerve with multi‐contact nerve cuff electrodes	doi:10.1038/s41598-021-91900-1	Describes	Originating Publication		"Shulgach, J. A., Beam, D. W., Nanivadekar, A. C., Miller, D. M., Fulton, S., Sciullo, M., Ogren, J., Wong, L., McLaughlin, B. L., Yates, B. J., Horn, C. C., & Fisher, L. E. (2021). Selective stimulation of the ferret abdominal vagus nerve with multi-contact nerve cuff electrodes. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-91900-1
+"	SPARC
+302	10.26275/kgkj-6vb9	Dataset	Calcium imaging of mouse dorsal root ganglion (DRG) neurons in response to chemical stimuli of distal colon and rectum (colorectum)	doi:10.17504/protocols.io.ewov1n2mogr2/v1	IsDocumentedBy	Protocol		"Feng, B. (2022). Chemical colorectal stimuli for GCaMP6f characterization v1. https://doi.org/10.17504/protocols.io.ewov1n2mogr2/v1
+"	SPARC
+303	10.26275/ggj4-agvt	Dataset	Myenteric neuron activity during spontaneous motor complexes in mouse colon	doi:10.17504/protocols.io.6qpvr4oz3gmk/v2	IsDocumentedBy	Protocol		"Smith-Edwards, K. (2023). Enteric neuron activity during spontaneous motor complexes in mouse colon v2. https://doi.org/10.17504/protocols.io.6qpvr4oz3gmk/v2
+"	SPARC
+303	10.26275/ggj4-agvt	Dataset	Myenteric neuron activity during spontaneous motor complexes in mouse colon	doi:10.1111/nmo.14678	Cites	Work		"Barth, B. B., Redington, E. R., Gautam, N., Pelot, N. A., & Grill, W. M. (2023). Calcium image analysis in the moving gut. Neurogastroenterology &amp; Motility, 35(12). Portico. https://doi.org/10.1111/nmo.14678
+"	OCI
+304	10.26275/z1wa-spub	Dataset	Regional analysis of autonomic nerves in normal and diseased human hearts	doi:10.17504/protocols.io.eq2lypoymlx9/v1	IsDocumentedBy	Protocol		"Hoover, D. (2021). Protocol for ABC Immunohistochemistry and Quantifying Nerves v1. https://doi.org/10.17504/protocols.io.eq2lypoymlx9/v1
+"	SPARC
+114	10.26275/6f3g-wvzh	Dataset	Acute Wired Colonic Monitor of Conscious Activity (ColoMOCA) implantation in pig bowel	doi:10.17504/protocols.io.bfxbjpin	IsDocumentedBy	Protocol		"SPARC Pig1 acute wired ColoMOCA implantation v1. (2020). https://doi.org/10.17504/protocols.io.bfxbjpin
+"	SPARC
+114	10.26275/6f3g-wvzh	Dataset	Acute Wired Colonic Monitor of Conscious Activity (ColoMOCA) implantation in pig bowel	doi:10.17504/protocols.io.bfxgjpjw	IsDocumentedBy	Protocol		"SPARC Pig2 acute wired ColoMOCA implantation v1. (2020). https://doi.org/10.17504/protocols.io.bfxgjpjw
+"	SPARC
+132	10.26275/srm7-no3j	Dataset	Acute wired Urological Monitor of Conscious Activity (UroMOCA) implantation in feline bladder	doi:10.17504/protocols.io.bf2kjqcw	IsDocumentedBy	Protocol		"SPARC Cat acute UroMOCA implantation v1. (2020). https://doi.org/10.17504/protocols.io.bf2kjqcw
+"	SPARC
+132	10.26275/srm7-no3j	Dataset	Acute wired Urological Monitor of Conscious Activity (UroMOCA) implantation in feline bladder	doi:10.17504/protocols.io.bf2pjqdn	IsDocumentedBy	Protocol		"SPARC Cat acute UroMOCA implantation surgery v1. (2020). https://doi.org/10.17504/protocols.io.bf2pjqdn
+"	SPARC
+26	10.26275/nomg-p2vk	Dataset	Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs	doi:10.17504/protocols.io.2i4gcgw	IsDocumentedBy	Protocol		"Ardell, J. (2019). Pig-Neural recording and analysis-workflow v1. https://doi.org/10.17504/protocols.io.2i4gcgw
+"	SPARC
+26	10.26275/nomg-p2vk	Dataset	Cardioneural recordings using floating multi-channel plunge micro-electrodes in pigs	doi:10.17504/protocols.io.2ncgdaw	IsDocumentedBy	Protocol		"Vaseghi, M., & Ardell, J. (2019). Pig Nodose Ganglion protocol v1. https://doi.org/10.17504/protocols.io.2ncgdaw
+"	SPARC
+148	10.26275/kj2u-2ukf	Dataset	Chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of mouse colon	doi:10.17504/protocols.io.btuznnx6	IsDocumentedBy	Protocol		"Contractile response to chemogenetic activation or inhibition of cholinergic or nitrergic myenteric neurons of the mouse colon v1. (2021). https://doi.org/10.17504/protocols.io.btuznnx6
+"	SPARC
+312	10.26275/lk0e-kgrs	Dataset	Population of mock morphological models of vagus nerve stimulation with cuff electrodes for the purpose of studying the effect of fascicle diameter on activation threshold	doi:10.26275/kqg4-wbtp	Cites	Work		Musselman, E. D., Davis, C., Grill, W. M., &amp; Pelot, N. A. (2023). <i>Histology-based computational models of implanted human cervical vagus nerve stimulation with the LivaNova helical cuff electrode</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/KQG4-WBTP	Datacite
+77	10.26275/yh5c-5pjy	Dataset	Comparison of the intrinsic cardiac nervous system across male and female rat hearts	doi:10.17504/protocols.io.bdz5i786	IsDocumentedBy	Protocol		"Leung, C., Heal, M., Robbins, S., Moss, A., Monteith, C., & Tappan, S. (2020). Single-Cell ICN Neuron Mapping and 3D Heart Reconstruction with Tissue Mapper v1. https://doi.org/10.17504/protocols.io.bdz5i786
+"	SPARC
+77	10.26275/yh5c-5pjy	Dataset	Comparison of the intrinsic cardiac nervous system across male and female rat hearts	doi:10.1007/s12021-021-09530-x	Cites	Work		"Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2021). A Comprehensive, FAIR File Format for Neuroanatomical Structure Modeling. Neuroinformatics, 20(1), 221â240. https://doi.org/10.1007/s12021-021-09530-x
+"	OCI
+77	10.26275/yh5c-5pjy	Dataset	Comparison of the intrinsic cardiac nervous system across male and female rat hearts	doi:10.1101/2020.09.22.306670	Cites	Work		"Sullivan, A. E., Tappan, S. J., Angstman, P. J., Rodriguez, A., Thomas, G. C., Hoppes, D. M., Abdul-Karim, M. A., Heal, M. L., & Glaser, J. R. (2020). A comprehensive, FAIR file format for neuroanatomical structure modeling. https://doi.org/10.1101/2020.09.22.306670
+"	Crossref
+77	10.26275/yh5c-5pjy	Dataset	Comparison of the intrinsic cardiac nervous system across male and female rat hearts	doi:10.1016/j.isci.2021.102795	Cites	Work		"Leung, C., Robbins, S., Moss, A., Heal, M., Osanlouy, M., Christie, R., Farahani, N., Monteith, C., Chen, J., Hunter, P., Tappan, S., Vadigepalli, R., Cheng, Z. (Jack), & Schwaber, J. S. (2021). 3D single cell scale anatomical map of sex-dependent variability of the rat intrinsic cardiac nervous system. IScience, 24(7), 102795. https://doi.org/10.1016/j.isci.2021.102795
+"	K-Core
+314	10.26275/wh9h-tbew	Dataset	Topographical mapping of sympathetic postganglionic innervation of the mouse heart	doi:10.17504/protocols.io.bygmptu6	IsDocumentedBy	Protocol		"Mapping CGRP-IR innervation of male mice stomach with Neurolucida 360 v1. (2021). https://doi.org/10.17504/protocols.io.bygmptu6
+"	SPARC
+314	10.26275/wh9h-tbew	Dataset	Topographical mapping of sympathetic postganglionic innervation of the mouse heart	doi:10.17504/protocols.io.n92ldzbmxv5b/v2	IsDocumentedBy	Protocol		"Topographical mapping of sympathetic postganglionic innervation of mouse heart v2. (2023). https://doi.org/10.17504/protocols.io.n92ldzbmxv5b/v2
+"	SPARC
+315	10.26275/zsop-bygv	Dataset	Visceromotor responses (VMR) to colorectal distension in mice with silenced or activated enterochromaffin cells	doi:10.17504/protocols.io.n92ldp347l5b/v1	IsDocumentedBy	Protocol		"Bayrer, J. (2022). Measuring the Visceromotor Response in Rodents v1. https://doi.org/10.17504/protocols.io.n92ldp347l5b/v1
+"	SPARC
+316	10.26275/do5j-mz5q	Dataset	Decoding vagus nerve activity with carbon nanotube sensors in freely moving rodents	doi:10.17504/protocols.io.4r3l273x3g1y/v1	IsDocumentedBy	Protocol		"Mccallum, G. (2023). Chronic Vagus-Nerve Activity with Carbon Nanotube Sensors in Freely Moving Rodents v1. https://doi.org/10.17504/protocols.io.4r3l273x3g1y/v1
+"	SPARC
+317	10.26275/f5se-ynpk	Dataset	Histology of pig cervical vagus nerve	doi:10.17504/protocols.io.9ieh4be	IsDocumentedBy	Protocol		"Settell, M., E Knudsen, B., L McConico, A., & A Ludwig, K. (2019). Protocol for Pig Vagus Nerve Microdissection and Histology v1. https://doi.org/10.17504/protocols.io.9ieh4be
+"	SPARC
+317	10.26275/f5se-ynpk	Dataset	Histology of pig cervical vagus nerve	doi:10.1088/1741-2552/acda64	Cites	Work		"Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64
+"	OCI
+321	10.26275/59t4-jlnz	Dataset	Human cervical vagus nerve fascicle imaging with MicroCT	doi:10.17504/protocols.io.bp2l61715vqe/v2	IsDocumentedBy	Protocol		"R. Upadhye, A. (2022). Staining the Human Vagus Nerve with Osmium Tetroxide and Micro CT imaging v2. https://doi.org/10.17504/protocols.io.bp2l61715vqe/v2
+"	SPARC
+22	10.26275/fi87-3n6o	Dataset	Distribution and coexpression patterns of specific cell markers of enteroendocrine cells in pig gastric epithelium	doi:10.17504/protocols.io.4vngw5e	IsDocumentedBy	Protocol		"J. Fothergill, L., Stebbing, M., Hunne, B., Galiazzo, G., Fahkry, J., Weissenborn, F., Fazio Coles, T., & B. Furness, J. (2019). Immunohistochemistry and high resolution microscopy of pig gastric enteroendocrine cells v1. https://doi.org/10.17504/protocols.io.4vngw5e
+"	SPARC
+139	10.26275/6b53-usyr	Dataset	RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats	doi:10.1038/s41598-018-26651-7	Describes	Originating Publication		"Bardsley, E. N., Davis, H., Ajijola, O. A., Buckler, K. J., Ardell, J. L., Shivkumar, K., & Paterson, D. J. (2018). RNA Sequencing Reveals Novel Transcripts from Sympathetic Stellate Ganglia During Cardiac Sympathetic Hyperactivity. Scientific Reports, 8(1). https://doi.org/10.1038/s41598-018-26651-7
+"	SPARC
+142	10.26275/d41u-sokg	Dataset	Triaxial mechanical testing of dog colon segments	doi:10.17504/protocols.io.bp7qmrmw	IsDocumentedBy	Protocol		"Patel, B. (2020). Triaxial mechanical testing of dog colon samples v1. https://doi.org/10.17504/protocols.io.bp7qmrmw
+"	SPARC
+34	10.26275/6lqa-ghyr	Dataset	Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig	doi:10.17504/protocols.io.3rmgm46	IsDocumentedBy	Protocol		"Larauche, M. (2019). Tache_Mulugeta_OT2OD024899_Colon tissue electrical stimulation and colonic motility measurements v1. https://doi.org/10.17504/protocols.io.3rmgm46
+"	SPARC
+34	10.26275/6lqa-ghyr	Dataset	Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig	doi:10.1038/s41598-022-17549-6	Cites	Work		"Wang, Y., Wang, P.-M., Larauche, M., Mulugeta, M., & Liu, W. (2022). Bio-impedance method to monitor colon motility response to direct distal colon stimulation in anesthetized pigs. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-17549-6
+"	OCI
+34	10.26275/6lqa-ghyr	Dataset	Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig	doi:10.1111/nmo.13925	Describes	Originating Publication		"Larauche, M., Wang, Y., Wang, P., Dubrovsky, G., Lo, Y., Hsiang, E., Dunn, J. C. Y., TachÃ©, Y., Liu, W., & Million, M. (2020). The effect of colonic tissue electrical stimulation and celiac branch of the abdominal vagus nerve neuromodulation on colonic motility in anesthetized pigs. Neurogastroenterology &amp; Motility, 32(11). Portico. https://doi.org/10.1111/nmo.13925
+"	K-Core
+34	10.26275/6lqa-ghyr	Dataset	Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig	doi:https://doi.org/10.26275/up27-ibcr	Cites	Work		Larauche, M., Wang, Y., Wang, P.-M., Dubrovsky, G., Lo, Y.-K., Hsiang, I., Dunn, J., Liu, W., Tache, Y., &amp; Mulugeta, M. (2022). <i>Influence of direct colon tissue electrical stimulation on colonic motility in anesthetized male Yucatan minipig</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/UP27-IBCR	K-Core
+149	10.26275/abac-rzbv	Dataset	Influence of acute thoracolumbar root nerves electrical stimulation on colonic motility in anesthetized male Yucatan minipigs	doi:10.17504/protocols.io.3rmgm46	IsDocumentedBy	Protocol		"Larauche, M. (2019). Tache_Mulugeta_OT2OD024899_Colon tissue electrical stimulation and colonic motility measurements v1. https://doi.org/10.17504/protocols.io.3rmgm46
+"	SPARC
+149	10.26275/abac-rzbv	Dataset	Influence of acute thoracolumbar root nerves electrical stimulation on colonic motility in anesthetized male Yucatan minipigs	doi:10.1111/nmo.13925	Describes	Originating Publication		"Larauche, M., Wang, Y., Wang, P., Dubrovsky, G., Lo, Y., Hsiang, E., Dunn, J. C. Y., TachÃ©, Y., Liu, W., & Million, M. (2020). The effect of colonic tissue electrical stimulation and celiac branch of the abdominal vagus nerve neuromodulation on colonic motility in anesthetized pigs. Neurogastroenterology &amp; Motility, 32(11). Portico. https://doi.org/10.1111/nmo.13925
+"	SPARC
+150	10.26275/n3uf-5doz	Dataset	Influence of acute celiac branch of abdominal vagus nerve stimulation on colonic motility in anesthetized male Yucatan minipigs	doi:10.17504/protocols.io.3rmgm46	IsDocumentedBy	Protocol		"Larauche, M. (2019). Tache_Mulugeta_OT2OD024899_Colon tissue electrical stimulation and colonic motility measurements v1. https://doi.org/10.17504/protocols.io.3rmgm46
+"	SPARC
+150	10.26275/n3uf-5doz	Dataset	Influence of acute celiac branch of abdominal vagus nerve stimulation on colonic motility in anesthetized male Yucatan minipigs	doi:10.1111/nmo.13925	Describes	Originating Publication		"Larauche, M., Wang, Y., Wang, P., Dubrovsky, G., Lo, Y., Hsiang, E., Dunn, J. C. Y., TachÃ©, Y., Liu, W., & Million, M. (2020). The effect of colonic tissue electrical stimulation and celiac branch of the abdominal vagus nerve neuromodulation on colonic motility in anesthetized pigs. Neurogastroenterology &amp; Motility, 32(11). Portico. https://doi.org/10.1111/nmo.13925
+"	SPARC
+328	10.26275/qjpu-t0sy	Dataset	Scaffold map - Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon	doi:10.17504/protocols.io.n2bvj6o35lk5/v3	IsDocumentedBy	Protocol		"Scaffold Mapping Protocol - Version 1.1.1 v3. (2022). https://doi.org/10.17504/protocols.io.n2bvj6o35lk5/v3
+"	SPARC
+33	10.26275/ryft-516s	Dataset	High resolution manometry	doi:10.17504/protocols.io.36wgq9zeolk5/v1	IsDocumentedBy	Protocol		"not provided, Phil. dinning. (2019). Protocol for High Resolution Manometry v1. https://doi.org/10.17504/protocols.io.36wgq9zeolk5/v1
+"	SPARC
+329	10.26275/3q5o-leo5	Dataset	Effect of chronic gastric electrical stimulation on the feeding behavior of diet-induced obese male Sprague-Dawley rats consuming a 45% high-fat diet	doi:10.17504/protocols.io.b2qgqdtw	IsDocumentedBy	Protocol		"Protocol for chronic implantation of patch electrodes on the gastric muscle wall of the rat v1. (2021). https://doi.org/10.17504/protocols.io.b2qgqdtw
+"	SPARC
+330	10.26275/pa9i-likc	Dataset	Ussing chamber experiments for distension evoked secretion in human colon	doi:10.17504/protocols.io.8epv5joqdl1b/v1	IsDocumentedBy	Protocol		"Ussing chamber experiments for distension evoked secretion in mucosa/submucosa preparations from human colon v1. (2023). https://doi.org/10.17504/protocols.io.8epv5joqdl1b/v1
+"	SPARC
+331	10.26275/rhda-nblc	Dataset	CLARITY and 3D imaging with high resolution and deep scanning of innervation in the pig colon by using SP8 DIVE fully tunable spectral multiphoton microscope	doi:10.17504/protocols.io.4r9gv96	IsDocumentedBy	Protocol		"pq Yuan, P.-Q., & TachÃ©, Y. (2019). Tache_Yuan_OT2OD024899_CLARITYAnd3DImagingOfColonicENSintheMouseAndPig_1_2019-Pig_Protocol v1. https://doi.org/10.17504/protocols.io.4r9gv96
+"	SPARC
+332	10.26275/aqri-vyb4	Dataset	Targets of sympathetic nerves in myenteric plexus of human colon	doi:10.17504/protocols.io.dm6gp3bx8vzp/v1	IsDocumentedBy	Protocol		"R Parker, D. (2023). Targets of sympathetic nerves in myenteric plexus of human colon v1. https://doi.org/10.17504/protocols.io.dm6gp3bx8vzp/v1
+"	SPARC
+290	10.26275/puzi-xtm3	Dataset	Antibodies tested in the colon – Human	doi:10.17504/protocols.io.4r9gv96	IsDocumentedBy	Protocol		"pq Yuan, P.-Q., & TachÃ©, Y. (2019). Tache_Yuan_OT2OD024899_CLARITYAnd3DImagingOfColonicENSintheMouseAndPig_1_2019-Pig_Protocol v1. https://doi.org/10.17504/protocols.io.4r9gv96
+"	SPARC
+290	10.26275/puzi-xtm3	Dataset	Antibodies tested in the colon – Human	doi:10.17504/protocols.io.bfqmjmu6	IsDocumentedBy	Protocol		"Quantitative analysis of enteric neurons containing choline acetyltransferase and nitric oxide synthase immunoreactivities in the submucosal and myenteric plexuses of the porcine colon v1. (2020). https://doi.org/10.17504/protocols.io.bfqmjmu6
+"	SPARC
+290	10.26275/puzi-xtm3	Dataset	Antibodies tested in the colon – Human	doi:10.17504/protocols.io.b4qrqvv6	IsDocumentedBy	Protocol		"Immunohistochemistry of porcine enteric neurons v1. (2022). https://doi.org/10.17504/protocols.io.b4qrqvv6
+"	SPARC
+286	10.26275/litx-swak	Dataset	Scaffold map - Quantification of rat gastric enteroendocrine cells	doi:10.17504/protocols.io.n2bvj6o35lk5/v3	IsDocumentedBy	Protocol		"Scaffold Mapping Protocol - Version 1.1.1 v3. (2022). https://doi.org/10.17504/protocols.io.n2bvj6o35lk5/v3
+"	SPARC
+333	10.26275/efbj-8evl	Dataset	Stimulation of the pig vagus nerve to modulate target effect versus side effect	doi:10.17504/protocols.io.yxmvm2wzbg3p/v2	IsDocumentedBy	Protocol		"L Blanz, S. (2023). Spatially selective stimulation of the pig vagus nerve to modulate target effect versus side effect v2. https://doi.org/10.17504/protocols.io.yxmvm2wzbg3p/v2
+"	SPARC
+126	10.26275/xnv0-gtsj	Dataset	Optogenetic activation of nitrergic and cholinergic neurons of murine colonic myenteric plexus	doi:10.17504/protocols.io.82fhybn	IsDocumentedBy	Protocol		"Imaging and stimulating enteric neurons in the murine large intestine v1. (2019). https://doi.org/10.17504/protocols.io.82fhybn
+"	SPARC
+336	10.26275/swkm-bzmg	Dataset	Calcium imaging tension recording and pellet transit in mouse colon in response to stimulation of the pelvic nerve (PNS)	doi:10.17504/protocols.io.ewov1nmxpgr2/v1	IsDocumentedBy	Protocol		"Gould, T. (2022). Measuring tension, pellet transit, and calcium imaging within cell subtypes in response to pelvic nerve stimulation v1. https://doi.org/10.17504/protocols.io.ewov1nmxpgr2/v1
+"	SPARC
+337	10.26275/gfwu-pi0p	Dataset	MicroCT imaging of the fascicular structure in the porcine right and left cervical vagus nerve	doi:10.17504/protocols.io.ewov1qd2ygr2/v1	IsDocumentedBy	Protocol		"Kronsteiner, B., Haberbusch, M., & Moscato, F. (2023). MicroCT Imaging of the Fascicular Structure in the Porcine Right and Left Cervical Vagus Nerve v1. https://doi.org/10.17504/protocols.io.ewov1qd2ygr2/v1
+"	SPARC
+338	10.26275/8zuc-gst1	Dataset	Mid-lumbar (L3) epidural stimulation effects on bladder and external urethral sphincter in non-injured and chronically transected urethane-anesthetized rats	doi:10.17504/protocols.io.bp2l6xdk5lqe/v2	IsDocumentedBy	Protocol		"Medina Aguinaga, D., Hoey, R., L. Wilkins, N., Ugiliweneza, B., Fell, J., J. Harkema, S., & H. Hubscher, C. (2023). Mid-lumbar (L3) epidural stimulation effects on bladder and external urethral sphincter in non-injured and chronically transected urethane-anesthetized rats v2. https://doi.org/10.17504/protocols.io.bp2l6xdk5lqe/v2
+"	SPARC
+292	10.26275/3vqo-xux0	Dataset	Scaffold map - Mapping of human gastric enteroendocrine cells	doi:10.17504/protocols.io.n2bvj6o35lk5/v3	IsDocumentedBy	Protocol		"Scaffold Mapping Protocol - Version 1.1.1 v3. (2022). https://doi.org/10.17504/protocols.io.n2bvj6o35lk5/v3
+"	SPARC
+345	10.26275/d488-z2q8	Dataset	Identification of lung innervating sensory neurons and their target specificity in mouse (2)	doi:10.17504/protocols.io.bw3gpgjw	IsDocumentedBy	Protocol		"Verheyden, J. (2021). Cubic Clearing and Whole Mount Imaging of Mouse Lung Lobes v1. https://doi.org/10.17504/protocols.io.bw3gpgjw
+"	SPARC
+345	10.26275/d488-z2q8	Dataset	Identification of lung innervating sensory neurons and their target specificity in mouse (2)	doi:10.1152/ajplung.00376.2021	Describes	Originating Publication		"Su, Y., Barr, J., Jaquish, A., Xu, J., Verheyden, J. M., & Sun, X. (2022). Identification of lung innervating sensory neurons and their target specificity. American Journal of Physiology-Lung Cellular and Molecular Physiology, 322(1), L50âL63. https://doi.org/10.1152/ajplung.00376.2021
+"	SPARC
+347	10.26275/rmcz-jfoq	Dataset	Anterograde tracing of spinal afferent innervation in flat-mounts of the rat stomach	doi:10.17504/protocols.io.rm7vzb9dxvx1/v1	IsDocumentedBy	Protocol		"Anterograde tracing of spinal afferent innervation in rat stomach flat-mounts v1. (2023). https://doi.org/10.17504/protocols.io.rm7vzb9dxvx1/v1
+"	SPARC
+348	10.26275/iv1j-x1g4	Dataset	Characterization of projections of long interneurons in human colon	doi:10.17504/protocols.io.btwinpce	IsDocumentedBy	Protocol		"Protocol for &amp;#34;Characterization of projections of long interneurons in human colon&amp;#34; - Brookes Lab v1. (2021). https://doi.org/10.17504/protocols.io.btwinpce
+"	SPARC
+350	10.26275/ekv2-ohrk	Dataset	Fecobionics study in healthy human subjects	doi:10.17504/protocols.io.5qpvor1ybv4o/v1	IsDocumentedBy	Protocol		"Wang, Y. (2023). Fecobionics Test in Normal Subjects v1. https://doi.org/10.17504/protocols.io.5qpvor1ybv4o/v1
+"	SPARC
+351	10.26275/j48r-vn5s	Dataset	Pilot Fecobionics study in healthy human subjects	doi:10.17504/protocols.io.5qpvor1ybv4o/v1	IsDocumentedBy	Protocol		"Wang, Y. (2023). Fecobionics Test in Normal Subjects v1. https://doi.org/10.17504/protocols.io.5qpvor1ybv4o/v1
+"	SPARC
+352	10.26275/uco6-ktjq	Dataset	Mouse genetic models to manipulate enterochromaffin cell activity - Murine Organoid ELISA	doi:10.17504/protocols.io.8epv5jz54l1b/v1	IsDocumentedBy	Protocol		"Tohara, K. (2022). Mouse genetic models to manipulate enterochromaffin cell activity - Murine Organoid ELISA v1. https://doi.org/10.17504/protocols.io.8epv5jz54l1b/v1
+"	SPARC
+324	10.26275/wglu-jiud	Dataset	Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans	doi:10.1088/1741-2552/acda64	Cites	Work		"Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64
+"	OCI
+305	10.26275/df7j-e48n	Dataset	Pig-specific computational models of monopolar vagus nerve stimulation with a six-contact cuff electrode	doi:10.17504/protocols.io.yxmvm2wzbg3p/v1	IsDocumentedBy	Protocol		"L Blanz, S. (2023). Spatially selective stimulation of the pig vagus nerve to modulate target effect versus side effect v1. https://doi.org/10.17504/protocols.io.yxmvm2wzbg3p/v1
+"	SPARC
+311	10.26275/7mdx-asxc	Dataset	Histology-based computational models of implanted human cervical vagus nerve stimulation with the LivaNova helical cuff electrode	doi:10.1088/1741-2552/acc42b	Cites	Work		"Davis, C. J., Musselman, E. D., Grill, W. M., & Pelot, N. A. (2023). Fibers in smaller fascicles have lower activation thresholds with cuff electrodes due to thinner perineurium and smaller cross-sectional area. Journal of Neural Engineering, 20(2), 026032. https://doi.org/10.1088/1741-2552/acc42b
+"	OCI
+29	10.26275/sp7z-ylun	Dataset	Molecular phenotype distribution of single rat intracardiac neurons	doi:10.17504/protocols.io.bfxvjpn6	IsDocumentedBy	Protocol		"Robbins, S., Moss, A., Nieves, S., & Achanta, S. (2020). Molecular Phenotype Distribution of Single Rat ICN Neurons - Heart B v2. https://doi.org/10.17504/protocols.io.bfxvjpn6
+"	SPARC
+29	10.26275/sp7z-ylun	Dataset	Molecular phenotype distribution of single rat intracardiac neurons	doi:10.17504/protocols.io.w56fg9e	Cites	Work		"Molecular Phenotype Distribution of Single Rat ICN Neurons - Heart B v1. (2019). https://doi.org/10.17504/protocols.io.w56fg9e
+"	Datacite
+29	10.26275/sp7z-ylun	Dataset	Molecular phenotype distribution of single rat intracardiac neurons	doi:10.1016/j.isci.2020.101140	Cites	Work		"Achanta, S., Gorky, J., Leung, C., Moss, A., Robbins, S., Eisenman, L., Chen, J., Tappan, S., Heal, M., Farahani, N., Huffman, T., England, S., Cheng, Z. (Jack), Vadigepalli, R., & Schwaber, J. S. (2020). A Comprehensive Integrated Anatomical and Molecular Atlas of Rat Intrinsic Cardiac Nervous System. IScience, 23(6), 101140. https://doi.org/10.1016/j.isci.2020.101140
+"	K-Core
+354	10.26275/ahqc-ldar	Dataset	Identification of lung innervating sensory neurons and their target specificity in mouse (3)	doi:10.17504/protocols.io.bw3gpgjw	IsDocumentedBy	Protocol		"Verheyden, J. (2021). Cubic Clearing and Whole Mount Imaging of Mouse Lung Lobes v1. https://doi.org/10.17504/protocols.io.bw3gpgjw
+"	SPARC
+226	10.26275/eefp-azay	Dataset	High-throughput segmentation of rat unmyelinated axons by deep learning	doi:10.17504/protocols.io.xpxfmpn	IsDocumentedBy	Protocol		"Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn
+"	SPARC
+226	10.26275/eefp-azay	Dataset	High-throughput segmentation of rat unmyelinated axons by deep learning	doi:10.17504/protocols.io.bzwcp7aw	IsDocumentedBy	Protocol		"Collection of rat vagal tissue samples for TEM imaging v1. (2021). https://doi.org/10.17504/protocols.io.bzwcp7aw
+"	SPARC
+226	10.26275/eefp-azay	Dataset	High-throughput segmentation of rat unmyelinated axons by deep learning	doi:10.17504/protocols.io.b2ssqeee	IsDocumentedBy	Protocol		"R Keast, J., & Osborne, P. (2021). Intracardiac perfusion with fixative for ultrastructural neuroanatomical studies v1. https://doi.org/10.17504/protocols.io.b2ssqeee
+"	SPARC
+226	10.26275/eefp-azay	Dataset	High-throughput segmentation of rat unmyelinated axons by deep learning	doi:10.1038/s41598-022-04854-3	Cites	Work		"Plebani, E., Biscola, N. P., Havton, L. A., Rajwa, B., Shemonti, A. S., Jaffey, D., Powley, T., Keast, J. R., Lu, K.-H., & Dundar, M. M. (2022). High-throughput segmentation of unmyelinated axons by deep learning. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-04854-3
+"	OCI
+226	10.26275/eefp-azay	Dataset	High-throughput segmentation of rat unmyelinated axons by deep learning	doi:10.26275/k0mx-jcth	Cites	Work		Havton, L. A., Biscola, N. P., Plebani, E., Rajwa, B., Shemonti, A., Jaffey, D., Powley, T. L., Keast, J. R., Lu, K.-H., &amp; Dundar, M. (2022). <i>High-throughput segmentation of rat unmyelinated axons by deep learning</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/K0MX-JCTH	Datacite
+357	10.26275/jh8n-lwdl	Dataset	Reflex voiding in rat occurs at consistent bladder volume regardless of pressure or infusion rate	doi:10.17504/protocols.io.n2bvj3xoblk5/v1	IsDocumentedBy	Protocol		"J Jaskowak, D. (2023). Single-fill cystometry at varying bladder infusion rates in urethane anesthetized rats v1. https://doi.org/10.17504/protocols.io.n2bvj3xoblk5/v1
+"	SPARC
+353	10.26275/hhnz-div3	Dataset	Mapping of dorsal root ganglia sensory nerve populations in the mouse lung	doi:10.17504/protocols.io.3byl4b6kjvo5/v1	IsDocumentedBy	Protocol		"Kim, S.-H. (2022). Dissection and immunohistochemistry of mouse lung v1. https://doi.org/10.17504/protocols.io.3byl4b6kjvo5/v1
+"	SPARC
+353	10.26275/hhnz-div3	Dataset	Mapping of dorsal root ganglia sensory nerve populations in the mouse lung	doi:10.17504/protocols.io.n92ldz6z9v5b/v1	IsDocumentedBy	Protocol		"Kim, S.-H. (2022). Intraganglionic injection of AAV into thoracic dorsal root ganglia in mice v1. https://doi.org/10.17504/protocols.io.n92ldz6z9v5b/v1
+"	SPARC
+362	10.26275/qdv4-0vx5	Dataset	Chronic intermittent hypoxia remodels catecholaminergic innervation in mouse atria	doi:10.17504/protocols.io.14egn3jmzl5d/v1	IsDocumentedBy	Protocol		"Bizanti, A., Zhang, Y., Toledo, Z., & Bendowski, K. (2023). Chronic intermittent hypoxia remodels catecholaminergic innervation in mouse atria v1. https://doi.org/10.17504/protocols.io.14egn3jmzl5d/v1
+"	SPARC
+367	10.26275/tlgo-dfke	Dataset	Quantification of thickness of the gastric muscle in the rat stomach	doi:10.17504/protocols.io.bybtpsnn	IsDocumentedBy	Protocol		"R. Di Natale, M., Patten, L., Stebbing, M., & Furness, J. (2021). Histological quantification of thickness of the mucosal and muscle layers of the rat stomach v1. https://doi.org/10.17504/protocols.io.bybtpsnn
+"	SPARC
+368	10.26275/yv7l-9fst	Dataset	Synaptic components function and modulation characterized by GCaMP6f calcium imaging in cholinergic myenteric ganglion neurons	doi:10.1016/j.jcmgh.2021.08.016	Describes	Originating Publication		"Nestor-Kalinoski, A., Smith-Edwards, K. M., Meerschaert, K., Margiotta, J. F., Rajwa, B., Davis, B. M., & Howard, M. J. (2022). Unique Neural Circuit Connectivity of Mouse Proximal, Middle, and Distal Colon Defines Regional Colonic Motor Patterns. Cellular and Molecular Gastroenterology and Hepatology, 13(1), 309-337.e3. https://doi.org/10.1016/j.jcmgh.2021.08.016
+"	SPARC
+373	10.26275/86ve-meck	Dataset	Distribution and morphology of calcitonin gene-related peptide (CGRP) innervation in flat mounts of whole rat atria and ventricles	doi:10.17504/protocols.io.3byl4qd38vo5/v1	IsDocumentedBy	Protocol		"Chen, J. (2023). Distribution and Morphology of Calcitonin Gene-Related Peptide (CGRP) Innervation in Flat Mounts of Whole Rat Atria and Ventricles v1. https://doi.org/10.17504/protocols.io.3byl4qd38vo5/v1
+"	SPARC
+375	10.26275/eauv-gxwl	Dataset	Electrocardiogram recordings in mice during vagus nerve stimulation	doi:10.17504/protocols.io.5jyl8pop7g2w/v1	IsDocumentedBy	Protocol		"Huffman, W., A Pelot, N., & Grill, W. (2024). Acute testing of temporal patterns of vagus nerve stimulation on physiological outcomes in mouse v1. https://doi.org/10.17504/protocols.io.5jyl8pop7g2w/v1
+"	SPARC
+376	10.26275/2xys-dleh	Dataset	Electromyogram recordings in mice during vagus nerve stimulation	doi:10.17504/protocols.io.5jyl8pop7g2w/v1	IsDocumentedBy	Protocol		"Huffman, W., A Pelot, N., & Grill, W. (2024). Acute testing of temporal patterns of vagus nerve stimulation on physiological outcomes in mouse v1. https://doi.org/10.17504/protocols.io.5jyl8pop7g2w/v1
+"	SPARC
+230	10.26275/cljd-yjqy	Dataset	Calcitonin gene-related peptide - immunoreactive (CGRP-IR) axon innervation of mouse stomach	doi:10.17504/protocols.io.6qpvr6k7zvmk/v1	IsDocumentedBy	Protocol		"Mapping CGRP-IR innervation of male mice stomach with Neurolucida 360 v1. (2022). https://doi.org/10.17504/protocols.io.6qpvr6k7zvmk/v1
+"	SPARC
+86	10.26275/zkyy-6ytu	Dataset	Excitation properties of computational models of unmyelinated peripheral axons	doi:10.1152/jn.00315.2020	Describes	Originating Publication		"Pelot, N. A., Catherall, D. C., Thio, B. J., Titus, N. D., Liang, E. D., Henriquez, C. S., & Grill, W. M. (2021). Excitation properties of computational models of unmyelinated peripheral axons. Journal of Neurophysiology, 125(1), 86â104. https://doi.org/10.1152/jn.00315.2020
+"	SPARC
