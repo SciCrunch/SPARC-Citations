@@ -660,7 +660,7 @@
                     "type": "Work",
                     "comment": "",
                     "citation": "Bandrowski, A., Grethe, J. S., Pilko, A., Gillespie, T., Pine, G., Patel, B., Surles-Zeigler, M., & Martone, M. E. (2021). SPARC Data Structure: Rationale and Design of a FAIR Standard for Biomedical Research Data. https://doi.org/10.1101/2021.02.10.430563\n",
-                    "source": "K-Core"
+                    "source": "Datacite"
                 }
             ]
         },
@@ -1634,7 +1634,7 @@
                     "relationship": "Describes",
                     "type": "Originating Publication",
                     "comment": "",
-                    "citation": "Xia, J., Yang, H., Mu, M., Micovic, N., Poskanzer, K. E., Monaghan, J. R., & Clark, H. A. (2020). A DNA-based optical nanosensor for in vivo imaging of acetylcholine in the peripheral nervous system. https://doi.org/10.1101/2020.07.06.189696\n",
+                    "citation": "Xia, J., Yang, H., Mu, M., Micovic, N., Poskanzer, K. E., Monaghan, J. R., & Clark, H. A. (2020). A DNA-based optical nanosensor forin vivoimaging of acetylcholine in the peripheral nervous system. https://doi.org/10.1101/2020.07.06.189696\n",
                     "source": "SPARC"
                 }
             ]
@@ -2362,6 +2362,14 @@
                     "type": "Work",
                     "comment": "",
                     "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
+                    "source": "OCI"
+                },
+                {
+                    "curie": "doi:10.1101/2020.01.15.907246",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Nicolai, E. N., Settell, M. L., Knudsen, B. E., McConico, A. L., Gosink, B. A., Trevathan, J. K., Baumgart, I. W., Ross, E. K., Pelot, N. A., Grill, W. M., Gustafson, K. J., Shoffstall, A. J., Williams, J. C., & Ludwig, K. A. (2020). Sources of Off-Target Effects of Vagus Nerve Stimulation Using the Helical Clinical Lead in Domestic Pigs. https://doi.org/10.1101/2020.01.15.907246\n",
                     "source": "Datacite"
                 }
             ]
@@ -2445,12 +2453,20 @@
                     "source": "SPARC"
                 },
                 {
+                    "curie": "doi:10.12688/f1000research.73492.1",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
+                    "source": "OCI"
+                },
+                {
                     "curie": "doi:10.1088/1741-2552/acda64",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Musselman, E. D., Pelot, N. A., & Grill, W. M. (2023). Validated computational models predict vagus nerve stimulation thresholds in preclinical animals and humans. Journal of Neural Engineering, 20(3), 036032. https://doi.org/10.1088/1741-2552/acda64\n",
-                    "source": "Datacite"
+                    "source": "OCI"
                 },
                 {
                     "curie": "doi:10.1101/2021.08.08.455581",
@@ -2458,14 +2474,6 @@
                     "type": "Work",
                     "comment": "",
                     "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. https://doi.org/10.1101/2021.08.08.455581\n",
-                    "source": "Crossref"
-                },
-                {
-                    "curie": "doi:10.12688/f1000research.73492.1",
-                    "relationship": "Cites",
-                    "type": "Work",
-                    "comment": "",
-                    "citation": "Quey, R., Schiefer, M. A., Kiran, A., & Patel, B. (2021). KnowMore: an automated knowledge discovery tool for the FAIR SPARC datasets. F1000Research, 10, 1132. https://doi.org/10.12688/f1000research.73492.1\n",
                     "source": "Crossref"
                 },
                 {
@@ -3142,6 +3150,14 @@
                     "comment": "",
                     "citation": "Eiber, C. D., Keast, J. R., & Osborne, P. B. (2020). Simulating bidirectional peripheral neural interfaces in EIDORS. 2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC). https://doi.org/10.1109/embc44109.2020.9175921\n",
                     "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.1088/1741-2552/ac36e2",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Eiber, C. D., Payne, S. C., Biscola, N. P., Havton, L. A., Keast, J. R., Osborne, P. B., & Fallon, J. B. (2021). Computational modelling of nerve stimulation and recording with peripheral visceral neural interfaces. Journal of Neural Engineering, 18(6), 066020. https://doi.org/10.1088/1741-2552/ac36e2\n",
+                    "source": "OCI"
                 }
             ]
         },
@@ -3593,34 +3609,6 @@
             ]
         },
         {
-            "doi": "10.26275/e3cf-ofgn",
-            "type": "Dataset",
-            "name": "Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences",
-            "id": 208,
-            "version": 2,
-            "citation": "Bayles, R., Denfeld, Q., Woodward, W., &amp; Habecker, B. (2022). <i>Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/E3CF-OFGN",
-            "versions": [
-                {
-                    "doi": "10.26275/hbwz-jw91",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/e3cf-ofgn",
-                    "version": 2
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.1038/s41598-018-27306-3",
-                    "relationship": "Describes",
-                    "type": "Originating Publication",
-                    "comment": "",
-                    "citation": "Bayles, R. G., Olivas, A., Denfeld, Q., Woodward, W. R., Fei, S. S., Gao, L., & Habecker, B. A. (2018). Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences. Scientific Reports, 8(1). https://doi.org/10.1038/s41598-018-27306-3\n",
-                    "source": "SPARC"
-                }
-            ]
-        },
-        {
             "doi": "10.26275/rt8g-gu2v",
             "type": "Dataset",
             "name": "Ultrastructural analysis of human vagus nerve",
@@ -3633,24 +3621,7 @@
                     "version": 1
                 }
             ],
-            "citations": [
-                {
-                    "curie": "doi:10.17504/protocols.io.xpxfmpn",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn\n",
-                    "source": "SPARC"
-                },
-                {
-                    "curie": "doi:10.17504/protocols.io.b446qyze",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Collection of human vagal tissue samples for TEM imaging v2. (2022). https://doi.org/10.17504/protocols.io.b446qyze\n",
-                    "source": "SPARC"
-                }
-            ]
+            "citations": []
         },
         {
             "doi": "10.26275/sip4-ioyz",
@@ -3709,16 +3680,7 @@
                     "version": 3
                 }
             ],
-            "citations": [
-                {
-                    "curie": "doi:10.17504/protocols.io.bqavmse6",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Multicolor adeno-associate virus labeling and 3D digital tracing of enteric plexus in mouse proximal colon v1. (2020). https://doi.org/10.17504/protocols.io.bqavmse6\n",
-                    "source": "SPARC"
-                }
-            ]
+            "citations": []
         },
         {
             "doi": "10.26275/jsaw-2w1q",
@@ -4081,25 +4043,6 @@
             ]
         },
         {
-            "doi": "10.26275/qthf-0lou",
-            "type": "Dataset",
-            "name": "Generic human bladder scaffold",
-            "id": 144,
-            "version": 2,
-            "citation": "Ekhlasi, Z., Christie, R., &amp; Hunter, P. (2022). <i>Generic human bladder scaffold</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/QTHF-0LOU",
-            "versions": [
-                {
-                    "doi": "10.26275/nqnh-sdlm",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/qthf-0lou",
-                    "version": 2
-                }
-            ],
-            "citations": []
-        },
-        {
             "doi": "10.26275/mwdf-paqm",
             "type": "Dataset",
             "name": "Generic mouse bladder scaffold",
@@ -4114,33 +4057,6 @@
                 {
                     "doi": "10.26275/mwdf-paqm",
                     "version": 2
-                }
-            ],
-            "citations": []
-        },
-        {
-            "doi": "10.26275/14qt-e5f0",
-            "type": "Dataset",
-            "name": "Generic cat bladder scaffold",
-            "id": 94,
-            "version": 4,
-            "citation": "Ekhlasi, Z., Christie, R., &amp; Hunter, P. (2022). <i>Generic cat bladder scaffold</i> (Version 4) [Data set]. SPARC Consortium. https://doi.org/10.26275/14QT-E5F0",
-            "versions": [
-                {
-                    "doi": "10.26275/jqej-3rao",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/iprt-7m5c",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/eek1-pyqh",
-                    "version": 3
-                },
-                {
-                    "doi": "10.26275/14qt-e5f0",
-                    "version": 4
                 }
             ],
             "citations": []
@@ -5051,33 +4967,6 @@
             "citations": []
         },
         {
-            "doi": "10.26275/d52i-yves",
-            "type": "Dataset",
-            "name": "Generic human stomach scaffold",
-            "id": 136,
-            "version": 4,
-            "citation": "Lin, M., Christie, R., &amp; Hunter, P. (2022). <i>Generic human stomach scaffold</i> (Version 4) [Data set]. SPARC Consortium. https://doi.org/10.26275/D52I-YVES",
-            "versions": [
-                {
-                    "doi": "10.26275/rets-qdch",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/mb0q-df0j",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/qdl6-1fxh",
-                    "version": 3
-                },
-                {
-                    "doi": "10.26275/d52i-yves",
-                    "version": 4
-                }
-            ],
-            "citations": []
-        },
-        {
             "doi": "10.26275/z1ga-dflp",
             "type": "Dataset",
             "name": "Generic mouse colon scaffold",
@@ -5669,70 +5558,6 @@
             "citations": []
         },
         {
-            "doi": "10.26275/zodp-mgzu",
-            "type": "Dataset",
-            "name": "Computational analysis of the human sinus node action potential - Model development and effects of mutations",
-            "id": 135,
-            "version": 3,
-            "citation": "Garny, A., &amp; Hunter, P. (2022). <i>Computational analysis of the human sinus node action potential - Model development and effects of mutations</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/ZODP-MGZU",
-            "versions": [
-                {
-                    "doi": "10.26275/0lfa-i4by",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/rxio-xrgl",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/zodp-mgzu",
-                    "version": 3
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.1113/jp273259",
-                    "relationship": "Describes",
-                    "type": "Originating Publication",
-                    "comment": "",
-                    "citation": "Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365\u00e2\u0080\u00932396. Portico. https://doi.org/10.1113/jp273259\n",
-                    "source": "SPARC"
-                }
-            ]
-        },
-        {
-            "doi": "10.26275/qour-lluj",
-            "type": "Dataset",
-            "name": "Fabbri-based composite SAN model",
-            "id": 157,
-            "version": 3,
-            "citation": "Garny, A., &amp; Hunter, P. (2022). <i>Fabbri-based composite SAN model</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/QOUR-LLUJ",
-            "versions": [
-                {
-                    "doi": "10.26275/zuhi-i3wm",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/r5hq-2nnh",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/qour-lluj",
-                    "version": 3
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.1113/jp273259",
-                    "relationship": "Describes",
-                    "type": "Originating Publication",
-                    "comment": "",
-                    "citation": "Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365\u00e2\u0080\u00932396. Portico. https://doi.org/10.1113/jp273259\n",
-                    "source": "SPARC"
-                }
-            ]
-        },
-        {
             "doi": "10.26275/hmwa-nqdu",
             "type": "Dataset",
             "name": "Organotopic organization of the porcine vagus nerve",
@@ -5978,54 +5803,6 @@
                 }
             ],
             "citations": []
-        },
-        {
-            "doi": "10.26275/g8aq-rjsp",
-            "type": "Dataset",
-            "name": "Characterization of projections of longitudinal muscle motor neurons in human colon",
-            "id": 125,
-            "version": 5,
-            "citation": "Brookes, S., Bains, M., Wattchow, D., Dinning, P., &amp; Costa, M. (2022). <i>Characterization of projections of longitudinal muscle motor neurons in human colon</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/G8AQ-RJSP",
-            "versions": [
-                {
-                    "doi": "10.26275/vm18-qapj",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/xzsw-wti1",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/byvo-z79i",
-                    "version": 3
-                },
-                {
-                    "doi": "10.26275/uqjy-po3r",
-                    "version": 4
-                },
-                {
-                    "doi": "10.26275/g8aq-rjsp",
-                    "version": 5
-                }
-            ],
-            "citations": [
-                {
-                    "curie": "doi:10.17504/protocols.io.btwinpce",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Protocol for &amp;#34;Characterization of projections of long interneurons in human colon&amp;#34; - Brookes Lab v1. (2021). https://doi.org/10.17504/protocols.io.btwinpce\n",
-                    "source": "SPARC"
-                },
-                {
-                    "curie": "doi:10.1111/nmo.13685",
-                    "relationship": "Describes",
-                    "type": "Originating Publication",
-                    "comment": "",
-                    "citation": "Humenick, A., Chen, B. N., Lauder, C. I. W., Wattchow, D. A., Zagorodnyuk, V. P., Dinning, P. G., Spencer, N. J., Costa, M., & Brookes, S. J. H. (2019). Characterization of projections of longitudinal muscle motor neurons in human colon. Neurogastroenterology &amp; Motility, 31(10). Portico. https://doi.org/10.1111/nmo.13685\n",
-                    "source": "SPARC"
-                }
-            ]
         },
         {
             "doi": "10.26275/zfpg-gxgg",
@@ -6956,29 +6733,6 @@
                 {
                     "doi": "10.26275/cdjq-pjlb",
                     "version": 1
-                }
-            ],
-            "citations": []
-        },
-        {
-            "doi": "10.26275/0nio-xric",
-            "type": "Dataset",
-            "name": "A 3D human whole-body model with integrated organs vasculature musculoskeletal and nervous systems for mapping nerves",
-            "id": 307,
-            "version": 3,
-            "citation": "Soltani, E., Nickerson, D. P., &amp; Hunter, P. (2023). <i>A 3D human whole-body model with integrated organs vasculature musculoskeletal and nervous systems for mapping nerves</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/0NIO-XRIC",
-            "versions": [
-                {
-                    "doi": "10.26275/3g8i-abjh",
-                    "version": 1
-                },
-                {
-                    "doi": "10.26275/6i7a-flkr",
-                    "version": 2
-                },
-                {
-                    "doi": "10.26275/0nio-xric",
-                    "version": 3
                 }
             ],
             "citations": []
@@ -8091,36 +7845,36 @@
             ],
             "citations": [
                 {
-                    "curie": "doi:10.17504/protocols.io.xpxfmpn",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn\n",
-                    "source": "SPARC"
-                },
-                {
-                    "curie": "doi:10.17504/protocols.io.bzwcp7aw",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "Collection of rat vagal tissue samples for TEM imaging v1. (2021). https://doi.org/10.17504/protocols.io.bzwcp7aw\n",
-                    "source": "SPARC"
-                },
-                {
-                    "curie": "doi:10.17504/protocols.io.b2ssqeee",
-                    "relationship": "IsDocumentedBy",
-                    "type": "Protocol",
-                    "comment": "",
-                    "citation": "R Keast, J., & Osborne, P. (2021). Intracardiac perfusion with fixative for ultrastructural neuroanatomical studies v1. https://doi.org/10.17504/protocols.io.b2ssqeee\n",
-                    "source": "SPARC"
-                },
-                {
                     "curie": "doi:10.1038/s41598-022-04854-3",
                     "relationship": "Cites",
                     "type": "Work",
                     "comment": "",
                     "citation": "Plebani, E., Biscola, N. P., Havton, L. A., Rajwa, B., Shemonti, A. S., Jaffey, D., Powley, T., Keast, J. R., Lu, K.-H., & Dundar, M. M. (2022). High-throughput segmentation of unmyelinated axons by deep learning. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-04854-3\n",
                     "source": "OCI"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.xpxfmpn",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Biscola, N., & Havton, L. (2019). Nerve tissue processing for transmission electron microscopy (TEM) v1. https://doi.org/10.17504/protocols.io.xpxfmpn\n",
+                    "source": "Datacite"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bzwcp7aw",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "Collection of rat vagal tissue samples for TEM imaging v1. (2021). https://doi.org/10.17504/protocols.io.bzwcp7aw\n",
+                    "source": "Datacite"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.b2ssqeee",
+                    "relationship": "Cites",
+                    "type": "Work",
+                    "comment": "",
+                    "citation": "R Keast, J., & Osborne, P. (2021). Intracardiac perfusion with fixative for ultrastructural neuroanatomical studies v1. https://doi.org/10.17504/protocols.io.b2ssqeee\n",
+                    "source": "Datacite"
                 },
                 {
                     "curie": "doi:10.26275/k0mx-jcth",
@@ -8468,21 +8222,6 @@
             "citations": []
         },
         {
-            "doi": "10.26275/7ax5-ngsl",
-            "type": "Dataset",
-            "name": "Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury",
-            "id": 378,
-            "version": 1,
-            "citation": "Medina Aguinaga, D., Herrity, A., Aslan, S. C., Mesbah, S., Siu, R., Kalvakuri, K., Ugiliweneza, B., Mohamed, A., Hubscher, C., &amp; Harkema, S. (2024). <i>Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/7AX5-NGSL",
-            "versions": [
-                {
-                    "doi": "10.26275/7ax5-ngsl",
-                    "version": 1
-                }
-            ],
-            "citations": []
-        },
-        {
             "doi": "10.26275/ixhd-0pfa",
             "type": "Dataset",
             "name": "A mathematical model for simulating the neural regulation of phasic contractions and slow waves in the distal stomach",
@@ -8525,7 +8264,24 @@
                     "version": 1
                 }
             ],
-            "citations": []
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.baumieu6",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Taylor-Clark, T., & Kim, S.-H. (2019). Dissection and immunohistochemistry of mouse vagal ganglia v3. https://doi.org/10.17504/protocols.io.baumieu6\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.4r3l275y3g1y/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Kim, S.-H. (2022). Dissection and immunohistochemistry of mouse brainstem v1. https://doi.org/10.17504/protocols.io.4r3l275y3g1y/v1\n",
+                    "source": "SPARC"
+                }
+            ]
         },
         {
             "doi": "10.26275/cljd-yjqy",
@@ -8561,22 +8317,317 @@
             "name": "Intravenously injected AAV9 transduced interstitial cells of Cajal in mouse colon",
             "id": 382,
             "version": 1,
-            "citation": "Wang, L., Tache, Y., &amp; Bains, M. (2024). <i>Intravenously injected AAV9 transduced interstitial cells of Cajal in mouse colon</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/CHEQ-OTB2",
+            "citation": "Wang, L., &amp; Tache, Y. (2024). <i>Intravenously injected AAV9 transduced interstitial cells of Cajal in mouse colon</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/CHEQ-OTB2",
             "versions": [
                 {
                     "doi": "10.26275/cheq-otb2",
                     "version": 1
                 }
             ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.bqavmse6",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Multicolor adeno-associate virus labeling and 3D digital tracing of enteric plexus in mouse proximal colon v1. (2020). https://doi.org/10.17504/protocols.io.bqavmse6\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bqi2muge",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Wang, L., pq Yuan, P.-Q., Liang, H., & Tache, Y. (2020). Immunofluorescent methods for antibody test in mouse colon v1. https://doi.org/10.17504/protocols.io.bqi2muge\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/1ito-vvqo",
+            "type": "Dataset",
+            "name": "Substance P-immunoreactive axons in the antrum-pylorus-duodenum of mice",
+            "id": 385,
+            "version": 1,
+            "citation": "Mistareehi, A., Bendowski, K., Bizanti, A. (G., Madas, J., Zhang, Y., Kwiat, A. M., Nguyen, D., Kogut, N., Ma, J., Chen, J., &amp; Cheng, Z. (2024). <i>Substance P-immunoreactive axons in the antrum-pylorus-duodenum of mice</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/1ITO-VVQO",
+            "versions": [
+                {
+                    "doi": "10.26275/1ito-vvqo",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.e6nvwj41zlmk/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Topographical distribution and morphology of SP-IR axons in the antrum, pylorus, and duodenum of mice v1. (2023). https://doi.org/10.17504/protocols.io.e6nvwj41zlmk/v1\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/pc5x-w5l3",
+            "type": "Dataset",
+            "name": "Transduction of systemically administered adeno-associated virus in the colonic enteric nervous system of adult mice",
+            "id": 386,
+            "version": 1,
+            "citation": "Wang, L., &amp; Tache, Y. (2024). <i>Transduction of systemically administered adeno-associated virus in the colonic enteric nervous system of adult mice</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/PC5X-W5L3",
+            "versions": [
+                {
+                    "doi": "10.26275/pc5x-w5l3",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.84ahyse",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "C. Challis, R., Ravindra Kumar, S., Y. Chan, K., Challis, C., Beadle, K., J. Jang, M., Min Kim, H., S. Rajendran, P., D. Tompkins, J., Shivkumar, K., E. Deverman, B., & Gradinaru, V. (2019). Systemic AAV vectors for widespread and targeted gene delivery in rodents v1. https://doi.org/10.17504/protocols.io.84ahyse\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bqavmse6",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Multicolor adeno-associate virus labeling and 3D digital tracing of enteric plexus in mouse proximal colon v1. (2020). https://doi.org/10.17504/protocols.io.bqavmse6\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bqi2muge",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Wang, L., pq Yuan, P.-Q., Liang, H., & Tache, Y. (2020). Immunofluorescent methods for antibody test in mouse colon v1. https://doi.org/10.17504/protocols.io.bqi2muge\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/xw1e-oea3",
+            "type": "Dataset",
+            "name": "Light microscopic analysis of synaptic input to neurons in the rat major pelvic ganglion",
+            "id": 383,
+            "version": 1,
+            "citation": "Osborne, P., Yang, A., Keast, J. R., Bista, P., &amp; Morrison, V. (2024). <i>Light microscopic analysis of synaptic input to neurons in the rat major pelvic ganglion</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/XW1E-OEA3",
+            "versions": [
+                {
+                    "doi": "10.26275/xw1e-oea3",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.w2xfgfn",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R Keast, J., & B Osborne, P. (2019). Use of tracer dyes to label neural projections to lower urinary tract organs v1. https://doi.org/10.17504/protocols.io.w2xfgfn\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bahzib76",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R Keast, J., B Osborne, P., & Wiedmann, N. (2019). Intracardiac perfusion with fixative for anatomical studies v1. https://doi.org/10.17504/protocols.io.bahzib76\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bakcicsw",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R Keast, J., & B Osborne, P. (2019). Immunohistochemical labeling of thick cryosections from pelvic ganglia v1. https://doi.org/10.17504/protocols.io.bakcicsw\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bakdics6",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R Keast, J., & B Osborne, P. (2019). Confocal microscopy and characterization of synaptic boutons associated with ganglion neurons v1. https://doi.org/10.17504/protocols.io.bakdics6\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.bakiicue",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "R Keast, J., & B Osborne, P. (2019). Light microscopic analysis of synaptic input to neurons in the rat major pelvic ganglion [keast-003] v1. https://doi.org/10.17504/protocols.io.bakiicue\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/hipp-yfnn",
+            "type": "Dataset",
+            "name": "Vasculature in mouse colon and relationship with enteric nervous system glia and macrophages",
+            "id": 387,
+            "version": 1,
+            "citation": "Wang, L., &amp; Tache, Y. (2024). <i>Vasculature in mouse colon and relationship with enteric nervous system glia and macrophages</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/HIPP-YFNN",
+            "versions": [
+                {
+                    "doi": "10.26275/hipp-yfnn",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.bqi2muge",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Wang, L., pq Yuan, P.-Q., Liang, H., & Tache, Y. (2020). Immunofluorescent methods for antibody test in mouse colon v1. https://doi.org/10.17504/protocols.io.bqi2muge\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/3enb-ctj6",
+            "type": "Dataset",
+            "name": "Vagal preganglionic axons arborize in myenteric plexus into two patterns generating nitrergic and non-nitrergic postganglionic motor units",
+            "id": 388,
+            "version": 1,
+            "citation": "Powley, T. L., Jaffey, D., Phillips, R., Rajwa, B., McAdams, J. L., Baronowsky, E. A., Chesney, L., Black, D., &amp; Evans, C. (2024). <i>Vagal preganglionic axons arborize in myenteric plexus into two patterns generating nitrergic and non-nitrergic postganglionic motor units</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/3ENB-CTJ6",
+            "versions": [
+                {
+                    "doi": "10.26275/3enb-ctj6",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.2iqgcdw",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Jaffey, D., Powley, T., Mcadams, J., & Phillips, R. (2019). High resolution labeling of vagal efferent fibers using Dextran-Biotin with counterstaining v1. https://doi.org/10.17504/protocols.io.2iqgcdw\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/odx3-c5cv",
+            "type": "Dataset",
+            "name": "Quantification of enteric ganglia in the three main regions of the rat stomach",
+            "id": 389,
+            "version": 1,
+            "citation": "Hunne, B., Furness, J., Stebbing, M., &amp; Fothergill, L. J. (2024). <i>Quantification of enteric ganglia in the three main regions of the rat stomach</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/ODX3-C5CV",
+            "versions": [
+                {
+                    "doi": "10.26275/odx3-c5cv",
+                    "version": 1
+                }
+            ],
             "citations": []
         },
         {
-            "doi": "10.26275/zkyy-6ytu",
+            "doi": "10.26275/rdr5-x5bo",
+            "type": "Dataset",
+            "name": "Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences",
+            "id": 208,
+            "version": 3,
+            "citation": "Bayles, R., Denfeld, Q., Woodward, W., &amp; Habecker, B. (2024). <i>Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/RDR5-X5BO",
+            "versions": [
+                {
+                    "doi": "10.26275/hbwz-jw91",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/e3cf-ofgn",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/rdr5-x5bo",
+                    "version": 3
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1038/s41598-018-27306-3",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Bayles, R. G., Olivas, A., Denfeld, Q., Woodward, W. R., Fei, S. S., Gao, L., & Habecker, B. A. (2018). Transcriptomic and neurochemical analysis of the stellate ganglia in mice highlights sex differences. Scientific Reports, 8(1). https://doi.org/10.1038/s41598-018-27306-3\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/t2ve-vu9o",
+            "type": "Dataset",
+            "name": "Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury",
+            "id": 378,
+            "version": 2,
+            "citation": "Medina Aguinaga, D., Herrity, A., Aslan, S. C., Mesbah, S., Siu, R., Kalvakuri, K., Ugiliweneza, B., Mohamed, A., Hubscher, C., &amp; Harkema, S. (2024). <i>Targeting bladder function with network-specific epidural stimulation after chronic spinal cord injury</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/T2VE-VU9O",
+            "versions": [
+                {
+                    "doi": "10.26275/7ax5-ngsl",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/t2ve-vu9o",
+                    "version": 2
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.17504/protocols.io.8epv5x2w6g1b/v1",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Medina Aguinaga, D., & N. Herrity, A. (2023). Spinal cord epidural stimulation to control bladderin spinal cord injury patients  v1. https://doi.org/10.17504/protocols.io.8epv5x2w6g1b/v1\n",
+                    "source": "SPARC"
+                },
+                {
+                    "curie": "doi:10.17504/protocols.io.8epv5x2w6g1b/v2",
+                    "relationship": "IsDocumentedBy",
+                    "type": "Protocol",
+                    "comment": "",
+                    "citation": "Medina Aguinaga, D., & N. Herrity, A. (2024). Spinal cord epidural stimulation to control bladderin spinal cord injury patients  v2. https://doi.org/10.17504/protocols.io.8epv5x2w6g1b/v2\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/s3l0-t915",
+            "type": "Dataset",
+            "name": "A 3D human whole-body model with integrated organs vasculature musculoskeletal and nervous systems for mapping nerves",
+            "id": 307,
+            "version": 4,
+            "citation": "Soltani, E., Nickerson, D. P., &amp; Hunter, P. (2024). <i>A 3D human whole-body model with integrated organs vasculature musculoskeletal and nervous systems for mapping nerves</i> (Version 4) [Data set]. SPARC Consortium. https://doi.org/10.26275/S3L0-T915",
+            "versions": [
+                {
+                    "doi": "10.26275/3g8i-abjh",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/6i7a-flkr",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/0nio-xric",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/s3l0-t915",
+                    "version": 4
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/mgyp-rlmr",
             "type": "Dataset",
             "name": "Excitation properties of computational models of unmyelinated peripheral axons",
             "id": 86,
-            "version": 5,
-            "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., &amp; Grill, W. M. (2024). <i>Excitation properties of computational models of unmyelinated peripheral axons</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/ZKYY-6YTU",
+            "version": 6,
+            "citation": "Pelot, N. A., Catherall, D. C., Thio, B. J., &amp; Grill, W. M. (2024). <i>Excitation properties of computational models of unmyelinated peripheral axons</i> (Version 6) [Data set]. SPARC Consortium. https://doi.org/10.26275/MGYP-RLMR",
             "versions": [
                 {
                     "doi": "10.26275/zmz1-3hmj",
@@ -8597,6 +8648,10 @@
                 {
                     "doi": "10.26275/zkyy-6ytu",
                     "version": 5
+                },
+                {
+                    "doi": "10.26275/mgyp-rlmr",
+                    "version": 6
                 }
             ],
             "citations": [
@@ -8609,6 +8664,432 @@
                     "source": "SPARC"
                 }
             ]
+        },
+        {
+            "doi": "10.26275/qach-onkl",
+            "type": "Dataset",
+            "name": "Selective recording of physiologically evoked neural activity in a mixed autonomic nerve using a minimally invasive array",
+            "id": 391,
+            "version": 1,
+            "citation": "Fallon, J., Payne, S., Morley, A., Thompson, A., Keast, J. R., Osborne, P., &amp; Matarazzo, J. (2024). <i>Selective recording of physiologically evoked neural activity in a mixed autonomic nerve using a minimally invasive array</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/QACH-ONKL",
+            "versions": [
+                {
+                    "doi": "10.26275/qach-onkl",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/b0lj-xsto",
+            "type": "Dataset",
+            "name": "Simulation of the short term impact of atrial fibrillation on hemodynamic variables",
+            "id": 392,
+            "version": 1,
+            "citation": "Adeodu, O., Gee, M., Mahmoudi, B., Vadigepalli, R., &amp; Kothare, M. (2024). <i>Simulation of the short term impact of atrial fibrillation on hemodynamic variables</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/B0LJ-XSTO",
+            "versions": [
+                {
+                    "doi": "10.26275/b0lj-xsto",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/ybmm-6crq",
+            "type": "Dataset",
+            "name": "Fabbri-based composite SAN model",
+            "id": 157,
+            "version": 5,
+            "citation": "Garny, A., &amp; Hunter, P. (2024). <i>Fabbri-based composite SAN model</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/YBMM-6CRQ",
+            "versions": [
+                {
+                    "doi": "10.26275/zuhi-i3wm",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/r5hq-2nnh",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/qour-lluj",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/yues-hayo",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/ybmm-6crq",
+                    "version": 5
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1113/jp273259",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365\u00e2\u0080\u00932396. Portico. https://doi.org/10.1113/jp273259\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/je6r-kbu8",
+            "type": "Dataset",
+            "name": "Computational analysis of the human sinus node action potential - Model development and effects of mutations",
+            "id": 135,
+            "version": 7,
+            "citation": "Garny, A., &amp; Hunter, P. (2024). <i>Computational analysis of the human sinus node action potential - Model development and effects of mutations</i> (Version 7) [Data set]. SPARC Consortium. https://doi.org/10.26275/JE6R-KBU8",
+            "versions": [
+                {
+                    "doi": "10.26275/0lfa-i4by",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/rxio-xrgl",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/zodp-mgzu",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/r3l0-qzbd",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/nbex-w34w",
+                    "version": 5
+                },
+                {
+                    "doi": "10.26275/pxgh-m2k6",
+                    "version": 6
+                },
+                {
+                    "doi": "10.26275/je6r-kbu8",
+                    "version": 7
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1113/jp273259",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Fabbri, A., Fantini, M., Wilders, R., & Severi, S. (2017). Computational analysis of the human sinus node action potential: model development and effects of mutations. The Journal of Physiology, 595(7), 2365\u00e2\u0080\u00932396. Portico. https://doi.org/10.1113/jp273259\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/lbe1-s0aj",
+            "type": "Dataset",
+            "name": "Generic human stomach scaffold",
+            "id": 136,
+            "version": 7,
+            "citation": "Lin, M., Christie, R., &amp; Hunter, P. (2024). <i>Generic human stomach scaffold</i> (Version 7) [Data set]. SPARC Consortium. https://doi.org/10.26275/LBE1-S0AJ",
+            "versions": [
+                {
+                    "doi": "10.26275/rets-qdch",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/mb0q-df0j",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/qdl6-1fxh",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/d52i-yves",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/yssz-iprs",
+                    "version": 5
+                },
+                {
+                    "doi": "10.26275/mqax-yfuw",
+                    "version": 6
+                },
+                {
+                    "doi": "10.26275/lbe1-s0aj",
+                    "version": 7
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/o40s-cq6f",
+            "type": "Dataset",
+            "name": "A novel compartmental modeling approach to simulate stomach motility and gastric emptying",
+            "id": 393,
+            "version": 1,
+            "citation": "Fernandes, S. Q., Kothare, M., &amp; Mahmoudi, B. (2024). <i>A novel compartmental modeling approach to simulate stomach motility and gastric emptying</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/O40S-CQ6F",
+            "versions": [
+                {
+                    "doi": "10.26275/o40s-cq6f",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/jjvg-rawx",
+            "type": "Dataset",
+            "name": "Neurochemical anatomy of porcine right atrial ganglionated plexus and sinoatrial node",
+            "id": 394,
+            "version": 1,
+            "citation": "Hoover, D., Smith, E., Peirce, S., Poston, M., Hanna, P., Shivkumar, K., &amp; Ardell, J. (2024). <i>Neurochemical anatomy of porcine right atrial ganglionated plexus and sinoatrial node</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/JJVG-RAWX",
+            "versions": [
+                {
+                    "doi": "10.26275/jjvg-rawx",
+                    "version": 1
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1101/2024.04.04.588174",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Tompkins, J. D., Hoover, D. B., Havton, L. A., Patel, J. C., Cho, Y., Smith, E. H., Biscola, N. P., Ajijola, O. A., Shivkumar, K., & Ardell, J. L. (2024). Comparative specialization of intrinsic cardiac neurons in humans, mice, and pigs. https://doi.org/10.1101/2024.04.04.588174\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/kbjd-ayv6",
+            "type": "Dataset",
+            "name": "Evaluation of bilateral gastric electrical stimulation to improve energy balance regulation in female Sprague-Dawley rats consuming a 45% high-fat diet",
+            "id": 395,
+            "version": 1,
+            "citation": "Phillips, R., Powley, T. L., Rajwa, B., Jaffey, D., &amp; Tan, Z. (2024). <i>Evaluation of bilateral gastric electrical stimulation to improve energy balance regulation in female Sprague-Dawley rats consuming a 45% high-fat diet</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/KBJD-AYV6",
+            "versions": [
+                {
+                    "doi": "10.26275/kbjd-ayv6",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/y4kn-gzok",
+            "type": "Dataset",
+            "name": "Characterization of projections of longitudinal muscle motor neurons in human colon",
+            "id": 125,
+            "version": 6,
+            "citation": "Brookes, S., Humenick, A., Chen, N., Lauder, C. I., Wattchow, D. A., Zagorodnyuk, V. P., Dinning, P., Spencer, N. J., &amp; Costa, M. (2024). <i>Characterization of projections of longitudinal muscle motor neurons in human colon</i> (Version 6) [Data set]. SPARC Consortium. https://doi.org/10.26275/Y4KN-GZOK",
+            "versions": [
+                {
+                    "doi": "10.26275/vm18-qapj",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/xzsw-wti1",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/byvo-z79i",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/uqjy-po3r",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/g8aq-rjsp",
+                    "version": 5
+                },
+                {
+                    "doi": "10.26275/y4kn-gzok",
+                    "version": 6
+                }
+            ],
+            "citations": [
+                {
+                    "curie": "doi:10.1111/nmo.13685",
+                    "relationship": "Describes",
+                    "type": "Originating Publication",
+                    "comment": "",
+                    "citation": "Humenick, A., Chen, B. N., Lauder, C. I. W., Wattchow, D. A., Zagorodnyuk, V. P., Dinning, P. G., Spencer, N. J., Costa, M., & Brookes, S. J. H. (2019). Characterization of projections of longitudinal muscle motor neurons in human colon. Neurogastroenterology &amp; Motility, 31(10). Portico. https://doi.org/10.1111/nmo.13685\n",
+                    "source": "SPARC"
+                }
+            ]
+        },
+        {
+            "doi": "10.26275/tecb-ldj7",
+            "type": "Dataset",
+            "name": "Innervation of human heart",
+            "id": 390,
+            "version": 1,
+            "citation": "Hanna, P., &amp; Shivkumar, K. (2024). <i>Innervation of human heart</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/TECB-LDJ7",
+            "versions": [
+                {
+                    "doi": "10.26275/tecb-ldj7",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/86ds-4q0e",
+            "type": "Dataset",
+            "name": "Scaffold map - Integrated mapping of rat stomach data",
+            "id": 398,
+            "version": 2,
+            "citation": "Lin, M., Christie, R., &amp; Hunter, P. (2024). <i>Scaffold map - Integrated mapping of rat stomach data</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/86DS-4Q0E",
+            "versions": [
+                {
+                    "doi": "10.26275/umou-ik1q",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/86ds-4q0e",
+                    "version": 2
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/rzci-st8n",
+            "type": "Dataset",
+            "name": "Scaffold map - Anterograde tracing of spinal afferent innervation in flat-mounts of the rat stomach",
+            "id": 397,
+            "version": 2,
+            "citation": "Lin, M., Christie, R., &amp; Hunter, P. (2024). <i>Scaffold map - Anterograde tracing of spinal afferent innervation in flat-mounts of the rat stomach</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/RZCI-ST8N",
+            "versions": [
+                {
+                    "doi": "10.26275/uxns-qhbq",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/rzci-st8n",
+                    "version": 2
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/v0ct-f2zl",
+            "type": "Dataset",
+            "name": "Scaffold map - MicroCT imaging of rat stomach vasculature with Microfil MV-122",
+            "id": 396,
+            "version": 2,
+            "citation": "Lin, M., Christie, R., &amp; Hunter, P. (2024). <i>Scaffold map - MicroCT imaging of rat stomach vasculature with Microfil MV-122</i> (Version 2) [Data set]. SPARC Consortium. https://doi.org/10.26275/V0CT-F2ZL",
+            "versions": [
+                {
+                    "doi": "10.26275/3e5x-5lp9",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/v0ct-f2zl",
+                    "version": 2
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/kx9a-gwgk",
+            "type": "Dataset",
+            "name": "Cyto- and chemoarchitecture of the rat spinal cord",
+            "id": 399,
+            "version": 1,
+            "citation": "Fuller-Jackson, J.-P., Osborne, P., &amp; Keast, J. R. (2024). <i>Cyto- and chemoarchitecture of the rat spinal cord</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/KX9A-GWGK",
+            "versions": [
+                {
+                    "doi": "10.26275/kx9a-gwgk",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/wlhm-9uyz",
+            "type": "Dataset",
+            "name": "Neural recordings of spontaneously metastasizing melanomas and melanomas with low metastatic potential",
+            "id": 400,
+            "version": 1,
+            "citation": "Shiralkar, J., Anthony, T., McCallum, G., &amp; Durand, D. (2024). <i>Neural recordings of spontaneously metastasizing melanomas and melanomas with low metastatic potential</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/WLHM-9UYZ",
+            "versions": [
+                {
+                    "doi": "10.26275/wlhm-9uyz",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/2nyl-vpb8",
+            "type": "Dataset",
+            "name": "3D segmentation of myelinated afferents of the rat bladder in the pelvic nerve",
+            "id": 402,
+            "version": 1,
+            "citation": "Fuller-Jackson, J.-P., Osborne, P., &amp; Keast, J. R. (2024). <i>3D segmentation of myelinated afferents of the rat bladder in the pelvic nerve</i> (Version 1) [Data set]. SPARC Consortium. https://doi.org/10.26275/2NYL-VPB8",
+            "versions": [
+                {
+                    "doi": "10.26275/2nyl-vpb8",
+                    "version": 1
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/4tn2-3i3j",
+            "type": "Dataset",
+            "name": "Generic cat bladder scaffold",
+            "id": 94,
+            "version": 5,
+            "citation": "Chopovda, V., Ekhlasi, Z., Christie, R., &amp; Hunter, P. (2024). <i>Generic cat bladder scaffold</i> (Version 5) [Data set]. SPARC Consortium. https://doi.org/10.26275/4TN2-3I3J",
+            "versions": [
+                {
+                    "doi": "10.26275/jqej-3rao",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/iprt-7m5c",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/eek1-pyqh",
+                    "version": 3
+                },
+                {
+                    "doi": "10.26275/14qt-e5f0",
+                    "version": 4
+                },
+                {
+                    "doi": "10.26275/4tn2-3i3j",
+                    "version": 5
+                }
+            ],
+            "citations": []
+        },
+        {
+            "doi": "10.26275/onuv-fhmt",
+            "type": "Dataset",
+            "name": "Generic human bladder scaffold",
+            "id": 144,
+            "version": 3,
+            "citation": "Chopovda, V., Ekhlasi, Z., Christie, R., &amp; Hunter, P. (2024). <i>Generic human bladder scaffold</i> (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/ONUV-FHMT",
+            "versions": [
+                {
+                    "doi": "10.26275/nqnh-sdlm",
+                    "version": 1
+                },
+                {
+                    "doi": "10.26275/qthf-0lou",
+                    "version": 2
+                },
+                {
+                    "doi": "10.26275/onuv-fhmt",
+                    "version": 3
+                }
+            ],
+            "citations": []
         }
     ]
 }
